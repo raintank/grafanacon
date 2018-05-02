@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% assign conference = site.data[page.identifier] %}
+
+<h1>{{ conference.info.title }} - {{ conference.info.city }}</h1>
+<p>{{ conference.info.date }}, {{ conference.info.year }}</p>
+<p>{{ conference.info.meta-description }}</p>
+
+{% if conference.info.about.content %}
+<h2>{{ conference.info.about.title }}</h2>
+{% endif %}
+
+{% if conference.info.about.content %}
+    {{ conference.info.about.content | markdownify }}
+{% endif %}
+
+{% for day in conference.schedule %}
+    <h3>{{ day.day }}</h3>
+    <dl>
+    {% for timeslot in day.timeslots %}
+        <dt>{{ timeslot.time }}</dt>
+
+        {% if timeslot.description %}
+            <dd>{{ timeslot.description | markdownify }}</dd>
+        {% endif %}
+
+        {% if timeslot.speakers %}
+            <dd>
+            {% for speaker in timeslot.speakers %}
+                <p><strong>{{ speaker.name }}:</strong> {{ speaker.title }}</p>
+            {% endfor %}
+            </dd>
+        {% endif %}
+    {% endfor %}
+    </dl>
+{% endfor %}
+
+{% for speaker in conference.speakers %}
+    <h3>{{ speaker.name }}</h3>
+    <h5>{{ speaker.role }}</h5>
+    <p>{{ speaker.company }}</p>
+    <p><a href="{{ speaker.twitter }}">Twitter</a></p>
+    <p><a href="{{ speaker.github }}">Github</a></p>
+    <p>{{ speaker.talk }}</p>
+    {{ speaker.description | markdownify }}
+{% endfor %}

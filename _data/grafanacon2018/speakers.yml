@@ -1,0 +1,10 @@
+- name: Misha Brukman
+  role: Product Manager
+  company: Google Cloud
+  twitter: https://twitter.com/mishabrukman
+  github: https://github.com/mbrukman
+  talk: Monitoring at Scale with Google Cloud Bigtable
+  description: |
+    Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+
+    Bigtable is designed to handle massive workloads at consistent low latency and high throughput, so it's a great choice for both operational and analytical applications, including IoT, user analytics, and financial data analysis.

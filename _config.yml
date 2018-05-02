@@ -1,0 +1,21 @@
+# Site settings
+title: Grafanacon
+description: GrafanaCon is our annual metrics &amp; monitoring conference where hundreds of monitoring and data aficionados from across the Grafana ecosystem gather to discuss metric collection, data viz &amp; monitoring.
+email: trent@grafanacon.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://grafanacon.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from generated site
+exclude: ['Gemfile', 'Gemfile.lock', '.gitignore']
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - octopress-autoprefixer
+
+current: 2018 # used as source directory for current conference assets
