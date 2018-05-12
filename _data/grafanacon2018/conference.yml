@@ -1,0 +1,649 @@
+# ============================================================
+# CONTENT:
+# 01 INFO
+# 02 SCHEDULE
+# 03 SPEAKERS
+# 04 EVENTS
+# 05 ABOUT
+# 06 LOCATION
+# 07 SPONSORS
+# 08 LODGING
+# ============================================================
+
+
+# ------------------------------------------------------------
+# !THEME
+# ------------------------------------------------------------
+
+logo: logo.png
+css: theme.scss
+
+
+# ------------------------------------------------------------
+# !INFO
+# ------------------------------------------------------------
+
+info:
+  title: GrafanaCon EU
+  city: Amsterdam
+  year: 2018
+  date: March 1-2
+  current: true
+  ticket-url: https://ti.to/grafanacon/grafanacon-eu
+  ticket-status: On Sale
+  meta-description: GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. GrafanaCon EU will be held at the Compagnietheater in Amsterdam, Netherlands, March 1-2, 2018.
+  about:
+    title: Join us for GrafanaCon EU and the Launch of Grafana 5.0
+    content: |
+      GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxData, Elasticsearch Kubernetes, and more.
+
+      Ticket includes **breakfast & refreshments and lunch both days**, coffee tea all day,  entry to the post-conference party with dinner and open bar, and entry to our special Grafana 5 launch party.
+
+
+# ------------------------------------------------------------
+# !SCHEDULE
+# ------------------------------------------------------------
+
+schedule:
+  - day: Day 1
+    timeslots:
+      - time: "8:00AM"
+        description: Registration/Coffee
+      - time: "9:45AM"
+        speakers:
+          - name: Torkel Odegaard
+            title: Welcome to GrafanaCon
+          - name: Borja Garrido Bear
+            title: Grafana at Cern
+          - name: Torkel Odegaard
+            title: Grafana v5 and the future of Grafana
+      - time: 10:50AM
+        description: Break
+      - time: 11:10AM
+        speakers:
+          - name: Raj Dutt
+            title: The Biz of Grafana
+          - name: Anthony Woods
+            title: Introduction to GrafanaCloud
+          - name: Dieter Plaetinck
+            title: MetricTank
+          - name: Misha Brukman
+            title: Monitoring at Scale with Google Cloud Bigtable
+          - name: Anko Duizer
+            title: Microsoft Cosmos DB
+          - name: Stig Sorensen & Sean Hanson
+            title: Evolution of Telemetry @ Bloomberg
+      - time: "12:50PM"
+        description: Lunch
+      - time: "2:00PM"
+        speakers:
+        - name: Tom Wilkie
+          title: "The RED Method: How To Instrument Your Services."
+        - name: Andrejs Kalnacs
+          title: Grafana Usage in the Quality Assurance Process
+        - name: Jordan J Hamel
+          title: Inherited Technical Debt - A Tale of Overcoming Enterprise Inertia
+        - name: Erwin de Keijzer
+          title: Using Prometheus and Grafana for Monitoring my Power Usage
+        - name: Ryan McKinley
+          title: Running a Power Plant with Grafana
+      - time: 3:50PM
+        description: Break
+      - time: 4:10PM
+        speakers:
+          - name: Vladimir Smirnov
+            title: Graphite at Scale or How to store Millions of Metrics per Second
+          - name: Andrew Rodgers
+            title: Bringing Observability to the Built Environment at City Scale
+          - name: Deepak Vasthimal
+            title: Monitoring eBay's AI Platform
+      - time: 5:30PM
+        description: "**After Conference Party:** Walking Dinner/Drinks/Networking"
+      - time: 8:00PM
+        description: "**Grafana 5 Launch Party:** Ton Ton Club"
+  - day: Day 2
+    timeslots:
+      - time: 8:00AM
+        description: Registration/Coffee
+      - time: 9:30AM
+        speakers:
+          - name: Carl Bergquist
+            title: Welcome & Backend Plugins
+          - name: Dan Cech
+            title: What's new in Graphite
+          - name: Paul Dix
+            title: What's new in InfluxDB
+          - name: Tom Wilkie
+            title: What's new in Prometheus
+          - name: TSDB PANEL
+            title: "Graphite, Prometheus, InfluxDB, Timescale"
+      - time: 10:50AM
+        description: Break
+      - time: 11:10AM
+        speakers:
+          - name: Dimitri Vanoverbeke
+            title: What we Learned Integrating Grafana with Prometheus
+          - name: Paul Dix
+            title: The design of IFQL, the New Influx Functional Query Language
+          - name: Max von Roden & Steffen Knott
+            title: Weather, Power & Market Forecasts with Grafana
+          - name: Erik Nordstrom
+            title: Using PostgreSQL, Prometheus and Grafana for Storing, Analyzing and Visualizing Metrics
+      - time: 12:50PM
+        description: LUNCH
+      - time: 2:00PM
+        speakers:
+          - name: Jonathan Lange
+            title: Grafanalib -  Dashboards as Code
+          - name: Susanne Greiner
+            title: When Performance Metrics and User Experience Come Together
+          - name: Julien Pivotto
+            title: Automating Grafana Dashboards with Jsonnet and Terraform
+          - name: Arnold Bechtoldt
+            title: The Journey of Shifting the MQTT Broker HiveMQ to Kubernetes
+          - name: Jacob Lisi
+            title: Kubernetes and Grafana
+      - time: 3:50PM
+        description: Break
+      - time: 4:10PM
+        speakers:
+          - name: Arie Jan Kraai
+            title: Storage Monitoring at Shell Upstream
+          - name: Alex Krzos
+            title: Analyzing Performance of OpenStack with Grafana Dashboards
+          - name: Blerim Sheqa
+            title: Graphs Tell Stories
+      - time: 5:00PM
+        speakers:
+          - name: Torkel Odegaard
+            title: Closing
+
+
+# ------------------------------------------------------------
+# !SPEAKERS
+# ------------------------------------------------------------
+
+speakers:
+  - name: Misha Brukman
+    role: Product Manager
+    company: Google Cloud
+    logo: google_logo.png
+    headshot: misha_brukman.jpg
+    twitter: https://twitter.com/mishabrukman
+    github: https://github.com/mbrukman
+    talk: Monitoring at Scale with Google Cloud Bigtable
+    description: |
+      Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+
+      Bigtable is designed to handle massive workloads at consistent low latency and high throughput, so it's a great choice for both operational and analytical applications, including IoT, user analytics, and financial data analysis.
+  - name: Stig Sorensen
+    role: Head Of Telemetry
+    company: Bloomberg
+    logo: bloomberg_logo.png
+    headshot: stig_sorensen.jpg
+    talk: Evolution of Telemetry @ Bloomberg
+    description: This talk outlines the components of our monitoring stack (what we're allowed to share) and what drove us to seek out Grafana in the first place. We discuss our starting point, the challenges we face on a daily basis, and what we plan for the future as we continue to scale.
+  - name: Sean Hanson
+    role: Software Developer
+    company: Bloomberg
+    logo: bloomberg_logo.png
+    headshot: sean_hanson.jpg
+    talk: Evolution of Telemetry @ Bloomberg
+    description: This talk outlines the components of our monitoring stack (what we're allowed to share) and what drove us to seek out Grafana in the first place. We discuss our starting point, the challenges we face on a daily basis, and what we plan for the future as we continue to scale.
+  - name: Borja Garrido
+    role: Project Associate
+    company: CERN
+    logo: cern_logo.png
+    headshot: borja_garrido.jpg
+    talk: Grafana at CERN
+    description: This presentation will give an overview of the growing success of Grafana at CERN with some examples of monitoring solutions and technologies used for the different applications at CERN. We will also highlight which are the most important positive aspects that made Grafana become a tool of reference for new monitoring CERN DC dashboards and we will also mention the possible directions for Grafana improvements and contributions that would particularly benefit large heterogeneous organizations like CERN.
+  - name: Abhishek Gahlot
+    role: Software Engineer
+    company: Automattic
+    logo:  automattic_logo.png
+    headshot: abhishek_gahlot.jpg
+    twitter: https://twitter.com/_abhishekgahlot
+    github: https://github.com/abhishekgahlot
+    talk: Monitoring the Huge Scale at Automattic
+    description: |
+      We use Grafana at Automattic for all kinds of task including WordPress.com huge scale, JetPack, MySQL, Elasticsearch, WebSockets monitoring and many more products.
+
+      This talk is general purpose talk to gain some insight on Automattic's monitoring stack and how we use Grafana effectively to visualize and alert on the performance of our systems.
+  - name: Torkel Odegaard
+    role: Creator | Project Lead
+    company: Grafana
+    logo: grafana_logo.png
+    headshot: torkel_odegaard.jpg
+    twitter: https://github.com/torkelo
+    github: http://twitter.com/torkelo
+    talk: Grafana v5 and the Future
+    description: |
+      The launch of Grafana v5 is probably the single biggest enhancement of the project's history. New features include a totally revamped layout engine, dashboard folders, and some foundational UX/UI improvements.
+
+      We'll dive into the new features as well as what's on the horizon for Grafana
+  - name: Deepak Vasthimal
+    role: MTS-2 Software Engineer
+    company: eBay
+    logo: ebay_logo.png
+    headshot: deepak_vasthimal.jpg
+    github: https://github.com/deepujain
+    talk: Monitoring AI Platform at eBay
+    description: |
+      AI platform empowers eBay’s data science and engineering teams to experiment, productize and enable machine learning at scale. Organizations within eBay are allocated fixed capacity and knowing resource utilization over time enables efficient capacity allocation. In addition, user's would like to know in real time resource usage of their jobs.
+
+      Grafana dashboards provide an organization view and user view of resource utilization. In addition, it allows user's to search for specific job identified by unique ID displaying resource utilization of each task within a job.
+  - name: Brian Brazil
+    role: Founder
+    company: Robust Perception
+    logo: robust_perception_sponsor_logo.png
+    headshot: brian_brazil.jpg
+    twitter: http://twitter.com/robustperceiver
+    github: http://github.com/brian-brazil
+    talk: Prometheus for Monitoring Metrics
+    description: From its humble beginnings in 2012, the Prometheus monitoring system has grown a substantial community with a comprehensive set of integrations. This talk will give an overview of the core ideas behind Prometheus, its feature set and how it has grown to met the challenges of modern cloud-based systems.
+  - name: Dimitri Vanoverbeke
+    role: Solution Engineer
+    company: Percona
+    logo: percona_logo.png
+    headshot: dimitri_vanoverbeke.jpg
+    talk: What We Learned Integrating Grafana with Prometheus
+    description: |
+      We have integrated Grafana + Prometheus to use as foundation for our Open Source Database Monitoring Solution - Percona Monitoring and Management, which now has thousands of active deployments.
+
+      In this talk I will talk about our experience integrating Grafana with Prometheus and deploying it at scales - the obstacles we had and overcome and exciting possibilities Grafana has offered us.
+  - name: Raj Dutt
+    role: Co-Founder | CEO
+    company: Grafana Labs
+    logo: grafana_logo.png
+    headshot: raj_dutt.jpg
+    twitter: http://twitter.com/nopzor
+    talk: The Biz of Grafana
+    description: Building a company around an open source project is not for the faint of heart. Find out what we've been up to since our last GrafanaCon, How the team has grown, our view on the open source software landscape, and what's to come for Grafana Labs.
+  - name: Dan Cech
+    role: Dir, Platform Services
+    company: Grafana Labs
+    logo: grafana_logo.png
+    headshot: dan_cech.jpg
+    github: http://github.com/DanCech
+    talk: What's New In Graphite
+    description: |
+      I started working on Graphite just over a year ago, to help out with some issues blocking the Graphite 1.0 release. Little did I know that a year later, that would have resulted in 262 commits (and counting), and that with the help of the other Graphite maintainers, we would have added a huge amount of new functionality to Graphite.
+
+      In this talk I’ll give a tour of some of the highlights including tag support, syntax and function updates, custom function plugins, and python 3.x support.
+  - name: Paul Dix
+    role: Co-Founder | CTO
+    company: InfluxData
+    logo: influxdata_logo.png
+    headshot: paul_dix.jpg
+    twitter: https://twitter.com/pauldix
+    github: https://github.com/pauldix
+    talk: The Design of IFQL, the New Influx Functional Query Language
+    description: The new InfluxDB query language is functional in nature. Conceptually it looks like D3 or jQuery. Functions are chained off each other. This gives greater flexibility for what the language can do and opens up new possibilities for UI builders. This talk will cover the details of the language and user interface ideas that can pair up nicely with it. We'll look at query examples that perform math on metrics, interpolation, and similarity measures.
+  - name: Julien Pivotto
+    role: Open Source Consultant
+    company: Inuits
+    logo: inuits_logo.png
+    headshot: julien_pivotto.jpg
+    twitter: https://twitter.com/roidelapluie
+    github: https://github.com/roidelapluie
+    talk: Writing Grafana dashboards with Jsonnet
+    description: |
+      Jsonnet is a tool that allows you to write Json files easily, handle repetitions, data, etc.
+
+      Terraform is a tool that works with may API's to create/update/delete objects from a codebase. It is mainly known in the cloud area but has support for grafana too.
+
+      Combining those two solutions allows you to write many dashboards in no time - in a reproducible way. And even to create basebricks for multiple dashboards and reuse them at will.
+  - name: Anothony Woods
+    role: Co-Founder | CTO
+    company: Grafana Labs
+    logo: grafana_logo.png
+    headshot: anthony_woods.jpg
+    github: https://github.com/woodsaj
+    talk: Introduction to GrafanaCloud
+    description: |
+      GrafanaCloud makes it easy to set up, operate, and scale a complete Grafana stack in the cloud.
+
+      We'll discuss the components of GrafanaCloud, how it scales, and how to achieve true interoperability leveraging open source software and avoid SaaS lock-in.
+  - name: Dieter Plaetinck
+    role: Principal Engineer
+    company: Grafana Labs
+    logo: grafana_logo.png
+    headshot: dieter_plaetinck.jpg
+    twitter: https://twitter.com/Dieter_be
+    github: https://github.com/Dieterbe
+    talk: MetrickTank
+    description: Abstract coming soon.
+  - name: Carl Bergquist
+    role: Principal Engineer
+    company: Grafana
+    logo: grafana_logo.png
+    headshot: carl_bergquist.jpg
+    twitter: https://twitter.com/CarlBergquist
+    github: https://github.com/bergquist
+    talk: Provisioning Grafana
+    description: |
+      Plugins for Grafana's frontend have been a big success since we launched Grafana 3. There are over 40 different plugins available for installation at grafana.com.
+
+      Introducing plugins for Grafana's backend will make it possible to extend Grafana even further. Backend plugins will enable alerting integrations for any data source, new alert notifiers, new authentication and authorization integrations and more.
+  - name: Ryan McKinley
+    role: Developer
+    company: Natel Energy
+    logo: natel_energy_logo.png
+    headshot: ryan_mckinley.jpg
+    github: https://github.com/ryantxu
+    talk: Running a Power Plant with Grafana
+    description: Natel Energy is building a low cost, distributed, grid-scale hydropower turbine. We began using traditional industrial control packages to manage and develop our projects. These products tend to be expensive, fragile, hard to scale and ugly. With Grafana, we found a great platform to build a good looking, secure and scalable control system. Rather than build a new application we are now building all our operational interfaces directly in Grafana plugins.
+  - name: Susanne Greiner
+    role: Data Scientist
+    company: Würth Phoenix S.R.L.
+    logo: wurth_phoenix_logo.png
+    headshot: susanne_greiner.jpg
+    talk: When Performance Metrics and User Experience Come Together
+    description: |
+      When performance metrics are combined with active user experience and machine learning, we can gain new insights about why a business critical application is slow, what components are involved, and how this impacts users and hardware.
+
+      By interlinking several levels of dashboards, users from different departments can get a more transparent view of the issue and exchange problem related information as easy as sending a hyperlink to a specific dashboard to their colleagues. Thus troubleshooting and root case detection become much easier.
+
+      But collecting up to 500 mio datapoints per day per customer is not trivial.
+  - name: Alex Krzos
+    role: Senior Software Engineer
+    company: Red Hat Inc.
+    logo: redhat_logo.png
+    headshot: alex_krzos.jpg
+    github: https://github.com/akrzos
+    talk: Analyzing Performance of OpenStack with Grafana Dashboards
+    description: |
+      Significant amounts of time have been invested in performance testing and analysis of OpenStack.
+
+      In this talk I share how we use Grafana and many other Open Source tools to monitor the performance of an OpenStack Cloud while benchmarking.
+
+      We'll show the components of the monitoring stack and benchmarking tools, share the dashboards which help speed up OpenStack Performance Analysis, and run through scenarios showcasing how the dashboards have exposed issues and helped improve OpenStack performance.
+  - name: Blerim Sheqa
+    role: Senior Developer
+    company: Netways
+    logo: netways_logo.png
+    headshot: blerim_sheqa.jpg
+    github: https://github.com/bobapple
+    talk: Graphs Tell Stories
+    description: |
+      Dave just started his new job as a Systems Engineer in this strange IT company. His ambition is to become the most aspiring and omniscient operator the company has seen.
+
+      Through his journey of debugging issues and hunting users he learns many things helping him to troubleshoot and improve running systems. Unfortunately, at some point in his career, Dave reaches a moment where none of the learned techniques can't help him.
+
+      What he needs is something that that can display all the data he collects with different tools in one single place.
+
+      This story is about how the art of data visualisation can change your whole perspective and help you find the right answers.
+  - name: Arie Jan Kraai
+    role: Storage Engineer
+    company: Shell Technical Landscape Services
+    logo: shell_logo.png
+    headshot: arie_jan_kraai.jpg
+    talk: Storage monitoring at Shell Upstream
+    description: |
+      After insourcing the majority of subsurface technical storage at Shell uptream, we were limited by the commercially available monitoring solution. A Proof of Concept was held using a data collector, InfluxDB and Grafana. This enabled us to monitor the full globally installed base on a single dashboard as well as drilling deep into specific storage clusters.
+
+      We'll show the interesting and completely unexpected advantages of implementing Grafana and the insights we've gained.
+  - name: Tom Wilkie
+    role: Founder
+    company: Kausal
+    logo: kausal_logo.png
+    headshot: tom_wilkie.jpg
+    twitter: https://twitter.com/tom_wilkie?lang=en
+    github: https://github.com/tomwilkie
+    talk: "The RED Method: How To Instrument Your Services"
+    description: The RED Method defines three key metrics you should measure for every microservice in your architecture. It gives developers a template for instrumenting their services and building dashboards in a consistent, repeatable fashion. We will discuss patterns of application instrumentation, where and when they are applicable, and how they can be implemented with Prometheus. We’ll cover Google’s Four Golden Signals, the RED Method, the USE Method, and Dye Testing. We’ll also discuss why consistency is an important approach for reducing cognitive load, and discuss the limitations of these approaches and what can be done to overcome them.
+  - name: Andrejs Kalnacs
+    role: Lead Software Developer In Test
+    company: Evolution Gaming
+    logo: evolution_gaming_logo.png
+    headshot: andrejs_kalnacs.jpg
+    twitter: https://twitter.com/testerfromriga
+    github: https://github.com/andrejska
+    talk: Grafana usage in the Quality Assurance Process
+    description: |
+      In my talk I would address how Grafana can be very useful in the quality assurance field.
+
+      I will give insights of how visualisation of data can improve testing process by Grafana usage in performance tests, monitoring of test environments and other QA activities and which time series data base fits best for such tasks.
+  - name: Erwin de Keijzer
+    role: Linus Engineer
+    company: Snow BV
+    logo: snow_logo.png
+    headshot: erwin_de_keijzer.jpg
+    twitter: https://twitter.com/erwindekeijzer
+    github: https://github.com/gnur
+    talk: Using Prometheus and Grafana for Monitoring my Power Usage
+    description: |
+      In this lightning talk I'll explain how I gained insights in my power usage using a raspberry pi zero w, Prometheus and Grafana.
+
+      I now have a real time view of my power draw, statistics about my power usage over the last week and I can even look at my dashboards to determine whether the washing machine is done or not.
+  - name: Max von Roden
+    role: Data Scientist
+    company: Energy Weather
+    logo: energy_weather_logo.png
+    headshot: max_von_roden.jpg
+    talk: Weather, Power & Market Forecasts with Grafana
+    description: |
+      We'll highlight, how Grafana can be used to visualize future data, although default usage is focussed on historical data.
+
+      In addition to this, we'd like to give a short introduction on the increasing weather impact on financial markets like the energy trading business and use Grafana to demonstrate how weather forecasts, resulting renewable energy production and finally price developments are connected.
+
+      Finally, we'd like to start a discussion, on how Grafana could be improved for the usage in non-monitoring businesses.
+  - name: Steffen Knott
+    role: Head of IT
+    company: Energy Weather
+    logo: energy_weather_logo.png
+    headshot: steffen_knott.jpg
+    talk: Weather, Power & Market Forecasts with Grafana
+    description: |
+      We'll highlight, how Grafana can be used to visualize future data, although default usage is focussed on historical data.
+
+      In addition to this, we'd like to give a short introduction on the increasing weather impact on financial markets like the energy trading business and use Grafana to demonstrate how weather forecasts, resulting renewable energy production and finally price developments are connected.
+
+      Finally, we'd like to start a discussion, on how Grafana could be improved for the usage in non-monitoring businesses.
+  - name: Jordan J. Hamel
+    role: Head of Monitoring Platforms
+    company: Amgen
+    logo: amgen_logo.png
+    headshot: jordan_j_hamel.jpg
+    twitter: https://twitter.com/jordanjohnhamel
+    talk: Inherited Technical Debt - A Tale of Overcoming Enterprise Inertia
+    description: |
+      Amgen has been on a journey to confront the multi-million dollar elephant in the room. Technical debt that had been passed down for 10 years in their monitoring portfolio.
+
+      But how to overcome inertia and a failure to understand how to maximize internal value for data that belongs to organization to begin with?
+
+      I'll discuss lessons learned, where it was, where it is now, and what steps we took to achieve technical value given back to the business through open source, modular layers and with a design for programmatic monitoring at global enterprise scale.
+  - name: Jonathan Lange
+    role: VP of Engineering
+    company: Weaveworks
+    logo: weaveworks_logo.png
+    headshot: jonathan_lange.jpg
+    twitter: https://twitter.com/mumak
+    github: https://github.com/jml
+    talk: "Grafanalib: Dashboards as Code"
+    description: |
+      Grafana has a great UI for creating dashboards, but what happens when you want to start implementing common patterns, or change your dashboard at the same time that you change your monitoring?
+
+      Why not treat your dashboards like code? We do that with grafanalib, which is a Python EDSL for building Grafana dashboards.
+
+      This talk will show how you can use grafanalib to manage your dashboards, some cool things you can do with it, and talk a little bit about its design & internals.
+  - name: Arnold Bechtoldt
+    role: Senior Systems Engineer
+    company: Inovex
+    logo: inovex_logo.png
+    headshot: arnold_bechtoldt.jpg
+    github: https://github.com/bechtoldt
+    talk: The Journey of Shifting the MQTT Broker HiveMQ to Kubernetes
+    description: |
+      From zero to Kubernetes: Which challenges do I face while migrating a cloud-unready Java application such as HiveMQ from a classical Linux IT- environment to Docker-Orchestrator Kubernetes?
+
+      In this talk we want to show you the technical problems we had to solve and how monitoring setup helped us to handle critical incidents in production.
+  - name: Vladimir Smirnov
+    role: System Administrator
+    company: Booking.com B.V.
+    logo: booking_com_logo.png
+    headshot: vladimir_smirnov.jpg
+    github: https://github.com/Civil
+    talk: Graphite@Scale or How to Store Millions of Metrics per Second
+    description: |
+      This is a story about dealing with metrics at scale. A lot of metrics.
+
+      This is our story of the challenges we’ve faced at Booking.com and how we made our Graphite system handle millions of metrics per second.
+
+      You should expect to learn about one of the most high load Graphite stacks, the problems it poses and the challenges in maintaining it and scaling it further, pushing Graphite to its limits and beyond.
+  - name: Andrew Rodgers
+    role: Senior Systems Architect
+    company: New City Energy
+    logo: new_city_energy_logo.png
+    headshot: andrew_rogers.jpg
+    twitter: https://twitter.com/acedrew/
+    github: https://github.com/acedrew/
+    talk: Bringing Observability to the Built Environment at City Scale
+    description: |
+      Since 2013 New City Energy has been helping the City of D.C. measure and improve the efficiency and performance of its building portfolio through a number of policy and technology innovations. In 2016, NCE began building out a cloud based platform to allow deep insight to the portfolio at a room-by-room level.
+
+      Learn how we've structured the architecture to enable this platform, the context of how Grafana interacts with the other components in the system, and how the entire system delivers value to the City.
+  - name: Erik Nordstrom
+    role: Core Databas Engineer
+    company: Timescale
+    logo: timescale_logo.png
+    headshot: erik_nordstrom.jpg
+    github: https://github.com/erimatnor
+    talk: Using PostgreSQL, Prometheus & Grafana for Storing, Analyzing and Visualizing Metrics
+    description: |
+      In this talk, we take a somewhat heretical stance in the monitoring world, and describe why and how we chose to use PostgreSQL as a Prometheus backend to support complex queries (and get a full SQL interface).
+
+      Until recently, the databases supported by Grafana have been NoSQL systems, offering SQL-like or custom query languages that were limited in scope, and designed for specific data model and architectures in mind.
+  - name: Jacob Lisi
+    role: Software Developer
+    company: Grafana Labs
+    logo: grafana_logo.png
+    headshot: jacob_lisi.jpg
+    twitter: https://twitter.com/jacoblisi
+    github: https://github.com/jtlisi
+    talk: Kubernetes and Grafana
+    description: |
+      Monitoring Kubernetes is vital to understanding the health and performance of a cluster, but which metrics are most important to add to your dashboards and alert on?
+
+      Jacob will discuss how to most effectively monitor and visualize your Kubernetes cluster using the Grafana Kubernetes plugin and PromQL.
+  - name: Anko Duizer
+    role: Sr. Technical  Director for Global Cloud ISVS
+    company: Microsoft
+    logo: microsoft_logo.png
+    headshot: anko_duizer.jpg
+    twitter: https://twitter.com/ankoduizer
+    github: https://github.com/ankodu
+    talk: Cosmos DB
+    description: Abstract coming soon.
+
+
+# ------------------------------------------------------------
+# !EVENTS
+# ------------------------------------------------------------
+
+events:
+  title: Our After Conference Events
+  intro: After a long day of talks, demos and networking, we thought it would be important to unwind a little. We have two after conference events on the first evening that you won't want to miss.
+  event:
+    - name: Conference Afterparty
+      description: Directly following the last talk on March 1, in the **Compagnietheater's Cafe, Zuilenzaal and Foyer**, we will have the official after conference reception! We will provide a walking dinner, drinks, and plenty of time to chat with attendees and sponsors.
+    - name: Official Grafana 5 Launch Party
+      description: Following the conference afterparty, we are hosting an official Grafana 5 launch party. A short walk through the Red Light District will take you to the Ton Ton Club - an arcade and bar where you'll enjoy free games, drinks and snacks starting at 8pm.
+  sponsors:
+    - name: Ton Ton Club
+      address1: Sint Annendwarsstraat 6,
+      address2: 1012 HC Amsterdam,
+      address3: Netherlands
+      url: https://tontonclub.nl/centrum/
+      logo: tonton_logo_outline_white.png
+
+
+# ------------------------------------------------------------
+# !ABOUT
+# ------------------------------------------------------------
+
+about:
+  title: What can I Expect at GrafanaCon?
+  content: |
+    GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 300 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
+
+    To see what GrafanaCon is like, check out the videos from our previous conferences, but to get a true sense, you really should experience it in person.
+  videos:
+    - title: Highlights from GrafanaCon NYC 2016
+      url: https://www.youtube.com/watch?v=19MKjkEX4wY
+
+
+# ------------------------------------------------------------
+# !LOCATION
+# ------------------------------------------------------------
+
+location:
+  name: Compagnietheater
+  description: |
+    GrafanaCon EU will be held at the Compagnietheater, a 16th-century church, recently renovated into a performance and event space. Compagnietheater is located in Amsterdam's city center, which will be convenient for public transportation and post-conference sightseeing, as well as nearby hotel and lodging options. Learn more about the [Compagnietheater](http://compagnietheater.nl/).
+
+    Let the Church of Monitoring begin!
+
+
+# ------------------------------------------------------------
+# !SPONSORS
+# ------------------------------------------------------------
+
+sponsors:
+  title: Want to Sponsor GrafanaCon EU?
+  description: |
+    Sponsoring GrafanaCon EU offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+
+    Download our [Prospectus](/2018/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
+
+    For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com, we'd be happy to work with you.
+  sponsor:
+    - name: Cloud Native Computing Foundation
+      url: https://www.cncf.io/
+      logo: cncf_color.png
+    - name: IRONdb
+      url: https://www.circonus.com/irondb/
+      logo: iron_db_sponsor_logo.png
+    - name: Google Cloud
+      url: https://cloud.google.com/
+      logo: google_cloud_color.png
+    - name: InfluxData
+      url: https://www.influxdata.com/
+      logo: influxdata_logo.png
+    - name: Percona
+      url: https://www.percona.com/
+      logo: percona_logo.png
+    - name: Weaveworks
+      url: https://www.weave.works/
+      logo: weaveworks_logo.png
+    - name: NS1
+      url: https://ns1.com/
+      logo: ns1_logo.png
+    - name: Packet
+      url: https://www.packet.net/
+      logo: packet_sponsor_logo.png
+    - name: Timescale
+      url: http://www.timescale.com/
+      logo: timescale_logo.png
+    - name: Kausal
+      url: https://kausal.co/
+      logo: kausal_logo.png
+    - name: VictorOps
+      url: https://victorops.com/2
+      logo: victorops_logo.png
+    - name: Robust Perception
+      url: https://www.robustperception.io/
+      logo: robust_perception_sponsor_logo.png
+
+
+# ------------------------------------------------------------
+# !LODGING
+# ------------------------------------------------------------
+
+lodging:
+  title: Where to Stay.
+  description: |
+    Preferred Hotel Reservations is the official housing agent for this event. We negotiated special rates and conditions at the hotels  for  GrafanaCon 2018. There are a number of hotel options for you to choose from.
+
+    Make sure to reserve your hotel as soon as possible, even if your travel is not yet confirmed, as reservations up to 9 rooms can be cancelled free of charge until 48 hours prior to arrival at most hotels.
+  url: https://www.preferredreservations.nl/grafanacon

@@ -9,27 +9,6 @@
 
 <meta property="og:type" content="website">
 
-{% if page.title %}
-<title>{{ page.title }}{% if page.year %} - {{ page.year }}{% endif %}</title>
-<meta property="og:site_name" content="{{ page.title }}{% if page.year %} - {{ page.year }}{% endif %}">
-<meta property="og:title" content="{{ page.title }}{% if page.year %} - {{ page.year }}{% endif %}">
-{% else %}
-<title>{{ site.title }}{% if page.year %} - {{ page.year }}{% endif %}</title>
-<meta property="og:site_name" content="{{ site.title }}{% if page.year %} - {{ page.year }}{% endif %}">
-<meta property="og:title" content="{{ site.title }}{% if page.year %} - {{ page.year }}{% endif %}">
-{% endif %}
-{% if page.description %}
-<meta name="description" content="{{ page.description | truncate: 160 }}">
-<meta property="og:description" content="{{ page.description | truncate: 160 }}">
-{% else %}
-<meta name="description" content="{{ site.description | truncate: 160 }}">
-<meta property="og:description" content="{{ site.description | truncate: 160 }}">
-{% endif %}
-{% if site.url %}
-<meta property="og:url" content="http://grafanacon.org{% unless page.current %}/{{ page.year }}{% endunless %}">
-{% endif %}
-
-
 <style type="text/css">
   {% capture include_to_scssify %}
     {% include critical.scss %}

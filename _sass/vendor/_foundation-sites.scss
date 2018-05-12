@@ -1,0 +1,22 @@
+// =========================================================================
+// FOUNDATION SETTINGS
+//
+// Global settings and config for Foundation Sites
+// =========================================================================
+
+
+
+// Utilities
+@import 'vendor/foundation-sites/util/util';
+
+// Global variables and styles
+@import 'vendor/foundation-sites/global';
+
+// Components
+@import 'vendor/foundation-sites/_vendor/normalize-scss/sass/normalize';
+@import 'vendor/foundation-sites/grid/grid';
+@import 'vendor/foundation-sites/components/visibility';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-visibility-classes;
