@@ -1,0 +1,5 @@
+{% if conference.lodging %}
+    <h2>{{ conference.lodging.title }}</h2>
+    <p>{{ conference.lodging.description | markdownify }}</p>
+    <a href="{{ conference.lodging.url }}">Book My Hotel Room</a>
+{% endif %}

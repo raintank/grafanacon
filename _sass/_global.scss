@@ -1,9 +1,14 @@
 // =========================================================================
-// TYPOGRAPHY
+// GLOBAL
 // =========================================================================
 
 
 
-body {
-  @include web-font('PT Sans', sans-serif);
-}
+// Base
+@import 'base/normalize';
+@import 'base/typography';
+@import 'base/base';
+
+// Layout
+@import 'layout/page';
+@import 'layout/spacing';

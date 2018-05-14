@@ -1,0 +1,15 @@
+{% if conference.events %}
+    <h2>{{ conference.events.title }}</h2>
+    <p>{{ conference.events.intro }}</p>
+    {% for event in conference.events.event %}
+        <h3>{{ event.name }}</h3>
+        <p>{{ event.description }}</p>
+    {% endfor %}
+    {% for sponsor in conference.events.sponsors %}
+        <h3><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h3>
+        <p>{{ sponsor.address1 }}</p>
+        <p>{{ sponsor.address2 }}</p>
+        <p>{{ sponsor.address3 }}</p>
+        <p><img src="{{ images }}sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></p>
+    {% endfor %}
+{% endif %}

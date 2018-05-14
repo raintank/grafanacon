@@ -2,7 +2,7 @@
 ---
 
 // =========================================================================
-// GRAFANACON
+// 2018
 // =========================================================================
 
 
@@ -10,15 +10,12 @@
 // Imports - partials from `sass_dir` (defaults to `_sass`)
 // -------------------------------------------------------------------------
 
-// Vendor
-@import 'vendor/foundation-sites';
+@import 'utils';
 
-// Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
 
-// Base
-@import 'base/normalize';
-@import 'base/typography';
-@import 'base/base';
+
+@import 'global';
+
+body {
+  @include web-font('Gothic A1', sans-serif);
+}

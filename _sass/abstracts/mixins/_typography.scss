@@ -7,10 +7,16 @@
 // Google Web Fonts
 // -------------------------------------------------------------------------
 
-@mixin pt-sans {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@mixin web-font($font-name, $font-type) {
+  @if ($font-type == 'sans-serif') {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  } @elseif ($font-type == 'serif') {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  } @else {
+    @warn 'The type used for the web-font mixin font type must be serif or sans-serif.';
+  }
 
   .wf-active & {
-    font-family: 'PT Sans', sans-serif;
+    font-family: '#{$font-name}', $font-type;
   }
 }

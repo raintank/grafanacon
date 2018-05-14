@@ -5,129 +5,22 @@ layout: default
 {% assign conference = site.data[page.identifier].conference %}
 {% capture images %}{{ site.baseurl }}/{{ conference.info.year }}/images/{% endcapture %}
 
-<head>
-    {% if conference.info.title %}
-    <title>{{ conference.info.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}</title>
-    <meta property="og:site_name" content="{{ conference.info.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
-    <meta property="og:title" content="{{ conference.info.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
-    {% else %}
-    <title>{{ site.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}</title>
-    <meta property="og:site_name" content="{{ site.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
-    <meta property="og:title" content="{{ site.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
-    {% endif %}
-
-    {% if conference.info.meta-description %}
-    <meta name="description" content="{{ conference.info.meta-description | truncate: 160 }}">
-    <meta property="og:description" content="{{ conference.info.meta-description | truncate: 160 }}">
-    {% else %}
-    <meta name="description" content="{{ conference.info.meta-description | truncate: 160 }}">
-    <meta property="og:description" content="{{ conference.meta-description | truncate: 160 }}">
-    {% endif %}
-
-    {% if site.url %}
-    <meta property="og:url" content="http://grafanacon.org{% unless page.current %}/{{ conference.info.year }}{% endunless %}">
-    {% endif %}
-
-    {% include head.html %}
-</head>
+{% include conference/conference-head.html %}
 
 <body>
     {% include svg.html %}
 
-    {% if conference.info %}
-        <h1>{{ conference.info.title }} - {{ conference.info.city }}</h1>
-        <p>{{ conference.info.date }}, {{ conference.info.year }}</p>
-        <p>{{ conference.info.meta-description }}</p>
+    {% include conference/conference-info.html %}
 
-        {% if conference.info.about.content %}
-            <h2>{{ conference.info.about.title }}</h2>
-        {% endif %}
-    {% endif %}
-
-    {% if conference.info.about.content %}
-        {{ conference.info.about.content | markdownify }}
-    {% endif %}
-
-    {% if conference.schedule %}
-        {% for day in conference.schedule %}
-            <h3>{{ day.day }}</h3>
-            <dl>
-            {% for timeslot in day.timeslots %}
-                <dt>{{ timeslot.time }}</dt>
-
-                {% if timeslot.description %}
-                    <dd>{{ timeslot.description | markdownify }}</dd>
-                {% endif %}
-
-                {% if timeslot.speakers %}
-                    <dd>
-                    {% for speaker in timeslot.speakers %}
-                        <p><strong>{{ speaker.name }}:</strong> {{ speaker.title }}</p>
-                    {% endfor %}
-                    </dd>
-                {% endif %}
-            {% endfor %}
-            </dl>
-        {% endfor %}
-    {% endif %}
-
-    {% if conference.speakers %}
-        {% for speaker in conference.speakers %}
-            <p><img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}"></p>
-            <h3>{{ speaker.name }}</h3>
-            <h5>{{ speaker.role }}</h5>
-            <p>{{ speaker.company }}</p>
-            <p><img src="{{ images }}logos/{{ speaker.logo }}" alt="{{ speaker.company }}"></p>
-            {% if speaker.twitter %}
-                <p><a href="{{ speaker.twitter }}">Twitter</a></p>
-            {% endif %}
-            {% if speaker.github %}
-                <p><a href="{{ speaker.github }}">Github</a></p>
-            {% endif %}
-            <p>{{ speaker.talk }}</p>
-            {{ speaker.description | markdownify }}
-        {% endfor %}
-    {% endif %}
-
-    {% if conference.events %}
-        <h2>{{ conference.events.title }}</h2>
-        <p>{{ conference.events.intro }}</p>
-        {% for event in conference.events.event %}
-            <h3>{{ event.name }}</h3>
-            <p>{{ event.description }}</p>
-        {% endfor %}
-        {% for sponsor in conference.events.sponsors %}
-            <h3><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h3>
-            <p>{{ sponsor.address1 }}</p>
-            <p>{{ sponsor.address2 }}</p>
-            <p>{{ sponsor.address3 }}</p>
-            <p><img src="{{ images }}sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></p>
-        {% endfor %}
-    {% endif %}
-
-    {% if conference.about %}
-        <h2>{{ conference.about.title }}</h2>
-        <p>{{ conference.about.description }}</p>
-    {% endif %}
-
-    {% if conference.sponsors %}
-        <h2>{{ conference.sponsors.title }}</h2>
-        {{ conference.sponsors.description | markdownify }}
-        <ul>
-        {% for sponsor in conference.sponsors.sponsor %}
-            <li>
-                <a href="{{ sponsor.url }}"><img src="{{ images }}logos/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>
-            </li>
-        {% endfor %}
-        </ul>
-    {% endif %}
-
-    {% if conference.lodging %}
-        <h2>{{ conference.lodging.title }}</h2>
-        <p>{{ conference.lodging.description | markdownify }}</p>
-        <a href="{{ conference.lodging.url }}">Book My Hotel Room</a>
-    {% endif %}
+    {% comment %}
+    {% include conference/conference-schedule.html %}
+    {% include conference/conference-speakers.html %}
+    {% include conference/conference-events.html %}
+    {% include conference/conference-about.html %}
+    {% include conference/conference-sponsors.html %}
+    {% include conference/conference-lodging.html %}
+    {% endcomment %}
 
     {% include footer.html %}
-    {% include web-fonts.html %}
+    {% include conference/web-fonts.html %}
 </body>

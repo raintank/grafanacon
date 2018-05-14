@@ -1,0 +1,29 @@
+<head>
+    {% if conference.info.title %}
+    <title>{{ conference.info.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}</title>
+    <meta property="og:site_name" content="{{ conference.info.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
+    <meta property="og:title" content="{{ conference.info.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
+    {% else %}
+    <title>{{ site.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}</title>
+    <meta property="og:site_name" content="{{ site.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
+    <meta property="og:title" content="{{ site.title }}{% if conference.info.year %} - {{ conference.info.year }}{% endif %}">
+    {% endif %}
+
+    {% if conference.info.meta-description %}
+    <meta name="description" content="{{ conference.info.meta-description | truncate: 160 }}">
+    <meta property="og:description" content="{{ conference.info.meta-description | truncate: 160 }}">
+    {% else %}
+    <meta name="description" content="{{ conference.info.meta-description | truncate: 160 }}">
+    <meta property="og:description" content="{{ conference.meta-description | truncate: 160 }}">
+    {% endif %}
+
+    {% if site.url %}
+    <meta property="og:url" content="{{ site.baseurl }}{% unless page.current %}/{{ conference.info.year }}{% endunless %}">
+    {% endif %}
+
+    {% include head.html %}
+
+    {% if conference.css %}
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/{{ conference.css }}">
+    {% endif %}
+</head>

@@ -1,0 +1,17 @@
+{% if conference.speakers %}
+    {% for speaker in conference.speakers %}
+        <p><img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}"></p>
+        <h3>{{ speaker.name }}</h3>
+        <h5>{{ speaker.role }}</h5>
+        <p>{{ speaker.company }}</p>
+        <p><img src="{{ images }}logos/{{ speaker.logo }}" alt="{{ speaker.company }}"></p>
+        {% if speaker.twitter %}
+            <p><a href="{{ speaker.twitter }}">Twitter</a></p>
+        {% endif %}
+        {% if speaker.github %}
+            <p><a href="{{ speaker.github }}">Github</a></p>
+        {% endif %}
+        <p>{{ speaker.talk }}</p>
+        {{ speaker.description | markdownify }}
+    {% endfor %}
+{% endif %}

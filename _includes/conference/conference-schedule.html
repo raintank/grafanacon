@@ -1,0 +1,22 @@
+{% if conference.schedule %}
+    {% for day in conference.schedule %}
+        <h3>{{ day.day }}</h3>
+        <dl>
+        {% for timeslot in day.timeslots %}
+            <dt>{{ timeslot.time }}</dt>
+
+            {% if timeslot.description %}
+                <dd>{{ timeslot.description | markdownify }}</dd>
+            {% endif %}
+
+            {% if timeslot.speakers %}
+                <dd>
+                {% for speaker in timeslot.speakers %}
+                    <p><strong>{{ speaker.name }}:</strong> {{ speaker.title }}</p>
+                {% endfor %}
+                </dd>
+            {% endif %}
+        {% endfor %}
+        </dl>
+    {% endfor %}
+{% endif %}

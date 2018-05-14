@@ -1,0 +1,18 @@
+{% if conference.info %}
+    <div class="page-head">
+        {% if conference.logo %}
+            <img class="page-head__logo" src="{{ images }}{{ conference.logo }}" alt="{{ conference.info.title }}">
+        {% endif %}
+    </div>
+
+    <div>
+
+    </div>
+    <h1>{{ conference.info.title }} - {{ conference.info.city }}</h1>
+    <p>{{ conference.info.date }}, {{ conference.info.year }}</p>
+
+    {% if conference.info.about.content %}
+        <h2>{{ conference.info.about.title }}</h2>
+        {{ conference.info.about.content | markdownify }}
+    {% endif %}
+{% endif %}
