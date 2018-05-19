@@ -1,0 +1,59 @@
+// ==========================================================================
+// BUTTONS
+// ==========================================================================
+
+
+
+@mixin button($background, $border, $hover-background: shade($background, 7.5), $hover-border: shade($border, 7.5)) {
+  background: $background;
+  color: color-yiq($background);
+
+  &:hover,
+  &:focus {
+    background-color: shade($background, 20%);
+    text-decoration: none;
+  }
+}
+
+.btn {
+  @extend %web-font;
+  display: $button-display;
+  height: $button-height;
+  padding: $button-padding;
+  appearance: none;
+  border: $button-border;
+  border-radius: $button-border-radius;
+  font-size: $button-font-size;
+  -webkit-font-smoothing: antialiased;
+  font-weight: $button-font-weight;
+  line-height: $button-line-height;
+  text-align: center;
+  text-decoration: none;
+  text-transform: $button-text-transform;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
+
+// Color variations
+// -------------------------------------
+
+// @each $color, $value in $theme-colors {
+//   .btn--#{$color} {
+//     @include button($value, $value);
+//   }
+// }
+
+.btn--primary {
+  @include button($primary-color, $primary-color);
+}
+
+
+// Wide
+// -------------------------------------
+
+.btn--wide {
+  width: 100%;
+}

@@ -1,8 +1,13 @@
 // =========================================================================
 // BASE
+//
+// Default settings for conference styles. Can be overriden with
+// conference-specific styles.
 // =========================================================================
 
 
 
-$base-spacing: rem-calc(30) !default;
-$small-spacing: $base-spacing / 2 !default;
+// Colors
+// --------------------------------------------------------------------------
+
+

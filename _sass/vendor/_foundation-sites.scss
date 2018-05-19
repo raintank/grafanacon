@@ -15,8 +15,10 @@
 // Components
 @import 'vendor/foundation-sites/_vendor/normalize-scss/sass/normalize';
 @import 'vendor/foundation-sites/grid/grid';
+@import 'vendor/foundation-sites/typography/alignment';
 @import 'vendor/foundation-sites/components/visibility';
 
 @include foundation-global-styles;
 @include foundation-grid;
+@include foundation-text-alignment;
 @include foundation-visibility-classes;

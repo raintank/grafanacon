@@ -9,7 +9,75 @@
 
 .page-head {
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  padding: $base-spacing * 2;
+}
+
+.page-head__img {
+  display: block;
+  margin: 0 auto;
+
+  @include breakpoint(small only) {
+    max-width: $page-head-max-width;
+  }
+}
+
+.page-head__cta {
+  margin-top: $base-spacing;
+}
+
+
+
+// Section
+// -------------------------------------------------------------------------
+
+.page-section {
+  padding-top: $page-section-padding;
+  padding-bottom: $page-section-padding;
+}
+
+.page-section--dark {
+  background: $page-section-dark-bg;
+  color: $page-section-dark-color;
+}
+
+.page-section__title {
+  @include web-font(#{$page-section-title-font-family}, $page-section-title-font-type);
+  margin: $page-section-title-margin;
+  padding: $page-section-title-padding;
+  border: $page-section-title-border;
+  font-size: $page-section-title-font-size;
+  text-align: center;
+
+  @include breakpoint(medium up) {
+    font-size: $page-section-title-font-size * 2;
+  }
+}
+
+.page-section__subtitle {
+  margin: 0 0 .125em;
+  font-size: $page-section-subtitle-font-size;
+  font-weight: $page-section-subtitle-font-weight;
+  text-align: center;
+}
+
+.page-section__subhead {
+  margin: 0 0 2em;
+  font-size: $page-section-subhead-font-size;
+  font-weight: $page-section-subhead-font-weight;
+  text-align: center;
+}
+
+.page-section--dark .page-section__title {
+  border-color: $white;
+  color: $white;
+}
+
+.page-section__body > p {
+  font-size: $page-section-body-font-size;
+
+  @include breakpoint(medium up) {
+    font-size: $page-section-title-font-size * 1.125;
+  }
 }

@@ -1,17 +1,44 @@
 {% if conference.speakers %}
-    {% for speaker in conference.speakers %}
-        <p><img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}"></p>
-        <h3>{{ speaker.name }}</h3>
-        <h5>{{ speaker.role }}</h5>
-        <p>{{ speaker.company }}</p>
-        <p><img src="{{ images }}logos/{{ speaker.logo }}" alt="{{ speaker.company }}"></p>
-        {% if speaker.twitter %}
-            <p><a href="{{ speaker.twitter }}">Twitter</a></p>
-        {% endif %}
-        {% if speaker.github %}
-            <p><a href="{{ speaker.github }}">Github</a></p>
-        {% endif %}
-        <p>{{ speaker.talk }}</p>
-        {{ speaker.description | markdownify }}
-    {% endfor %}
+    <div class="page-section">
+        <div class="row columns">
+            <h3 class="page-section__subtitle">{{ conference.speakers.title }}</h3>
+            <h4 class="page-section__subhead">{{ conference.speakers.subhead }}</h4>
+            <ul class="speakers-list">
+                {% for speaker in conference.speakers.speakers %}
+                <li class="speakers-list__item speaker">
+                    <div class="headshot{% unless speaker.twitter || speaker.github %} padded{% endunless %}">
+                        <img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}">
+                    </div>
+                    {% if speaker.twitter || speaker.github %}
+                    <ul class="social-links">
+                        {% if speaker.twitter %}
+                            <li class="social-links__item">
+                                <a class="social-links__link" href="{{ speaker.twitter }}">
+                                    <img src="/{{ site.baseurl}}assets/img/twitter.svg">
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if speaker.github %}
+                            <li class="social-links__item">
+                                <a class="social-links__link" href="{{ speaker.github }}">
+                                    <img src="/{{ site.baseurl}}assets/img/github.svg">
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                    {% endif %}
+                    <div class="speaker-meta">
+                        <div class="name text-center">{{ speaker.name }}</div>
+                        <div class="role text-center">{{ speaker.role }}</div>
+                    </div>
+                    <div class="logo" style="background-image: url('{{ images }}logos/{{ speaker.logo }}');">
+                        <div class="company text-center">{{ speaker.company }}</div>
+                    </div>
+                    <div class="talk text-center">“{{ speaker.talk }}”</div>
+                    <div class="bio">{{ speaker.description | markdownify }}</div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 {% endif %}

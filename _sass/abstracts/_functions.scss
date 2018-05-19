@@ -4,17 +4,7 @@
 
 
 
-// Variables
-// --------------------------------------------------------------------------
-
-$em-base: 16px !default;
-
-
-
 // Imports
 // --------------------------------------------------------------------------
 
 @import 'functions/colors';
-@import 'functions/px-to-em';
-@import 'functions/px-to-rem';
-@import 'functions/strip-units';

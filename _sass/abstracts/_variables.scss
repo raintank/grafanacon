@@ -1,3 +1,88 @@
 // =========================================================================
 // VARIABLES
+//
+// Default settings for conference styles. Can be overriden with
+// conference-specific styles.
 // =========================================================================
+
+
+
+// Base
+// --------------------------------------------------------------------------
+
+$base-font-type: sans-serif !default;
+$base-web-font: 'Gothic A1' !default;
+$base-spacing: rem-calc(30) !default;
+$small-spacing: $base-spacing / 2 !default;
+
+
+
+// Buttons
+// --------------------------------------------------------------------------
+
+$button-display: inline-block !default;
+$button-height: rem-calc(65) !default;
+$button-padding: 0 rem-calc(35) !default;
+$button-border: 0 !default;
+$button-border-radius: 0 !default;
+$button-font-family: $base-font-family;
+$button-font-size: rem-calc(16);
+$button-font-weight: 600 !default;
+$button-text-transform: uppercase !default;
+$button-line-height: $button-height !default;
+
+
+
+// Colors
+// --------------------------------------------------------------------------
+
+$white:       #fff !default;
+$gray-1:      shade($white, 10) !default;
+$gray-2:      shade($white, 20) !default;
+$gray-3:      shade($white, 30) !default;
+$gray-4:      shade($white, 40) !default;
+$gray-5:      shade($white, 50) !default;
+$gray-6:      shade($white, 60) !default;
+$gray-7:      shade($white, 70) !default;
+$gray-8:      shade($white, 80) !default;
+$gray-9:      shade($white, 90) !default;
+$black:       #000 !default;
+
+$primary-color:     #eb237c;
+$secondary-color:   #160328;
+$tertiary-color:    #4999ef;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary-color,
+  "secondary":  $secondary-color,
+  "tertiary":   $tertiary-color
+), $theme-colors);
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  150 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:         $gray-9 !default;
+$yiq-text-light:        $white !default;
+
+
+
+// Page
+// --------------------------------------------------------------------------
+
+$page-head-max-width:                 rem-calc(200) !default;
+$page-section-padding:                $base-spacing * 2 !default;
+$page-section-dark-bg:                $secondary-color !default;
+$page-section-dark-color:             $gray-3 !default;
+$page-section-title-margin:           0 0 1.125em !default;
+$page-section-title-padding:          1em !default;
+$page-section-title-border:           1px solid $secondary-color !default;
+$page-section-title-font-family:      'Playfair Display' !default;
+$page-section-title-font-type:        serif !default;
+$page-section-title-font-size:        rem-calc(21) !default;
+$page-section-subtitle-font-size:     rem-calc(30);
+$page-section-subtitle-font-weight:   400;
+$page-section-subhead-font-size:      rem-calc(18);
+$page-section-subhead-font-weight:    400;
+$page-section-body-font-size:         rem-calc(18);

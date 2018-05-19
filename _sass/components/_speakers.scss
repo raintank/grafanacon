@@ -1,0 +1,108 @@
+// ==========================================================================
+// SPEAKERS
+// ==========================================================================
+
+
+
+.speakers-list {
+  @extend %ui-list;
+  display: flex;
+  flex-flow: column nowrap;
+
+  @include breakpoint(medium up) {
+    flex-flow: row wrap;
+    align-items: top;
+    justify-content: center;
+  }
+}
+
+.speakers-list__item {
+  @include breakpoint(medium up) {
+    width: 30%;
+    margin: 0 1.5%;
+    margin-bottom: $base-spacing * 3;
+  }
+
+  @include breakpoint(large up) {
+    width: 22%;
+  }
+}
+
+.speakers-list__item + .speakers-list__item {
+  @include breakpoint(small only) {
+    margin-top: $base-spacing;
+  }
+}
+
+.speaker > .headshot {
+  margin-bottom: $base-spacing;
+}
+
+.speaker > .headshot.padded {
+  margin-bottom: $base-spacing + rem-calc(48);
+}
+
+.speaker > .headshot > img {
+  display: block;
+  width: 100%;
+  max-width: rem-calc(190);
+  height: auto;
+  max-height: rem-calc(190);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.speaker-meta {
+  min-height: rem-calc(75);
+}
+
+.speaker .name {
+  font-size: rem-calc(24);
+}
+
+.speaker .role {
+  margin-bottom: 1em;
+  color: $gray-7;
+  font-size: rem-calc(14);
+  font-weight: 600;
+}
+
+.speaker .company {
+  margin-bottom: 1em;
+  color: $gray-4;
+  font-size: rem-calc(13);
+  text-transform: uppercase;
+}
+
+.speaker > .logo {
+  min-height: rem-calc(150);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.speaker > .logo > img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.speaker .social-links {
+  @extend %ui-list;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: $small-spacing;
+}
+
+.speaker .social-links__item + .social-links__item {
+  margin-left: rem-calc(10);
+}
+
+.speaker .social-links__link > img {
+  display: block;
+}
+
+.speaker .talk {
+  font-weight: 600;
+}
