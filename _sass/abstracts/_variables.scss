@@ -81,8 +81,25 @@ $page-section-title-border:           1px solid $secondary-color !default;
 $page-section-title-font-family:      'Playfair Display' !default;
 $page-section-title-font-type:        serif !default;
 $page-section-title-font-size:        rem-calc(21) !default;
-$page-section-subtitle-font-size:     rem-calc(30);
-$page-section-subtitle-font-weight:   400;
-$page-section-subhead-font-size:      rem-calc(18);
-$page-section-subhead-font-weight:    400;
-$page-section-body-font-size:         rem-calc(18);
+$page-section-subtitle-font-size:     rem-calc(30) !default;
+$page-section-subtitle-font-weight:   400 !default;
+$page-section-subhead-font-size:      rem-calc(18) !default;
+$page-section-subhead-font-weight:    400 !default;
+$page-section-body-font-size:         rem-calc(18) !default;
+
+
+// Speakers
+// --------------------------------------------------------------------------
+
+$speakers-headshot-width: rem-calc(190) !default;
+$speakers-headshot-border-radius: 50% !default;
+$speakers-meta-min-height: rem-calc(75) !default;
+$speakers-name-font-size: rem-calc(24) !default;
+$speakers-role-color: $gray-7 !default;
+$speakers-role-font-size: rem-calc(14) !default;
+$speakers-role-font-weight: 600 !default;
+$speakers-company-color: $gray-4 !default;
+$speakers-company-font-size: rem-calc(13) !default;
+$speakers-company-text-transform: uppercase !default;
+$speakers-logo-min-height: rem-calc(150) !default;
+

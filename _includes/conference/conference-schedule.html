@@ -1,22 +1,36 @@
-{% if conference.schedule %}
-    {% for day in conference.schedule %}
-        <h3>{{ day.day }}</h3>
-        <dl>
-        {% for timeslot in day.timeslots %}
-            <dt>{{ timeslot.time }}</dt>
-
-            {% if timeslot.description %}
-                <dd>{{ timeslot.description | markdownify }}</dd>
-            {% endif %}
-
-            {% if timeslot.speakers %}
-                <dd>
-                {% for speaker in timeslot.speakers %}
-                    <p><strong>{{ speaker.name }}:</strong> {{ speaker.title }}</p>
-                {% endfor %}
-                </dd>
-            {% endif %}
-        {% endfor %}
-        </dl>
-    {% endfor %}
-{% endif %}
+<div class="page-section">
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <div class="schedule">
+                {% if conference.schedule %}
+                    {% for day in conference.schedule %}
+                        <div class="schedule-day">
+                            <div class="row">
+                                <h3 class="schedule-day-title medium-3 columns">Schedule {{ day.day }}</h3>
+                                <div class="schedule-disclaimer medium-4 columns end mt-small-2">Schedule subject to change</div>
+                            </div>
+                            {% for timeslot in day.timeslots %}
+                                <dl class="schedule-list row">
+                                    <dt class="schedule-list__time medium-3 columns">{{ timeslot.time }}</dt>
+                                    {% if timeslot.description %}
+                                        <dd class="schedule-list__event medium-4 columns end">{{ timeslot.description | markdownify }}</dd>
+                                    {% elsif timeslot.speakers %}
+                                        <dd class="medium-4 columns end">
+                                        {% for speaker in timeslot.speakers %}
+                                            <ul class="schedule-speakers-list">
+                                                <li class="schedule-speakers-list__item">
+                                                    <strong>{{ speaker.name }}:</strong> {{ speaker.title }}
+                                                </li>
+                                            </ul>
+                                        {% endfor %}
+                                        </dd>
+                                    {% endif %}
+                                </dl>
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

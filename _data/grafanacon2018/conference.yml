@@ -59,7 +59,7 @@ schedule:
           - name: Torkel Odegaard
             title: Grafana v5 and the future of Grafana
       - time: 10:50AM
-        description: Break
+        description: "**BREAK**"
       - time: 11:10AM
         speakers:
           - name: Raj Dutt
@@ -75,7 +75,7 @@ schedule:
           - name: Stig Sorensen & Sean Hanson
             title: Evolution of Telemetry @ Bloomberg
       - time: "12:50PM"
-        description: Lunch
+        description: "**LUNCH**"
       - time: "2:00PM"
         speakers:
         - name: Tom Wilkie
@@ -89,7 +89,7 @@ schedule:
         - name: Ryan McKinley
           title: Running a Power Plant with Grafana
       - time: 3:50PM
-        description: Break
+        description: "**BREAK**"
       - time: 4:10PM
         speakers:
           - name: Vladimir Smirnov
@@ -119,7 +119,7 @@ schedule:
           - name: TSDB PANEL
             title: "Graphite, Prometheus, InfluxDB, Timescale"
       - time: 10:50AM
-        description: Break
+        description: "**BREAK**"
       - time: 11:10AM
         speakers:
           - name: Dimitri Vanoverbeke
@@ -131,7 +131,7 @@ schedule:
           - name: Erik Nordstrom
             title: Using PostgreSQL, Prometheus and Grafana for Storing, Analyzing and Visualizing Metrics
       - time: 12:50PM
-        description: LUNCH
+        description: "**LUNCH**"
       - time: 2:00PM
         speakers:
           - name: Jonathan Lange
@@ -145,7 +145,7 @@ schedule:
           - name: Jacob Lisi
             title: Kubernetes and Grafana
       - time: 3:50PM
-        description: Break
+        description: "**BREAK**"
       - time: 4:10PM
         speakers:
           - name: Arie Jan Kraai

@@ -1,0 +1,52 @@
+// =========================================================================
+// SCHEDULE
+// =========================================================================
+
+
+
+.schedule-list {
+  @extend %ui-list;
+  font-size: rem-calc(14);
+}
+
+.schedule-list + .schedule-list {
+  margin-top: $base-spacing;
+}
+
+.schedule-list > dt,
+.schedule-list > dd {
+  margin: 0;
+}
+
+.schedule-list__time {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.schedule-speakers-list {
+  @extend %ui-list;
+}
+
+.schedule-speakers-list + .schedule-speakers-list {
+  margin-top: $small-spacing;
+}
+
+.schedule-day + .schedule-day {
+  margin-top: rem-calc(50);
+}
+
+.schedule-day-title {
+  margin: 0 0 1em;
+  font-size: rem-calc(27);
+  font-weight: 400;
+}
+
+.schedule-list__event > p {
+  margin: 0;
+}
+
+.schedule-disclaimer {
+  color: $gray-5;
+  font-size: rem-calc(14);
+  font-style: italic;
+}

@@ -62,20 +62,20 @@
 
 .speaker .role {
   margin-bottom: 1em;
-  color: $gray-7;
-  font-size: rem-calc(14);
-  font-weight: 600;
+  color: $speakers-role-color;
+  font-size: $speakers-role-font-size;
+  font-weight: $speakers-role-font-weight;
 }
 
 .speaker .company {
   margin-bottom: 1em;
-  color: $gray-4;
-  font-size: rem-calc(13);
-  text-transform: uppercase;
+  color: $speakers-company-color;
+  font-size: $speakers-company-font-size;
+  text-transform: $speakers-company-text-transform;
 }
 
 .speaker > .logo {
-  min-height: rem-calc(150);
+  min-height: $speakers-logo-min-height;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
