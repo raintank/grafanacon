@@ -571,10 +571,10 @@ about:
   content: |
     GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 300 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
 
-    To see what GrafanaCon is like, check out the videos from our previous conferences, but to get a true sense, you really should experience it in person.
+    To see what GrafanaCon is like, check out the [videos from our previous conferences](http://grafana.com/grafanacon), but to get a true sense, you really should experience it in person.
   videos:
     - title: Highlights from GrafanaCon NYC 2016
-      url: https://www.youtube.com/watch?v=19MKjkEX4wY
+      id: 19MKjkEX4wY
 
 
 # ------------------------------------------------------------

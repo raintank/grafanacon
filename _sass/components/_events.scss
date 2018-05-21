@@ -1,0 +1,39 @@
+// =========================================================================
+// EVENTS
+// =========================================================================
+
+
+.event-sponsor {
+  margin-top: $base-spacing * 2;
+  text-align: center;
+}
+
+.event-sponsor + .event-sponsor {
+  margin-top: $base-spacing;
+}
+
+.event-sponsor__title {
+  margin: 0;
+  font-size: rem-calc(21);
+}
+
+.event-sponsor__link {
+  color: $tertiary-color;
+  text-decoration: none;
+}
+
+.event-sponsor__address {
+  display: block;
+  margin: .125em 0;
+}
+
+.event-sponsor__logo {
+  margin: $base-spacing 0 0;
+}
+
+.event-sponsor__logo > img {
+  display: block;
+  width: 100%;
+  max-width: rem-calc(150);
+  margin: 0 auto;
+}

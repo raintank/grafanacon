@@ -1,4 +1,22 @@
 {% if conference.about %}
-    <h2>{{ conference.about.title }}</h2>
-    <p>{{ conference.about.description }}</p>
+    <div class="page-section">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+            <h2 class="page-section__title">{{ conference.about.title }}</h2>
+            <div class="page-section__body">
+                {{ conference.about.content | markdownify }}
+            </div>
+            {% if conference.about.videos %}
+                {% for video in conference.about.videos %}
+                    <div class="page-section__video">
+                        <h4 class="text-center mb-small-2">{{ video.title }}</h4>
+                        <div class="video-wrap">
+                            <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
 {% endif %}

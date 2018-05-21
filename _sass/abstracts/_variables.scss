@@ -66,6 +66,8 @@ $yiq-contrasted-threshold:  150 !default;
 $yiq-text-dark:         $gray-9 !default;
 $yiq-text-light:        $white !default;
 
+$base-link-color: $tertiary-color;
+
 
 
 // Page
@@ -86,6 +88,9 @@ $page-section-subtitle-font-weight:   400 !default;
 $page-section-subhead-font-size:      rem-calc(18) !default;
 $page-section-subhead-font-weight:    400 !default;
 $page-section-body-font-size:         rem-calc(18) !default;
+$page-section-event-title-font-size:  rem-calc(21);
+$page-section-event-title-color:      $primary-color;
+
 
 
 // Speakers
@@ -103,3 +108,12 @@ $speakers-company-font-size: rem-calc(13) !default;
 $speakers-company-text-transform: uppercase !default;
 $speakers-logo-min-height: rem-calc(150) !default;
 
+
+// Schedule
+// --------------------------------------------------------------------------
+
+$schedule-font-size: rem-calc(14);
+$schedule-time-font-weight: 600;
+$schedule-time-text-transform: uppercase;
+$schedule-day-title-font-size: rem-calc(27);
+$schedule-day-title-font-weight: 600;

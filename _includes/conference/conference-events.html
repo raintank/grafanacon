@@ -1,15 +1,31 @@
 {% if conference.events %}
-    <h2>{{ conference.events.title }}</h2>
-    <p>{{ conference.events.intro }}</p>
-    {% for event in conference.events.event %}
-        <h3>{{ event.name }}</h3>
-        <p>{{ event.description }}</p>
-    {% endfor %}
-    {% for sponsor in conference.events.sponsors %}
-        <h3><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h3>
-        <p>{{ sponsor.address1 }}</p>
-        <p>{{ sponsor.address2 }}</p>
-        <p>{{ sponsor.address3 }}</p>
-        <p><img src="{{ images }}sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></p>
-    {% endfor %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-11 small-centered medium-9 columns">
+            <h2 class="page-section__title">{{ conference.events.title }}</h2>
+            <div class="page-section__body">
+                <p>{{ conference.events.intro }}</p>
+            </div>
+            {% for event in conference.events.event %}
+                <h3 class="page-section__event-title">{{ event.name }}</h3>
+                <div class="page-section__body">
+                    <p>{{ event.description }}</p>
+                </div>
+            {% endfor %}
+            {% for sponsor in conference.events.sponsors %}
+                <div class="event-sponsor">
+                    <h3 class="event-sponsor__title">
+                        <a class="event-sponsor__link" href="{{ sponsor.url }}">{{ sponsor.name }}</a>
+                    </h3>
+                    <span class="event-sponsor__address">{{ sponsor.address1 }}</span>
+                    <span class="event-sponsor__address">{{ sponsor.address2 }}</span>
+                    <span class="event-sponsor__address">{{ sponsor.address3 }}</span>
+                    <div class="event-sponsor__logo">
+                        <img src="{{ images }}sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 {% endif %}

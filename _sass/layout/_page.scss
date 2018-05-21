@@ -75,9 +75,25 @@
 }
 
 .page-section__body > p {
+  margin: 0 0 1em;
   font-size: $page-section-body-font-size;
 
   @include breakpoint(medium up) {
     font-size: $page-section-title-font-size * 1.125;
   }
+}
+
+.page-section__event-title {
+  margin: 0 0 .125em;
+  color: $page-section-event-title-color;
+  font-size: $page-section-event-title-font-size;
+  font-weight: 400;
+
+  @include breakpoint(medium up) {
+    font-size: $page-section-event-title-font-size * 1.125;
+  }
+}
+
+.page-section__video + .page-section__video {
+  margin-top: $base-spacing;
 }

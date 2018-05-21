@@ -1,13 +1,9 @@
 // =========================================================================
 // BASE
-//
-// Default settings for conference styles. Can be overriden with
-// conference-specific styles.
 // =========================================================================
 
 
-
-// Colors
-// --------------------------------------------------------------------------
-
-
+a {
+  color: $base-link-color;
+  text-decoration: none;
+}

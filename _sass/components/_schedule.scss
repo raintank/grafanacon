@@ -6,7 +6,7 @@
 
 .schedule-list {
   @extend %ui-list;
-  font-size: rem-calc(14);
+  font-size: $schedule-font-size;
 }
 
 .schedule-list + .schedule-list {
@@ -19,8 +19,8 @@
 }
 
 .schedule-list__time {
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: $schedule-time-font-weight;
+  text-transform: $schedule-time-text-transform;
 }
 
 .schedule-speakers-list {
@@ -37,8 +37,8 @@
 
 .schedule-day-title {
   margin: 0 0 1em;
-  font-size: rem-calc(27);
-  font-weight: 400;
+  font-size: $schedule-day-title-font-size;
+  font-weight: $schedule-day-title-font-weight;
 }
 
 .schedule-list__event > p {
