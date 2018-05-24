@@ -1,0 +1,16 @@
+{% if conference.location.coordinates %}
+<div class="page-map" id='locationMap'></div>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoibmlja2NocmlzdHVzIiwiYSI6ImNqaGp5NjM0ZjJxeWwzNnAzeTJjYTE4NmYifQ.ozbTtXOeJSC27_B8VBn5qg';
+    var map = new mapboxgl.Map({
+        container: 'locationMap',
+        style: 'mapbox://styles/mapbox/dark-v9',
+        zoom: 11,
+        center: [{{ conference.location.coordinates }}]
+    });
+    var marker = new mapboxgl.Marker()
+      .setLngLat([{{ conference.location.coordinates }}])
+      .addTo(map);
+    map.scrollZoom.disable();
+</script>
+{% endif %}

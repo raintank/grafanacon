@@ -27,6 +27,11 @@
   margin-top: $base-spacing;
 }
 
+.page-map {
+  width: 100%;
+  height: rem-calc(350);
+}
+
 
 
 // Section
@@ -40,6 +45,10 @@
 .page-section--dark {
   background: $page-section-dark-bg;
   color: $page-section-dark-color;
+}
+
+.page-section--bordered {
+  border-top: $page-section-border;
 }
 
 .page-section__title {

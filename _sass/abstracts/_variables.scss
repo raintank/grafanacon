@@ -77,6 +77,7 @@ $page-head-max-width:                 rem-calc(200) !default;
 $page-section-padding:                $base-spacing * 2 !default;
 $page-section-dark-bg:                $secondary-color !default;
 $page-section-dark-color:             $gray-3 !default;
+$page-section-border:                 1px solid $primary-color;
 $page-section-title-margin:           0 0 1.125em !default;
 $page-section-title-padding:          1em !default;
 $page-section-title-border:           1px solid $secondary-color !default;

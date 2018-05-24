@@ -1,0 +1,12 @@
+{% if conference.location %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-11 small-centered medium-9 columns">
+            <h2 class="page-section__title">{{ conference.location.name }}</h2>
+            <div class="page-section__body">
+                {{ conference.location.description | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
