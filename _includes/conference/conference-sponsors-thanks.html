@@ -1,0 +1,15 @@
+{% if conference.sponsors %}
+<div class="page-section">
+    <div class="row columns">
+        <ul class="sponsors-list">
+            {% for sponsor in conference.sponsors.sponsor %}
+            <li class="sponsors-list__item">
+                <a class="sponsors-list__link" href="{{ sponsor.url }}">
+                    <img class="sponsors-list__img" src="{{ images }}logos/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}

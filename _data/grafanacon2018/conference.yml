@@ -219,7 +219,7 @@ speakers:
       logo: grafana_logo.png
       headshot: torkel_odegaard.jpg
       twitter: https://github.com/torkelo
-      github: http://twitter.com/torkelo
+      github: https://twitter.com/torkelo
       talk: Grafana v5 and the Future
       description: |
         The launch of Grafana v5 is probably the single biggest enhancement of the project's history. New features include a totally revamped layout engine, dashboard folders, and some foundational UX/UI improvements.
@@ -241,8 +241,8 @@ speakers:
       company: Robust Perception
       logo: robust_perception_sponsor_logo.png
       headshot: brian_brazil.jpg
-      twitter: http://twitter.com/robustperceiver
-      github: http://github.com/brian-brazil
+      twitter: https://twitter.com/robustperceiver
+      github: https://github.com/brian-brazil
       talk: Prometheus for Monitoring Metrics
       description: From its humble beginnings in 2012, the Prometheus monitoring system has grown a substantial community with a comprehensive set of integrations. This talk will give an overview of the core ideas behind Prometheus, its feature set and how it has grown to met the challenges of modern cloud-based systems.
     - name: Dimitri Vanoverbeke
@@ -260,7 +260,7 @@ speakers:
       company: Grafana Labs
       logo: grafana_logo.png
       headshot: raj_dutt.jpg
-      twitter: http://twitter.com/nopzor
+      twitter: https://twitter.com/nopzor
       talk: The Biz of Grafana
       description: Building a company around an open source project is not for the faint of heart. Find out what we've been up to since our last GrafanaCon, How the team has grown, our view on the open source software landscape, and what's to come for Grafana Labs.
     - name: Dan Cech
@@ -268,7 +268,7 @@ speakers:
       company: Grafana Labs
       logo: grafana_logo.png
       headshot: dan_cech.jpg
-      github: http://github.com/DanCech
+      github: https://github.com/DanCech
       talk: What's New In Graphite
       description: |
         I started working on Graphite just over a year ago, to help out with some issues blocking the Graphite 1.0 release. Little did I know that a year later, that would have resulted in 262 commits (and counting), and that with the help of the other Graphite maintainers, we would have added a huge amount of new functionality to Graphite.
@@ -571,7 +571,7 @@ about:
   content: |
     GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 300 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
 
-    To see what GrafanaCon is like, check out the [videos from our previous conferences](http://grafana.com/grafanacon), but to get a true sense, you really should experience it in person.
+    To see what GrafanaCon is like, check out the [videos from our previous conferences](https://grafana.com/grafanacon), but to get a true sense, you really should experience it in person.
   videos:
     - title: Highlights from GrafanaCon NYC 2016
       id: 19MKjkEX4wY
@@ -585,7 +585,7 @@ location:
   name: Compagnietheater
   coordinates: '4.899, 52.372'
   description: |
-    GrafanaCon EU will be held at the Compagnietheater, a 16th-century church, recently renovated into a performance and event space. Compagnietheater is located in Amsterdam's city center, which will be convenient for public transportation and post-conference sightseeing, as well as nearby hotel and lodging options. Learn more about the [Compagnietheater](http://compagnietheater.nl/).
+    GrafanaCon EU will be held at the Compagnietheater, a 16th-century church, recently renovated into a performance and event space. Compagnietheater is located in Amsterdam's city center, which will be convenient for public transportation and post-conference sightseeing, as well as nearby hotel and lodging options. Learn more about the [Compagnietheater](https://compagnietheater.nl/).
 
     Let the Church of Monitoring begin!
 
@@ -601,7 +601,7 @@ sponsors:
 
     Download our [Prospectus](/2018/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
 
-    For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com, we'd be happy to work with you.
+    For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
   sponsor:
     - name: Cloud Native Computing Foundation
       url: https://www.cncf.io/
@@ -628,7 +628,7 @@ sponsors:
       url: https://www.packet.net/
       logo: packet_sponsor_logo.png
     - name: Timescale
-      url: http://www.timescale.com/
+      url: https://www.timescale.com/
       logo: timescale_logo.png
     - name: Kausal
       url: https://kausal.co/

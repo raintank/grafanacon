@@ -75,16 +75,12 @@
 }
 
 .speaker > .logo {
+  max-width: rem-calc(300);
   min-height: $speakers-logo-min-height;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
-
-.speaker > .logo > img {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .speaker .social-links {

@@ -106,3 +106,26 @@
 .page-section__video + .page-section__video {
   margin-top: $base-spacing;
 }
+
+
+
+// Footer
+// -------------------------------------------------------------------------
+
+.page-section__footer {
+  font-size: rem-calc(14);
+}
+
+.footer-list-header {
+  margin: 0;
+  color: $primary-color;
+  font-size: 1em;
+}
+
+.footer-list {
+  @extend %ui-list;
+}
+
+.footer-copyright {
+  color: $gray-4;
+}
