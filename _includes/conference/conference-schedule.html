@@ -1,12 +1,13 @@
-<div class="page-section page-section--bordered">
-    <div class="row">
-        <div class="medium-10 medium-centered columns">
-            <div class="schedule">
-                {% if conference.schedule %}
+{% if conference.schedule %}
+    <div class="page-section page-section--bordered">
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <div class="schedule">
+                    <h3 class="page-section__subtitle mb-small-5">Conference Schedule</h3>
                     {% for day in conference.schedule %}
                         <div class="schedule-day">
                             <div class="row">
-                                <h3 class="schedule-day-title medium-3 columns">Schedule {{ day.day }}</h3>
+                                <h3 class="schedule-day-title medium-3 columns">{{ day.day }}</h3>
                                 <div class="schedule-disclaimer medium-4 columns end mt-small-2">Schedule subject to change</div>
                             </div>
                             {% for timeslot in day.timeslots %}
@@ -29,8 +30,8 @@
                             {% endfor %}
                         </div>
                     {% endfor %}
-                {% endif %}
+                </div>
             </div>
         </div>
     </div>
-</div>
+{% endif %}

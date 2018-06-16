@@ -8,6 +8,7 @@
 # 06 LOCATION
 # 07 SPONSORS
 # 08 LODGING
+# 09 VIDEOS
 # ============================================================
 
 
@@ -652,3 +653,157 @@ lodging:
 
     Make sure to reserve your hotel as soon as possible, even if your travel is not yet confirmed, as reservations up to 9 rooms can be cancelled free of charge until 48 hours prior to arrival at most hotels.
   url: https://www.preferredreservations.nl/grafanacon
+
+
+# ------------------------------------------------------------
+# !VIDEOS
+# ------------------------------------------------------------
+
+videos:
+  title: GrafanaCon EU 2018 Videos
+  video:
+    - url: https://www.youtube.com/watch?v=JtjxeZxdKWA
+      title: GrafanaCon EU 2018 Kickoff
+      presentation: Torkel_Odegaard_Welcome_GrafanaCon_EU_2018.pdf
+      thumbnail: video_kickoff.jpg
+    - url: https://www.youtube.com/watch?v=ksjDBjApl6Q
+      title: Grafana at CERN
+      presentation: Borja_GrafanaCon_EU_2018.pdf
+      thumbnail: video_cern.jpg
+    - url: https://www.youtube.com/watch?v=Mno1nYBmlIE
+      title: Grafana v5 &amp; the Future of Grafana
+      presentation: Torkel_Odegaard_GrafanaCon_EU_2018.pdf
+      thumbnail: video_future.jpeg
+    - url: https://www.youtube.com/watch?v=C3-xrHOgS7E
+      title: The Business of Grafana Labs
+      presentation: Raj_Dutt_GrafanaCon_EU_2018.pdf
+      thumbnail: video_business.jpeg
+    - url: https://www.youtube.com/watch?v=jy4ZWyxkdw0
+      title: Introduction to GrafanaCloud
+      presentation: Anthony_Woods_GrafanaCon_EU_2018.pdf
+      thumbnail: video_grafanacloud.jpeg
+    - url: https://www.youtube.com/watch?v=v6AoyEovSa4
+      title: Evolution of Telemetry at Bloomberg
+      presentation: Bloomberg_GrafanaCon_EU_2018.pdf
+      thumbnail: video_bloomberg.jpg
+    - url: https://www.youtube.com/watch?v=hJpvYSzEsZ0
+      title: IronDB
+      presentation: IRONdb_GrafanaCon_EU_2018.pdf
+      thumbnail: video_irondb.jpeg
+    - url: https://www.youtube.com/watch?v=Zh-Ys2qq0Fk
+      title: NS1 – Intelligent DNS and Traffic Management
+      presentation: NS1_GrafanaCon_EU_2018.pdf
+      thumbnail: video_ns1.jpeg
+    - url: https://www.youtube.com/watch?v=zk77VS98Em8
+      title: The RED Method - How To Instrument Your Services
+      presentation: Tom_Wilkie_GrafanaCon_EU_2018.pdf
+      thumbnail: video_red.jpeg
+    - url: https://www.youtube.com/watch?v=mzHKcfYH5tE
+      title: Grafana Usage in the Quality Assurance Process
+      presentation: Andrejs_Kalnacs_GrafanaCon_EU_2018.pdf
+      thumbnail: video_quality.jpeg
+    - url: https://www.youtube.com/watch?v=xdJm7e9VS6Y
+      title: Inherited Technical Debt - A Tale of Overcoming Enterprise Inertia
+      presentation: https://prezi.com/view/F4e9eIYdCAB4zS8RR1HE/207208
+      thumbnail: video_techdebt.jpeg
+    - url: https://www.youtube.com/watch?v=wtna51BLYMc
+      title: Using Prometheus and Grafana for Monitoring my Power Usage
+      presentation: Erwin_de_Keijzer.pdf
+      thumbnail: video_prometheus.jpeg
+    - url: https://www.youtube.com/watch?v=I3o3tnj5j6s
+      title: Running a Power Plant with Grafana
+      presentation: Ryan_McKinley_GrafanaCon_EU_2018.pdf
+      thumbnail: video_powerplant.jpeg
+    - url: https://www.youtube.com/watch?v=RzO2tmrPRfo
+      title: Graphite at Scale or How to Store Millions of Metrics per Second
+      presentation: Vladimir_Smirnov_GrafanaCon_EU_2018.pdf
+      thumbnail: video_scale.jpeg
+    - url: https://www.youtube.com/watch?v=bIikZxsUJgs
+      title: Bringing Observability to the Built Environment at City Scale
+      presentation: Andrew_Rodgers_Bringing Observability to the Built Environment at City Scale_opt.pdf
+      thumbnail: video_observability.jpg
+    - url: https://www.youtube.com/watch?v=jqbnZewN9fE
+      title: Monitoring eBay's AI Platform
+      presentation: Deepak_GrafanaCon_EU_2018.pdf
+      thumbnail: video_ebay.jpeg
+    - url: https://www.youtube.com/watch?v=9nfCH7qe3EQ
+      title: Welcome &amp; An Intro to Provisioning
+      presentation: Carl_Bergquist_GrafanaCon_EU_2018.pdf
+      thumbnail: video_provisioning.jpeg
+    - url: https://www.youtube.com/watch?v=srAZYwkRDnw
+      title: What's New Timescale
+      presentation: TimeScale_GrafanaCon_EU_2018.pdf
+      thumbnail: video_timescale.jpeg
+    - url: https://www.youtube.com/watch?v=H_qe9CvWOcM
+      title: What's New in Graphite
+      presentation: Dan_Cech_GrafanaCon_EU_2018.pdf
+      thumbnail: video_graphite.jpeg
+    - url: https://www.youtube.com/watch?v=-z6X1V8VhbU
+      title: What's New in InfluxDB
+      thumbnail: video_influxdb.jpeg
+    - url: https://www.youtube.com/watch?v=UG3p8VKhJPk
+      title: What's New in Prometheus
+      presentation: Tom_Wilkie_Prometheus 2.0.pdf
+      thumbnail: video_prometheusnew.jpeg
+    - url: https://www.youtube.com/watch?v=usaIsA1a93g
+      title: TSDB Panel Discussion
+      thumbnail: video_tsdb.jpeg
+    - url: https://www.youtube.com/watch?v=nYCE24DV8xA
+      title: What we Learned Integrating Grafana with Prometheus
+      presentation: Dimitri_Vanoverbeke_GrafanaCon_EU_2018.pdf
+      thumbnail: video_grafanaprometheus.jpg
+    - url: https://www.youtube.com/watch?v=asHISf26zTg
+      title: The Design of IFQL, the New Influx Functional Query Language
+      presentation: Paul_Dix_GrafanaCon_EU_2018.pdf307308
+      thumbnail: video_ifql.jpeg
+    - url: https://www.youtube.com/watch?v=eX4XfyGw0D8
+      title: Weather, Power &amp; Market Forecasts with Grafana
+      presentation: Max_Steffen_GrafanaCon_EU_2018.pdf
+      thumbnail: video_weather.jpeg
+    - url: https://www.youtube.com/watch?v=OQ9dXf6lBjU
+      title: Using PostgreSQL, Prometheus and Grafana for Storing, Analyzing &amp; Visualizing Metrics
+      presentation: Erik_Nordtrom_GrafanaCon_EU_2018.pdf
+      thumbnail: video_postgres.jpeg
+    - url: https://www.youtube.com/watch?v=DRR6UZNFGfA
+      title: The Grafana Labs Poster Series
+      thumbnail: video_poster.jpeg
+    - url: https://www.youtube.com/watch?v=4MJMuYsE4Z0
+      title: VictorOps
+      presentation: VictorOps_GrafanaCon_EU_2018.pdf
+      thumbnail: video_victorops.jpeg
+    - url: https://www.youtube.com/watch?v=OOyEGG98B7w
+      title: Grafanalib - Dashboards as Code
+      presentation: Jonathan_GrafanaCon_EU.pdf
+      thumbnail: video_dashboardscode.jpeg
+    - url: https://www.youtube.com/watch?v=a3AeuyZ6DTI
+      title: When Performance Metrics and User Experience Come Together
+      presentation: Susanne_GrafanaCon_EU_2018.pdf
+      thumbnail: video_performance.jpg
+    - url: https://www.youtube.com/watch?v=zmsZq9Pfp1g
+      title: Automating Grafana Dashboards with Jsonnet
+      presentation: Julien_Pivotto_GrafanaCon_EU_2018.pdf
+      thumbnail: video_automating.jpeg
+    - url: https://www.youtube.com/watch?v=Awg7Coicxgo
+      title: The Journey of Shifting the MQTT Broker HiveMQ to Kubernetes
+      presentation: Arnold_Bechtoldt_GrafanaCon_EU_2018.pdf
+      thumbnail: video_kubernetes.jpeg
+    - url: https://www.youtube.com/watch?v=2Dvaje1e1ug
+      title: What Does Kubernetes Look Like? Performance Monitoring &amp; Visualization with Grafana
+      presentation: Jacob_Lisi_GrafanaCon_EU_2018.pdf
+      thumbnail: video_kubernetesperf.jpeg
+    - url: https://www.youtube.com/watch?v=ZDvznax0Fbg
+      title: Storage Monitoring at Shell Upstream
+      presentation: Arie_Kraai_GrafanaCon_EU_2018.pdf
+      thumbnail: video_shell.jpeg
+    - url: https://www.youtube.com/watch?v=Bm1OhudlBQw
+      title: Analyzing Performance of OpenStack with Grafana Dashboards
+      presentation: Alex_Krzos_GrafanaCon_EU_2018.pdf
+      thumbnail: video_openstack.jpeg
+    - url: https://www.youtube.com/watch?v=FFWUBQSCiCE
+      title: Graphs Tell Stories
+      presentation: Blerim_Sheqa_GrafanaCon_EU_2018.pdf
+      thumbnail: video_graphs.jpeg
+    - url: https://www.youtube.com/watch?v=U7fLkR9V8zY
+      title: Thanks &amp; Closing Remarks
+      presentation: Torkel_Odegaard_Closing_GrafanaCon_2018.pdf
+      thumbnail: video_closing.jpg

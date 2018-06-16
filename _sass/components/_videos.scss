@@ -1,0 +1,70 @@
+// =========================================================================
+// VIDEOS
+// =========================================================================
+
+
+
+.videos-list {
+  @extend %ui-list;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.videos-list__item {
+  width: 100%;
+  max-width: rem-calc(320);
+  margin: 0 ($base-spacing * .5) $base-spacing;
+  text-align: center;
+}
+
+.videos-list__link {
+  display: block;
+  position: relative;
+}
+
+.videos-list__img,
+.videos-list__title {
+  display: block;
+}
+
+.videos-list__title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: rem-calc(10);
+  background: $video-title-bg-color;
+  font-size: $video-title-font-size;
+  font-weight: $video-title-font-weight;
+}
+
+.videos-list__icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -#{rem-calc(20)} 0 0 -#{rem-calc(20)};
+  transition: all 200ms ease-in-out;
+  opacity: .85;
+}
+
+.videos-list__link:hover .videos-list__icon {
+  transform: scale(1.125);
+  transform-origin: center;
+  opacity: 1;
+}
+
+.videos-list__slides {
+  display: block;
+  margin-top: rem-calc(8);
+  color: $video-slide-link-color;
+  font-size: $video-slide-link-font-size;
+  font-weight: $video-slide-link-font-weight;
+}
+
+.videos-list__slides-icon {
+  display: inline-block;
+  stroke: currentColor;
+  vertical-align: sub;
+}

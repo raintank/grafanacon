@@ -48,7 +48,7 @@ $gray-8:      shade($white, 80) !default;
 $gray-9:      shade($white, 90) !default;
 $black:       #000 !default;
 
-$primary-color:     #eb237c;
+$primary-color:     #eb237c !default;
 $secondary-color:   #160328;
 $tertiary-color:    #4999ef;
 
@@ -113,8 +113,19 @@ $speakers-logo-min-height: rem-calc(150) !default;
 // Schedule
 // --------------------------------------------------------------------------
 
-$schedule-font-size: rem-calc(14);
-$schedule-time-font-weight: 600;
-$schedule-time-text-transform: uppercase;
-$schedule-day-title-font-size: rem-calc(27);
-$schedule-day-title-font-weight: 600;
+$schedule-font-size: rem-calc(14) !default;
+$schedule-time-font-weight: 600 !default;
+$schedule-time-text-transform: uppercase !default;
+$schedule-day-title-font-size: rem-calc(27) !default;
+$schedule-day-title-font-weight: 600 !default;
+
+
+// Videos
+// --------------------------------------------------------------------------
+$video-title-bg-color: rgba($black, .8) !default;
+$video-title-font-size: rem-calc(13) !default;
+$video-title-font-weight: 700 !default;
+$video-slide-link-color: $gray-6 !default;
+$video-slide-link-font-size: rem-calc(13) !default;
+$video-slide-link-font-weight: 700 !default;
+

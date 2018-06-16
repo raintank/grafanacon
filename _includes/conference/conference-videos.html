@@ -1,0 +1,28 @@
+{% if conference.videos %}
+<div class="page-section">
+    <div class="row columns">
+        <h3 class="page-section__subtitle mb-small-4">{{ conference.videos.title }}</h3>
+        <ul class="videos-list">
+            {% for video in conference.videos.video %}
+                <li class="videos-list__item">
+                    <a class="videos-list__link" href="{{ video.url }}">
+                        <svg class="videos-list__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                            <use xlink:href="#icon-play"></use>
+                        </svg>
+                        <img class="videos-list__img" src="{{ images }}videos/{{ video.thumbnail }}" alt="{{ video.title }}">
+                        <span class="videos-list__title">{{ video.title }}</span>
+                    </a>
+                    {% if video.presentation %}
+                        <a class="videos-list__slides" href="{{ presentations }}{{ video.presentation }}">
+                            <svg class="videos-list__slides-icon" xmlns="http://www.w3.org/2000/svg" width="12.522" height="16.696" viewBox="0 0 12.522 16.696">
+                                <use xlink:href="#icon-slide"></use>
+                            </svg>
+                            Download Slides
+                        </a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}

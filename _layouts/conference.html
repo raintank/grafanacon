@@ -4,6 +4,7 @@ layout: default
 
 {% assign conference = site.data[page.identifier].conference %}
 {% capture images %}{{ site.baseurl }}/{{ conference.info.year }}/images/{% endcapture %}
+{% capture presentations %}{{ site.baseurl }}/{{ conference.info.year }}/presentations/{% endcapture %}
 
 {% include conference/conference-head.html %}
 
@@ -11,6 +12,8 @@ layout: default
     {% include svg.html %}
 
     {% include conference/conference-info.html %}
+
+    {% include conference/conference-videos.html %}
 
     {% include conference/conference-speakers.html %}
 
@@ -29,5 +32,6 @@ layout: default
     {% include conference/conference-sponsors-opportunities.html %}
 
     {% include footer.html %}
+
     {% include conference/web-fonts.html %}
 </body>
