@@ -9,6 +9,7 @@
 # 07 SPONSORS
 # 08 LODGING
 # 09 VIDEOS
+# 10 GALLERY
 # ============================================================
 
 
@@ -807,3 +808,24 @@ videos:
       title: Thanks &amp; Closing Remarks
       presentation: Torkel_Odegaard_Closing_GrafanaCon_2018.pdf
       thumbnail: video_closing.jpg
+
+
+# ------------------------------------------------------------
+# !GALLERY
+# ------------------------------------------------------------
+
+gallery:
+  title: Gallery
+  images:
+    - caption: one
+      original: 1.jpg
+      thumbnail: thumb-1.jpg
+    - caption: two
+      original: 2.jpg
+      thumbnail: thumb-2.jpg
+    - caption: four
+      original: 4.jpg
+      thumbnail: thumb-4.jpg
+    - caption: thirteen
+      original: 13.jpg
+      thumbnail: thumb-13.jpg

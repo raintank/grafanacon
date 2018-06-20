@@ -23,6 +23,10 @@
 
     {% include head.html %}
 
+    {% if conference.gallery %}
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/vendor/lightgallery/css/lightgallery.min.css">
+    {% endif %}
+
     {% if conference.css %}
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/{{ conference.css }}">
     {% endif %}

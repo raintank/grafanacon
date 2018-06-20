@@ -1,0 +1,27 @@
+// ==========================================================================
+// GALLERY
+// ==========================================================================
+
+
+
+.gallery-list {
+  @extend %ui-list;
+}
+
+.gallery-list__item {
+  width: 100%;
+
+  @include breakpoint(medium up) {
+    width: 50%;
+  }
+
+  @include breakpoint(large up) {
+    width: 25%;
+  }
+}
+
+.gallery-list__img {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}

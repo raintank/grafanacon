@@ -1,0 +1,14 @@
+{% if conference.gallery %}
+  <div class="page-section page-section--bordered">
+    <div class="row columns">
+      <h3 class="page-section__subtitle mb-small-4">{{ conference.gallery.title }}</h3>
+      <ul id="lightgallery" class="gallery-list">
+        {% for image in conference.gallery.images %}
+          <li class="gallery-list__item{% if forloop.first %} grid-sizer{% endif %}" data-src="{{ images }}gallery/{{ image.original }}">
+            <img class="gallery-list__img" src="{{ images }}gallery/{{ image.thumbnail }}" />
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endif %}
