@@ -7,6 +7,8 @@
 .schedule-list {
   @extend %ui-list;
   font-size: $schedule-font-size;
+  padding-bottom: rem-calc(5);
+  border-bottom: 1px solid $gray-1;
 }
 
 .schedule-list + .schedule-list {
@@ -32,7 +34,7 @@
 }
 
 .schedule-day + .schedule-day {
-  margin-top: rem-calc(50);
+  margin-top: rem-calc(150);
 }
 
 .schedule-day-title {
