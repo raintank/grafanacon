@@ -816,16 +816,311 @@ videos:
 
 gallery:
   title: Gallery
+  subhead: As you can see, we have a great time!
   images:
-    - caption: one
-      original: 1.jpg
-      thumbnail: thumb-1.jpg
-    - caption: two
-      original: 2.jpg
-      thumbnail: thumb-2.jpg
-    - caption: four
-      original: 4.jpg
-      thumbnail: thumb-4.jpg
-    - caption: thirteen
-      original: 13.jpg
-      thumbnail: thumb-13.jpg
+    - caption: GrafanaCon EU 2018
+      original: 001.jpg
+      thumbnail: thumb-001.jpg
+    - caption: GrafanaCon EU 2018
+      original: 003.jpg
+      thumbnail: thumb-003.jpg
+    - caption: GrafanaCon EU 2018
+      original: 005.jpg
+      thumbnail: thumb-005.jpg
+    - caption: GrafanaCon EU 2018
+      original: 006.jpg
+      thumbnail: thumb-006.jpg
+    - caption: GrafanaCon EU 2018
+      original: 008.jpg
+      thumbnail: thumb-008.jpg
+    - caption: GrafanaCon EU 2018
+      original: 009.jpg
+      thumbnail: thumb-009.jpg
+    - caption: GrafanaCon EU 2018
+      original: 010.jpg
+      thumbnail: thumb-010.jpg
+    - caption: GrafanaCon EU 2018
+      original: 012.jpg
+      thumbnail: thumb-012.jpg
+    - caption: GrafanaCon EU 2018
+      original: 014.jpg
+      thumbnail: thumb-014.jpg
+    - caption: GrafanaCon EU 2018
+      original: 015.jpg
+      thumbnail: thumb-015.jpg
+    - caption: GrafanaCon EU 2018
+      original: 016.jpg
+      thumbnail: thumb-016.jpg
+    - caption: GrafanaCon EU 2018
+      original: 017.jpg
+      thumbnail: thumb-017.jpg
+    - caption: GrafanaCon EU 2018
+      original: 018.jpg
+      thumbnail: thumb-018.jpg
+    - caption: GrafanaCon EU 2018
+      original: 020.jpg
+      thumbnail: thumb-020.jpg
+    - caption: GrafanaCon EU 2018
+      original: 023.jpg
+      thumbnail: thumb-023.jpg
+    - caption: GrafanaCon EU 2018
+      original: 024.jpg
+      thumbnail: thumb-024.jpg
+    - caption: GrafanaCon EU 2018
+      original: 025.jpg
+      thumbnail: thumb-025.jpg
+    - caption: GrafanaCon EU 2018
+      original: 026.jpg
+      thumbnail: thumb-026.jpg
+    - caption: GrafanaCon EU 2018
+      original: 027.jpg
+      thumbnail: thumb-027.jpg
+    - caption: GrafanaCon EU 2018
+      original: 029.jpg
+      thumbnail: thumb-029.jpg
+    - caption: GrafanaCon EU 2018
+      original: 032.jpg
+      thumbnail: thumb-032.jpg
+    - caption: GrafanaCon EU 2018
+      original: 035.jpg
+      thumbnail: thumb-035.jpg
+    - caption: GrafanaCon EU 2018
+      original: 037.jpg
+      thumbnail: thumb-037.jpg
+    - caption: GrafanaCon EU 2018
+      original: 038.jpg
+      thumbnail: thumb-038.jpg
+    - caption: GrafanaCon EU 2018
+      original: 041.jpg
+      thumbnail: thumb-041.jpg
+    - caption: GrafanaCon EU 2018
+      original: 044.jpg
+      thumbnail: thumb-044.jpg
+    - caption: GrafanaCon EU 2018
+      original: 045.jpg
+      thumbnail: thumb-045.jpg
+    - caption: GrafanaCon EU 2018
+      original: 047.jpg
+      thumbnail: thumb-047.jpg
+    - caption: GrafanaCon EU 2018
+      original: 049.jpg
+      thumbnail: thumb-049.jpg
+    - caption: GrafanaCon EU 2018
+      original: 052.jpg
+      thumbnail: thumb-052.jpg
+    - caption: GrafanaCon EU 2018
+      original: 054.jpg
+      thumbnail: thumb-054.jpg
+    - caption: GrafanaCon EU 2018
+      original: 061.jpg
+      thumbnail: thumb-061.jpg
+    - caption: GrafanaCon EU 2018
+      original: 062.jpg
+      thumbnail: thumb-062.jpg
+    - caption: GrafanaCon EU 2018
+      original: 065.jpg
+      thumbnail: thumb-065.jpg
+    - caption: GrafanaCon EU 2018
+      original: 066.jpg
+      thumbnail: thumb-066.jpg
+    - caption: GrafanaCon EU 2018
+      original: 067.jpg
+      thumbnail: thumb-067.jpg
+    - caption: GrafanaCon EU 2018
+      original: 068.jpg
+      thumbnail: thumb-068.jpg
+    - caption: GrafanaCon EU 2018
+      original: 069.jpg
+      thumbnail: thumb-069.jpg
+    - caption: GrafanaCon EU 2018
+      original: 070.jpg
+      thumbnail: thumb-070.jpg
+    - caption: GrafanaCon EU 2018
+      original: 071.jpg
+      thumbnail: thumb-071.jpg
+    - caption: GrafanaCon EU 2018
+      original: 072.jpg
+      thumbnail: thumb-072.jpg
+    - caption: GrafanaCon EU 2018
+      original: 073.jpg
+      thumbnail: thumb-073.jpg
+    - caption: GrafanaCon EU 2018
+      original: 076.jpg
+      thumbnail: thumb-076.jpg
+    - caption: GrafanaCon EU 2018
+      original: 077.jpg
+      thumbnail: thumb-077.jpg
+    - caption: GrafanaCon EU 2018
+      original: 078.jpg
+      thumbnail: thumb-078.jpg
+    - caption: GrafanaCon EU 2018
+      original: 079.jpg
+      thumbnail: thumb-079.jpg
+    - caption: GrafanaCon EU 2018
+      original: 082.jpg
+      thumbnail: thumb-082.jpg
+    - caption: GrafanaCon EU 2018
+      original: 083.jpg
+      thumbnail: thumb-083.jpg
+    - caption: GrafanaCon EU 2018
+      original: 087.jpg
+      thumbnail: thumb-087.jpg
+    - caption: GrafanaCon EU 2018
+      original: 089.jpg
+      thumbnail: thumb-089.jpg
+    - caption: GrafanaCon EU 2018
+      original: 092.jpg
+      thumbnail: thumb-092.jpg
+    - caption: GrafanaCon EU 2018
+      original: 094.jpg
+      thumbnail: thumb-094.jpg
+    - caption: GrafanaCon EU 2018
+      original: 095.jpg
+      thumbnail: thumb-095.jpg
+    - caption: GrafanaCon EU 2018
+      original: 096.jpg
+      thumbnail: thumb-096.jpg
+    - caption: GrafanaCon EU 2018
+      original: 098.jpg
+      thumbnail: thumb-098.jpg
+    - caption: GrafanaCon EU 2018
+      original: 101.jpg
+      thumbnail: thumb-101.jpg
+    - caption: GrafanaCon EU 2018
+      original: 103.jpg
+      thumbnail: thumb-103.jpg
+    - caption: GrafanaCon EU 2018
+      original: 105.jpg
+      thumbnail: thumb-105.jpg
+    - caption: GrafanaCon EU 2018
+      original: 106.jpg
+      thumbnail: thumb-106.jpg
+    - caption: GrafanaCon EU 2018
+      original: 108.jpg
+      thumbnail: thumb-108.jpg
+    - caption: GrafanaCon EU 2018
+      original: 110.jpg
+      thumbnail: thumb-110.jpg
+    - caption: GrafanaCon EU 2018
+      original: 113.jpg
+      thumbnail: thumb-113.jpg
+    - caption: GrafanaCon EU 2018
+      original: 114.jpg
+      thumbnail: thumb-114.jpg
+    - caption: GrafanaCon EU 2018
+      original: 118.jpg
+      thumbnail: thumb-118.jpg
+    - caption: GrafanaCon EU 2018
+      original: 120.jpg
+      thumbnail: thumb-120.jpg
+    - caption: GrafanaCon EU 2018
+      original: 122.jpg
+      thumbnail: thumb-122.jpg
+    - caption: GrafanaCon EU 2018
+      original: 123.jpg
+      thumbnail: thumb-123.jpg
+    - caption: GrafanaCon EU 2018
+      original: 124.jpg
+      thumbnail: thumb-124.jpg
+    - caption: GrafanaCon EU 2018
+      original: 126.jpg
+      thumbnail: thumb-126.jpg
+    - caption: GrafanaCon EU 2018
+      original: 128.jpg
+      thumbnail: thumb-128.jpg
+    - caption: GrafanaCon EU 2018
+      original: 129.jpg
+      thumbnail: thumb-129.jpg
+    - caption: GrafanaCon EU 2018
+      original: 130.jpg
+      thumbnail: thumb-130.jpg
+    - caption: GrafanaCon EU 2018
+      original: 131.jpg
+      thumbnail: thumb-131.jpg
+    - caption: GrafanaCon EU 2018
+      original: 132.jpg
+      thumbnail: thumb-132.jpg
+    - caption: GrafanaCon EU 2018
+      original: 134.jpg
+      thumbnail: thumb-134.jpg
+    - caption: GrafanaCon EU 2018
+      original: 137.jpg
+      thumbnail: thumb-137.jpg
+    - caption: GrafanaCon EU 2018
+      original: 138.jpg
+      thumbnail: thumb-138.jpg
+    - caption: GrafanaCon EU 2018
+      original: 139.jpg
+      thumbnail: thumb-139.jpg
+    - caption: GrafanaCon EU 2018
+      original: 140.jpg
+      thumbnail: thumb-140.jpg
+    - caption: GrafanaCon EU 2018
+      original: 141.jpg
+      thumbnail: thumb-141.jpg
+    - caption: GrafanaCon EU 2018
+      original: 145.jpg
+      thumbnail: thumb-145.jpg
+    - caption: GrafanaCon EU 2018
+      original: 147.jpg
+      thumbnail: thumb-147.jpg
+    - caption: GrafanaCon EU 2018
+      original: 150.jpg
+      thumbnail: thumb-150.jpg
+    - caption: GrafanaCon EU 2018
+      original: 151.jpg
+      thumbnail: thumb-151.jpg
+    - caption: GrafanaCon EU 2018
+      original: 153.jpg
+      thumbnail: thumb-153.jpg
+    - caption: GrafanaCon EU 2018
+      original: 158.jpg
+      thumbnail: thumb-158.jpg
+    - caption: GrafanaCon EU 2018
+      original: 163.jpg
+      thumbnail: thumb-163.jpg
+    - caption: GrafanaCon EU 2018
+      original: 167.jpg
+      thumbnail: thumb-167.jpg
+    - caption: GrafanaCon EU 2018
+      original: 170.jpg
+      thumbnail: thumb-170.jpg
+    - caption: GrafanaCon EU 2018
+      original: 172.jpg
+      thumbnail: thumb-172.jpg
+    - caption: GrafanaCon EU 2018
+      original: 174.jpg
+      thumbnail: thumb-174.jpg
+    - caption: GrafanaCon EU 2018
+      original: 176.jpg
+      thumbnail: thumb-176.jpg
+    - caption: GrafanaCon EU 2018
+      original: 179.jpg
+      thumbnail: thumb-179.jpg
+    - caption: GrafanaCon EU 2018
+      original: 181.jpg
+      thumbnail: thumb-181.jpg
+    - caption: GrafanaCon EU 2018
+      original: 184.jpg
+      thumbnail: thumb-184.jpg
+    - caption: GrafanaCon EU 2018
+      original: 188.jpg
+      thumbnail: thumb-188.jpg
+    - caption: GrafanaCon EU 2018
+      original: 190.jpg
+      thumbnail: thumb-190.jpg
+    - caption: GrafanaCon EU 2018
+      original: 195.jpg
+      thumbnail: thumb-195.jpg
+    - caption: GrafanaCon EU 2018
+      original: 198.jpg
+      thumbnail: thumb-198.jpg
+    - caption: GrafanaCon EU 2018
+      original: 200.jpg
+      thumbnail: thumb-200.jpg
+    - caption: GrafanaCon EU 2018
+      original: 202.jpg
+      thumbnail: thumb-202.jpg
+    - caption: GrafanaCon EU 2018
+      original: 207.jpg
+      thumbnail: thumb-207.jpg
