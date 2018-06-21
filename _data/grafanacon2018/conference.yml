@@ -318,7 +318,7 @@ speakers:
       twitter: https://twitter.com/Dieter_be
       github: https://github.com/Dieterbe
       talk: MetrickTank
-      description: Abstract coming soon.
+      description: Just what the world needs – another metrics backend. Dieter will talk about the motivations for building MetricTank, its features, some of the benchmarking, and what we envision for v-next.
     - name: Carl Bergquist
       role: Principal Engineer
       company: Grafana
@@ -540,7 +540,7 @@ speakers:
       twitter: https://twitter.com/ankoduizer
       github: https://github.com/ankodu
       talk: Cosmos DB
-      description: Abstract coming soon.
+      description: Abstract not available.
 
 
 # ------------------------------------------------------------

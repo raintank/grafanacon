@@ -34,7 +34,7 @@
                     <div class="logo" style="background-image: url('{{ images }}logos/{{ speaker.logo }}');">
                         <div class="company text-center">{{ speaker.company }}</div>
                     </div>
-                    <div class="talk text-center">“{{ speaker.talk }}”</div>
+                    <div class="talk">“{{ speaker.talk }}”</div>
                     <div class="bio">{{ speaker.description | markdownify }}</div>
                 </li>
                 {% endfor %}
