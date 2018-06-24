@@ -21,12 +21,17 @@
     var $gallery = $('#lightgallery');
 
     $($gallery).lightGallery();
-    $($gallery).masonry({
+
+    var $grid = $($gallery).masonry({
       itemSelector: '.gallery-list__item',
       columnWidth: '.grid-sizer',
       gutter: 0,
       percentPosition: true,
       transitionDuration: '100ms'
+    });
+
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
     });
   </script>
 {% endif %}
