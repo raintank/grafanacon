@@ -4,15 +4,19 @@
 
 
 
+.schedule-wrap + .schedule-wrap {
+  margin-top: $base-spacing * 2;
+}
+
 .schedule-list {
   @extend %ui-list;
-  font-size: $schedule-font-size;
-  padding-bottom: rem-calc(5);
+  padding-bottom: $small-spacing;
   border-bottom: 1px solid $gray-1;
+  font-size: $schedule-font-size;
 }
 
 .schedule-list + .schedule-list {
-  margin-top: $base-spacing;
+  padding: $small-spacing 0;
 }
 
 .schedule-list > dt,
@@ -31,10 +35,6 @@
 
 .schedule-speakers-list + .schedule-speakers-list {
   margin-top: $small-spacing;
-}
-
-.schedule-day + .schedule-day {
-  margin-top: rem-calc(150);
 }
 
 .schedule-day-title {
