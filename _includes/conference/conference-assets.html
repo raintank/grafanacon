@@ -14,6 +14,7 @@
 {% if conference.gallery %}
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="{{ site.baseurl }}/assets/vendor/lightgallery/js/lightgallery.min.js"></script>
 
@@ -22,7 +23,7 @@
 
     $($gallery).lightGallery();
 
-    var $grid = $($gallery).masonry({
+    var $grid = $gallery.masonry({
       itemSelector: '.gallery-list__item',
       columnWidth: '.grid-sizer',
       gutter: 0,
@@ -34,4 +35,5 @@
       $grid.masonry('layout');
     });
   </script>
+
 {% endif %}
