@@ -32,6 +32,17 @@
   height: rem-calc(350);
 }
 
+// Nav 
+// -------------------------------------------------------------------------
+.page-nav__img {
+  display: block;
+  margin: 0 auto;
+  max-width: rem-calc(75);
+
+  @include breakpoint(small only) {
+    max-width: $page-head-max-width;
+  }
+}
 
 
 // Section

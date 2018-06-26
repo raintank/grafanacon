@@ -1,0 +1,16 @@
+// ==========================================================================
+// NAVIGATION
+// ==========================================================================
+
+.nav-list {
+  @extend %ui-list;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.nav-list__item {
+  max-width: rem-calc(320);
+  margin: 0 ($base-spacing * .5) $base-spacing;
+  text-align: right;
+}
