@@ -1,0 +1,52 @@
+// ==========================================================================
+// PAGE
+// ==========================================================================
+
+
+
+.header {
+  z-index: 100 !important;
+  padding: $base-spacing 0;
+  background: $white;
+  will-change: position;
+}
+
+.header.sticky-header {
+  position: sticky;
+}
+
+.header > .row {
+  position: relative;
+}
+
+.site-nav__logo {
+  display: block;
+  max-width: rem-calc(75);
+  margin: 0 auto;
+
+  @include breakpoint(small only) {
+    max-width: $page-head-max-width;
+  }
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__list {
+  @extend %ui-list;
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.site-nav__list-item {
+  max-width: rem-calc(320);
+  text-align: right;
+}
+
+.site-nav__list-item + .site-nav__list-item {
+  margin-left: $small-spacing;
+}

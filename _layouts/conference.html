@@ -3,41 +3,19 @@ layout: default
 ---
 
 {% assign conference = site.data[page.identifier].conference %}
-{% capture images %}{{ site.baseurl }}/{{ conference.info.year }}/images/{% endcapture %}
+{% capture images %}{{ site.baseurl }}/{{ conference.name }}/images/{% endcapture %}
 {% capture presentations %}{{ site.baseurl }}/{{ conference.info.year }}/presentations/{% endcapture %}
 
 {% include conference/conference-head.html %}
 
 <body>
-    {% include nav.html %}
-
     {% include svg.html %}
 
-    {% include conference/conference-info.html %}
+    {% include conference/conference-nav.html %}
 
-    {% include conference/conference-videos.html %}
-
-    {% include conference/conference-gallery.html %}
-
-    {% include conference/conference-speakers.html %}
-
-    {% include conference/conference-schedule.html %}
-
-    {% include conference/conference-events.html %}
-
-    {% include conference/conference-about.html %}
-
-    {% include conference/conference-location.html %}
-
-    {% include conference/conference-sponsors-thanks.html %}
-
-    {% include conference/conference-lodging.html %}
-
-    {% include conference/conference-sponsors-opportunities.html %}
+    {{ content }}
 
     {% include footer.html %}
 
     {% include conference/conference-assets.html %}
-
-
 </body>

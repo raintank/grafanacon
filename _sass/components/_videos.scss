@@ -30,6 +30,7 @@
 
 .videos-list__title {
   position: absolute;
+  z-index: 50;
   right: 0;
   bottom: 0;
   left: 0;
@@ -42,6 +43,7 @@
 .videos-list__icon {
   display: block;
   position: absolute;
+  z-index: 75;
   top: 50%;
   left: 50%;
   margin: -#{rem-calc(20)} 0 0 -#{rem-calc(20)};

@@ -1,0 +1,23 @@
+<div id="header" class="header">
+    <div class="row columns">
+        <nav class="site-nav">
+            {% if conference.logo %}
+                <a href="{{ site.baseurl }}/{{ conference.name }}" class="site-nav__home-link">
+                    <img class="site-nav__logo" src="{{ images }}{{ conference.logo }}" alt="{{ conference.info.title }}">
+                </a>
+            {% endif %}
+            <ul class="site-nav__list">
+                {% for item in conference.navigation %}
+                    <li class="site-nav__list-item">
+                        <a class="site-nav__link" href="{{ site.baseurl }}/{{ conference.name }}{{ item.url }}">{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+                {% if conference.info.ticket-url %}
+                    <li class="site-nav__list-item">
+                        <a class="site-nav__link" href="{{ conference.info.ticket-url }}">Tickets</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</div>

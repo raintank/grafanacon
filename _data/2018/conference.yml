@@ -17,9 +17,25 @@
 # !THEME
 # ------------------------------------------------------------
 
+name: 2018 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
 logo: logo.png
 css: 2018.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
+
+
+# ------------------------------------------------------------
+# !NAVIGATTION
+# ------------------------------------------------------------
+
+navigation:
+  - name: Home
+    url: /
+  - name: Watch
+    url: /videos
+  - name: Speakers
+    url: /speakers
+  - name: Info
+    url: /info
 
 
 # ------------------------------------------------------------
