@@ -32,6 +32,8 @@ navigation:
     url: /
   - name: Watch
     url: /videos
+  - name: Schedule
+    url: /schedule
   - name: Speakers
     url: /speakers
   - name: Info
@@ -47,8 +49,8 @@ info:
   city: Amsterdam
   year: 2018
   date: March 1-2
-  current: true
-  ticket-url: https://ti.to/grafanacon/grafanacon-eu
+  current: false
+  ticket-url: 
   tickets-on-sale: false
   meta-description: GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. GrafanaCon EU will be held at the Compagnietheater in Amsterdam, Netherlands, March 1-2, 2018.
   about:
