@@ -1,0 +1,486 @@
+# ============================================================
+# CONTENT:
+# 01 INFO
+# 02 SCHEDULE
+# 03 SPEAKERS
+# 04 EVENTS
+# 05 ABOUT
+# 06 LOCATION
+# 07 SPONSORS
+# 08 LODGING
+# 09 VIDEOS
+# 10 GALLERY
+# ============================================================
+
+
+# ------------------------------------------------------------
+# !THEME
+# ------------------------------------------------------------
+
+name: 2016 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
+logo: logo.png
+css: 2016.css
+fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
+
+
+# ------------------------------------------------------------
+# !NAVIGATTION
+# ------------------------------------------------------------
+
+navigation:
+  - name: Home
+    url: /
+  - name: Watch
+    url: /videos
+  - name: Schedule
+    url: /schedule
+  - name: Speakers
+    url: /speakers
+  - name: Info
+    url: /info
+
+
+# ------------------------------------------------------------
+# !INFO
+# ------------------------------------------------------------
+
+info:
+  title: GrafanaCon NYC 2016
+  city: New York, NY
+  year: 2016
+  date: March 1-2
+  current: false
+  ticket-url: 
+  tickets-on-sale: false
+  meta-description: GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. GrafanaCon EU will be held at the Compagnietheater in Amsterdam, Netherlands, March 1-2, 2018.
+  about:
+    title: Join us for GrafanaCon NYC and the Launch of Grafana 4.0
+    content: |
+      Join the Grafana team and hundreds of monitoring and data aficionados for two days of content and speakers from across the Grafana ecosystem, led by Torkel Odegaard, the creator of Grafana.
+
+      Set aboard The Intrepid Sea, Air & Space Museum, this Essex-class aircraft carrier boasts one of the most varied aircraft collections on the east coast, stunning views of the Hudson River and, did we forget to mention, a space shuttle!?
+
+      **Day 1:** Single track talks and panels of general interest.
+
+      **Day 2:** Dual track format, with more detailed topics and deeper dives. 
+
+      Day two will also have a plugin lounge with projects from across the ecosystem including Prometheus, Graphite, InfluxDB, worldPing, Kentik, Voxter, Circonus, Crate.io, NS1 and many others.
+
+      Ticket includes breakfast & refreshments both days and entry to the official after party which is being held at Lucky Strike Manhattan.
+
+
+# ------------------------------------------------------------
+# !SCHEDULE
+# ------------------------------------------------------------
+
+schedule:
+  - day: Day 1
+    timeslots:
+      - time: "8:00AM"
+        description: Registration and Breakfast
+      - time: "8:15AM"
+        speakers:
+          - name: Matthew Brender, Theodore Staake, Raj Dutt, Paul Dix
+            title: Newstack Pancake and Podcast – The Intricacies of Composing a New Monitoring Stack
+      - time: "9:20AM"
+        speakers:
+          - name: Torkel Odegaard
+            title: Welcome
+          - name: Kevin Retzke
+            title: Large-Scale Scientific Computing Monitoring with Grafana 
+          - name: Torkel Odegaard
+            title: Launch of Grafana 4.0
+          - name: Kyle Brandt
+            title: The Culture and Reality of Monitoring at Stack Overflow
+      - time: 11:00AM
+        description: "**BREAK**"
+      - time: 11:20AM
+        speakers:
+          - name: Raj Dutt
+            title: The Biz of Grafana
+          - name: Nicholas Weaver
+            title: The Launch of Intel Snap 1.0
+          - name: Yasmin Rajabi
+            title: Open Source Monioring Stack at Staples
+          - name: Jason Dixon
+            title: The Launch of Graphite 1.0
+          - name: Brian Brazil, Paul Dix, Jason Dixon, Dieter Plaetinck
+            title: PANEL – The Future of Metrics
+      - time: "12:40PM"
+        description: "**LUNCH**"
+      - time: "2:10PM"
+        speakers:
+        - name: Anthony Woods
+          title: The Complete Supported Stack
+        - name: Yann Bizeul
+          title: Using Grafana at NetApp
+        - name: Peter Zaitsev
+          title: How We Integrate Grafana with Prometheus for Easy MySQL and MongoDB Monitoring
+        - name: Raj Dutt, Carl DePasquale, Scott Johnson, Zac Smith 
+          title: PANEL – Open Source in the Enterprise
+      - time: 3:30PM
+        description: "**BREAK**"
+      - time: 3:50PM
+        speakers:
+          - name: Carl DePasquale
+            title: ADP Capacity and Performance Analytics Service
+          - name: Utkarsh Bhatnagar
+            title: PRIMER – Elastic-Monitoring Using Grafana at Sony PlayStation
+          - name: Torkel Odegaard
+            title: Closing Talk
+      - time: 6:00PM
+        description: "**After Conference Party:** Lucky Strike Manhattan"
+  - day: Day 2
+    timeslots:
+      - time: "8:00AM"
+        description: Registration and Breakfast
+      - time: "9:30AM"
+        speakers:
+          - name: Paul Dix
+            title: GH 2 - Monitoring with InfluxDB and Grafana 
+      - time: "9:40AM"
+        speakers:
+          - name: Deepak Vasthimal 
+            title: GH 1 -  Monitoring Anomalies in the Experimentation Platform at eBay
+      - time: "10:00AM"
+        speakers:
+          - name: Avi Freedman, Raj Dutt, Phil Rosenthal, Dayton Turner
+            title: GH 1 - Panel – Monitoring your Network from the inside-out with Grafana
+      - time: "10:20AM"
+        speakers:
+          - name: Brian Brazil
+            title: GH 2 - Monitoring What Matters, The Prometheus Approach to Whitebox Monitoring
+      - time: "11:00AM"
+        speakers:
+        - name: Joel Cooklin, Matthew Brender
+          title: GH 1 - Snap Telemetry Framework & Plugin Architecture 
+        - name: Brian Hawkins
+          title: GH 2 - Kairos DB, How Gathering Metrics can Save Your Bacon When Things Go Wrong.
+      - time: "11:50AM"
+        speakers:
+        - name: Carl DePasquale 
+          title: GH 1 - ADP Capacity and Performance Analytics Service
+        - name: Abhishek Sant, Senthil Pandurangan
+          title: GH 2 - Monitoring at scale over diverse data sources using Grafana @ PayPal - Druid, TSDB, Hadoop
+      - time: "12:30PM"
+        description: "**LUNCH**"
+      - time: "2:00PM"
+        speakers:
+        - name: Utkarsh Bhatnagar
+          title: GH 1 - Elastic-Monitoring Using Grafana at Sony PlayStation
+        - name: Paul Adams
+          title: GH 2 - Using Grafana and CrateDB for Processing Your Machine Data
+      - time: "2:50PM"
+        speakers:
+        - name: Yann Bizeul
+          title: GH 1 - The Harvest/Graphite/ Grafana Solution
+        - name: Heiko Rupp
+          title: GH 2 - The Hawkular Monitoring Ecosystem
+      - time: "2:50PM"
+        speakers:
+        - name: Yann Bizeul
+          title: GH 1 - The Harvest/Graphite/ Grafana Solution
+        - name: Jacob Lisi
+          title: GH 2 - Building a Snap Plugin and Visualizing the Data in Grafana        
+      - time: "3:50PM"
+        speakers:
+          - name: Mitsuhiro Tanda
+            title: GH 1 - Intro to the Heatmap/Historgram Plugin
+          - name: Torkel Odegaard
+            title: GH 1 – Grafana Smorgasbord
+
+
+# ------------------------------------------------------------
+# !SPEAKERS
+# ------------------------------------------------------------
+
+speakers:
+  title: Speakers
+  subhead: We're proud to have confirmed these amazing speakers.
+  speakers:
+    - name: Torkel Odegaard
+      role: Creator - Grafana
+      company: Grafana Labs
+      logo:  grafana_logo.png
+      headshot: torkel.jpg
+      twitter: http://www.twitter.com/torkelo
+      github: https://github.com/torkelo
+      talk: The Launch of Grafana 4.0
+    - name: Nicholas Weaver
+      role: Director Orchestration Engineering - Datacenter Solutions Group
+      company: Grafana Labs
+      logo:  intel_snap.png
+      headshot: nick.jpg
+      twitter: http://twitter.com/lynxbat
+      github: https://github.com/lynxbat
+      talk: Launching Snap 1.0
+    - name: Jason Dixon
+      role: Maintainer - Graphite
+      company: Graphite
+      logo:  graphite.png
+      headshot: jason.jpg
+      twitter: http://www.twitter.com/obfuscurity
+      github: http://www.github.com/obfuscurity
+      talk: Launching Graphite 1.0
+    - name: Utkarsh Bhatnagar
+      role: Senior Software Engineer
+      company: Sony PlayStation
+      logo:  playstation-logo.jpg
+      headshot: utkarsh.png
+      github: https://github.com/utkarshcmu
+      talk: Elastic-Monitoring Using Grafana at Sony PlayStation
+    - name: Kyle Brandt
+      role: Director, Site Reliability 
+      company: Stack Overflow
+      logo:  stack_overflow.png
+      headshot: kyle.jpg
+      twitter: https://twitter.com/kylembrandt
+      github: http://github.com/kylebrandt
+      talk: The Culture and Reality of Monitoring at Stack Overflow
+    - name: Brian Brazil
+      role: Founder
+      company: Robust Perception
+      logo:  prometheus.png
+      headshot: brian.jpg
+      twitter: http://twitter.com/robustperceiver
+      github: http://github.com/brian-brazil
+      talk: Monitoring What Matters – The Prometheus Approach to Whitebox Monitoring
+    - name: Paul Dix
+      role: CTO
+      company: InfluxData
+      logo:  influxlogo.png
+      headshot: paul.jpg
+      twitter: http://www.twitter.com/pauldix
+      github: http://github.com/pauldix
+      talk: Monitoring with InfluxDB and Grafana
+    - name: Mitsuhiro Tanda
+      role: Software Engineer
+      company: GREE
+      logo:  gree.png
+      headshot: mtanda.jpg
+      twitter: https://twitter.com/mtanda
+      github: https://github.com/mtanda
+      talk: An Introduction to the Heatmap / Histogram Plugin
+    - name: Kevin Retzke
+      role: Applications Developer & System Analyst 
+      company: Fermilab
+      logo:  fermilab.png
+      headshot: kevin_retzke.jpg
+      github: https://github.com/retzkek
+      talk: Large-Scale Scientific Computing Monitoring with Grafana
+    - name: Brian Hawkins
+      role: Sr Software Engineer Proofpoint/Creator KairosDB
+      company: KairosDB
+      logo:  kairos.jpg
+      headshot: brian_hawkins.png
+      github: https://github.com/brianhks
+      talk: How Gathering Metrics can Save Your Bacon When Things Go Wrong
+    - name: Scott Johnson
+      role: VP, Technical Operations
+      company: Staples
+      logo:  staples.png
+      headshot: scott_johnson.jpg
+      talk: Democratizing Metrics in the Enterprise
+    - name: Yasmin Rajabi
+      role: Manager, SRE Instrumentation
+      company: Staples
+      logo:  staples.png
+      headshot: yasmin.jpg
+      talk: Democratizing Metrics in the Enterprise
+    - name: Jacob Lisi
+      role: Software Developer
+      company: Staples
+      logo:  staples.png
+      headshot: jlisi.jpg
+      talk: Building a Snap Plugin and Visualizing the Data in Grafana
+    - name: Deepak Vasthimal
+      role: MTS 2, Software Engineer
+      company: eBay
+      logo:  ebay.png
+      headshot: deepak.jpg
+      talk: Monitoring Anomalies in the Experimentation Platform at eBay
+    - name: Yann Bizeul
+      role: Systems Engineer
+      company: NetApp
+      logo:  netapp.png
+      headshot: yann.jpg
+      github: https://twitter.com/ybontap
+      talk: Harvest/Graphite/Grafana Solution
+    - name: Abhishek Sant
+      role: Senior Software Engineer 
+      company: Paypal
+      logo:  paypal.png
+      headshot: abhishek.jpg
+      talk: Monitoring at scale over diverse data sources using Grafana @ PayPal - Druid, TSDB, Hadoop
+    - name: Senthil Pandurangan
+      role: Platform Architect
+      company: Paypal
+      logo:  paypal.png
+      headshot: senthil_pandurangan.png
+      talk: Monitoring at scale over diverse data sources using Grafana @ PayPal - Druid, TSDB, Hadoop
+    - name: Peter Zaitsev
+      role: CEO
+      company: Percona
+      logo:  percona.png
+      headshot: peter_zaitzev.png
+      twitter: https://twitter.com/PeterZaitsev
+      github: https://github.com/PeterZaitsev
+      talk: How We Integrate Grafana with Prometheus for Easy MySQL and MongoDB Monitoring
+    - name: Carl DePasquale
+      role: Chief Architect, Infrastructure & Application Architecture, Global Enterprise Technology & Solutions (GETS)
+      company: ADP
+      logo:  adp.png
+      headshot: carl.png
+      talk: ADP Capacity and Performance Analytics Service
+    - name: Heiko Rupp
+      role: Principal Software Engineer
+      company: Redhat
+      logo:  redhat.png
+      headshot: heiko.png
+      twitter: https://twitter.com/pilhuhn
+      github: https://github.com/pilhuhn
+      talk: The Hawkular Monitoring Ecosystem
+    - name: Raj Dutt
+      role: Co-Founder, CEO
+      company: Grafana Labs
+      logo:  grafana_logo.png
+      headshot: raj.jpg
+      twitter: https://twitter.com/nopzor
+      talk: The Biz of Grafana
+    - name: Avi Freedman
+      role: CEO
+      company: Kentik
+      logo:  kentik.jpg
+      headshot: avi.jpg
+      twitter: https://twitter.com/avifreedman
+      talk: Monitoring your Network from the inside-out with Grafana
+    - name: Paul Adams
+      role: Engineering Manager
+      company: Crate.io
+      logo:  crate_io.png
+      headshot: paul_adams.jpg
+      twitter: https://twitter.com/therealpadams
+      talk: Using Grafana and CrateDB for Processing Your Machine Data
+    - name: Matthew Brender
+      role: Developer Advocate
+      company: Intel
+      logo:  intel.jpg
+      headshot: mbrender.jpg
+      twitter: https://twitter.com/pilhuhn
+      github: https://github.com/pilhuhn
+      talk: Snap Telemetry Framework & Plugin Architecture
+    - name: Joel Cooklin
+      role: Cloud Software Engineer
+      company: Intel
+      logo:  intel.jpg
+      headshot: joel_cooklin.png
+      twitter: https://twitter.com/pilhuhn
+      github: https://github.com/pilhuhn
+      talk: Snap Telemetry Framework & Plugin Architecture
+
+# ------------------------------------------------------------
+# !EVENTS
+# ------------------------------------------------------------
+
+events:
+  title: After Party
+  intro: After a long day of talks, demos and networking, we thought it would be important to unwind a little. We have two after conference events on the first evening that you won't want to miss.
+  event:
+    - name: Conference Afterparty
+      description: Directly following the last talk on November 30, we will take a short walk to Lucky Strike Manhattan for bowling, drinks, dinner and awesome conversation.
+  sponsors:
+    - name: Lucky Strike Manahattan
+      address1: 624-660 W. 42nd Street,  
+      address2: New York, NY, 10036
+      address3:
+      url: http://luckystrikesocial.com
+      logo: lucky_strike.png
+
+
+# ------------------------------------------------------------
+# !ABOUT
+# ------------------------------------------------------------
+
+about:
+  title: What can I Expect at GrafanaCon?
+  content: |
+    GrafanaCon has grown in every way with each conference we've hosted. GrafanaCon NYC had over 250 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
+
+  videos:
+    - title: Highlights from GrafanaCon NYC 2016
+      id: 19MKjkEX4wY
+
+
+# ------------------------------------------------------------
+# !LOCATION
+# ------------------------------------------------------------
+
+location:
+  name: Intrepid Sea, Air & Space Museum
+  coordinates: '40.761, -74.002'
+  description: |
+    The Intrepid Sea, Air & Space Museum is a non-profit, educational institution featuring the legendary aircraft carrier Intrepid, the space shuttle Enterprise, the world’s fastest jets and a guided missile submarine. Visitors of all ages and abilities are taken on an interactive journey through history to learn about American innovation and bravery. 
+    * One of the most varied aircraft collections on the East Coast
+    * Pier 86, W. 46th Street and 12th Avenue
+
+    ## Also on the Museum complex:
+    * The submarine the former USS Growler
+    * British Airways Concorde SST
+    * Lockheed A-12 supersonic reconnaissance plane
+    * The Space Shuttle Enterprise.
+
+
+
+# ------------------------------------------------------------
+# !SPONSORS
+# ------------------------------------------------------------
+
+sponsors:
+  title: Want to Sponsor GrafanaCon EU?
+  description: |
+    Sponsoring GrafanaCon EU offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+    Download our [Prospectus](/2018/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
+    For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+  sponsor:
+    - name: Cloud Native Computing Foundation
+      url: https://www.cncf.io/
+      logo: amgen_logo.png
+
+
+# ------------------------------------------------------------
+# !LODGING
+# ------------------------------------------------------------
+
+lodging:
+  title: Where to Stay.
+  description: |
+    Preferred Hotel Reservations is the official housing agent for this event. We negotiated special rates and conditions at the hotels  for  GrafanaCon 2018. There are a number of hotel options for you to choose from.
+
+    Make sure to reserve your hotel as soon as possible, even if your travel is not yet confirmed, as reservations up to 9 rooms can be cancelled free of charge until 48 hours prior to arrival at most hotels.
+  url: https://www.preferredreservations.nl/grafanacon
+
+
+# ------------------------------------------------------------
+# !VIDEOS
+# ------------------------------------------------------------
+
+videos:
+  title: GrafanaCon EU 2018 Videos
+  video:
+    - url: https://www.youtube.com/watch?v=zmsZq9Pfp1g
+      title: Automating Grafana Dashboards with Jsonnet
+      presentation: Julien_Pivotto_GrafanaCon_EU_2018.pdf
+      thumbnail: video_automating.jpeg
+
+
+# ------------------------------------------------------------
+# !GALLERY
+# ------------------------------------------------------------
+
+gallery:
+  title: Gallery
+  subhead: As you can see, we have a great time!
+  images:
+    - caption: GrafanaCon EU 2018
+      original: 001.jpg
+      thumbnail: thumb-001.jpg
