@@ -4,36 +4,6 @@
 
 
 
-// Head
-// -------------------------------------------------------------------------
-
-.page-head {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.page-head__img {
-  display: block;
-  margin: 0 auto;
-
-  @include breakpoint(small only) {
-    max-width: $page-head-max-width;
-  }
-}
-
-.page-head__cta {
-  margin-top: $base-spacing;
-}
-
-.page-map {
-  width: 100%;
-  height: rem-calc(350);
-}
-
-
-
 // Section
 // -------------------------------------------------------------------------
 
@@ -105,6 +75,43 @@
 
 .page-section__video + .page-section__video {
   margin-top: $base-spacing;
+}
+
+
+
+// Hero
+// -------------------------------------------------------------------------
+
+.page-hero {
+  padding-top: 0;
+  background: $page-hero-background;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.page-hero__body {
+  display: $page-hero-display;
+  flex-flow: $page-hero-flow;
+  align-items: $page-hero-align;
+  justify-content: $page-hero-justify;
+}
+
+.page-hero__img {
+  display: block;
+  margin: $page-hero-img-margin;
+
+  @include breakpoint(small only) {
+    max-width: $page-hero-max-width;
+  }
+}
+
+.page-hero__cta {
+  margin: $page-hero-cta-margin;
+}
+
+.page-map {
+  width: 100%;
+  height: rem-calc(350);
 }
 
 

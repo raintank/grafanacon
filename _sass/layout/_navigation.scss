@@ -1,32 +1,40 @@
 // ==========================================================================
-// PAGE
+// NAVIGATION
 // ==========================================================================
 
-
+body.nav-is-open {
+  overflow: hidden;
+}
 
 .header {
   z-index: 100 !important;
+  width: 100%;
   padding: $base-spacing 0;
-  background: $white;
   will-change: position;
+
+  @include breakpoint(small only) {
+    padding-top: $base-spacing * 2;
+  }
 }
 
-.header.sticky-header {
-  position: sticky;
+.sticky-wrapper.is-sticky > .header {
+  background: $nav-sticky-bg-color;
 }
 
 .header > .row {
   position: relative;
 }
 
+.site-nav__home-link {
+  @include breakpoint(small only) {
+    display: none;
+  }
+}
+
 .site-nav__logo {
   display: block;
   max-width: rem-calc(75);
   margin: 0 auto;
-
-  @include breakpoint(small only) {
-    max-width: $page-head-max-width;
-  }
 }
 
 .site-nav {
@@ -36,17 +44,80 @@
 
 .site-nav__list {
   @extend %ui-list;
-  display: flex;
-  flex: 1;
-  flex-flow: row wrap;
-  justify-content: flex-end;
+
+  @include breakpoint(small only) {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: $base-spacing * 3;
+    transform: translateY(-25%);
+    transition: 200ms ease-in-out;
+    opacity: 0;
+    background: $secondary-color;
+  }
+
+  @include breakpoint(medium up) {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+}
+
+.site-nav__list.open {
+  @include breakpoint(small only) {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.site-nav__open {
+  display: block;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  padding: rem-calc(10 20);
+  background: $nav-list-open-btn-bg;
+  color: $white;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  @include breakpoint(medium up) {
+    display: none;
+  }
 }
 
 .site-nav__list-item {
-  max-width: rem-calc(320);
-  text-align: right;
+  display: block;
+  text-align: center;
+
+  @include breakpoint(small only) {
+    margin-bottom: $base-spacing;
+    text-transform: uppercase;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include breakpoint(medium up) {
+    max-width: rem-calc(320);
+    text-align: right;
+  }
 }
 
 .site-nav__list-item + .site-nav__list-item {
-  margin-left: $small-spacing;
+  @include breakpoint(medium up) {
+    margin-left: $small-spacing;
+  }
+}
+
+.site-nav__link {
+  color: $nav-link-color;
 }
