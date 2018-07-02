@@ -25,8 +25,8 @@ $button-height: rem-calc(65) !default;
 $button-padding: 0 rem-calc(35) !default;
 $button-border: 0 !default;
 $button-border-radius: 0 !default;
-$button-font-family: $base-font-family;
-$button-font-size: rem-calc(16);
+$button-font-family: $base-font-family !default;
+$button-font-size: rem-calc(16) !default;
 $button-font-weight: 600 !default;
 $button-text-transform: uppercase !default;
 $button-line-height: $button-height !default;
@@ -48,10 +48,6 @@ $gray-8:      shade($white, 80) !default;
 $gray-9:      shade($white, 90) !default;
 $black:       #000 !default;
 
-$primary-color:     #eb237c !default;
-$secondary-color:   #160328;
-$tertiary-color:    #4999ef;
-
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "primary":    $primary-color,
@@ -66,18 +62,40 @@ $yiq-contrasted-threshold:  150 !default;
 $yiq-text-dark:         $gray-9 !default;
 $yiq-text-light:        $white !default;
 
-$base-link-color: $tertiary-color;
+$base-link-color: $tertiary-color !default;
 
+
+// Hero
+// --------------------------------------------------------------------------
+$page-hero-display:         flex !default;
+$page-hero-flow:            column nowrap !default;
+$page-hero-align:           center !default;
+$page-hero-justify:         center !default;
+$page-hero-img-margin:      0 auto !default;
+$page-hero-cta-margin:      $base-spacing 0 0 0 !default;
+$page-hero-background:      $white !default; // Image example: url('../2018/images/gallery/001.jpg')
+$page-hero-background-pos:  50% !default;
+
+
+// Navigation
+// --------------------------------------------------------------------------
+
+$nav-sticky-bg-color:     $white !default;
+$nav-logo-max-width:      rem-calc(75) !default;
+$nav-item-max-width:      rem-calc(320) !default;
+$nav-item-margin:         $small-spacing !default;
+$nav-link-color:          $base-link-color !default;
+$nav-list-open-btn-bg:    $tertiary-color !default;
 
 
 // Page
 // --------------------------------------------------------------------------
 
-$page-head-max-width:                 rem-calc(200) !default;
+$page-hero-max-width:                 rem-calc(200) !default;
 $page-section-padding:                $base-spacing * 2 !default;
 $page-section-dark-bg:                $secondary-color !default;
 $page-section-dark-color:             $gray-3 !default;
-$page-section-border:                 1px solid $primary-color;
+$page-section-border:                 1px solid $primary-color !default;
 $page-section-title-margin:           0 0 1.125em !default;
 $page-section-title-padding:          .25em 1em !default;
 $page-section-title-border:           1px solid $secondary-color !default;
@@ -89,9 +107,8 @@ $page-section-subtitle-font-weight:   400 !default;
 $page-section-subhead-font-size:      rem-calc(18) !default;
 $page-section-subhead-font-weight:    400 !default;
 $page-section-body-font-size:         rem-calc(18) !default;
-$page-section-event-title-font-size:  rem-calc(21);
-$page-section-event-title-color:      $primary-color;
-
+$page-section-event-title-font-size:  rem-calc(21) !default;
+$page-section-event-title-color:      $primary-color !default;
 
 
 // Speakers

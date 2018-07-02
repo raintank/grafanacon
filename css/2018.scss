@@ -7,7 +7,7 @@
 
 
 
-@import 'utils';
+@import 'vendor';
 
 
 
@@ -15,7 +15,9 @@
 // PLACE CUSTOM STYLE OVERRIDE VARIABLES HERE
 // --------------------------------------------------------------------------
 
-// $base-font-type: serif;
+$primary-color:     #eb237c;
+$secondary-color:   #160328;
+$tertiary-color:    #4999ef;
 
 // --------------------------------------------------------------------------
 // END OVVERIDES

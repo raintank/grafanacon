@@ -1,22 +1,4 @@
 {% if conference.info %}
-<div class="page-section">
-    <div class="row columns">
-        <div class="page-head">
-            {% if conference.logo %}
-                <div class="page-head__logo">
-                    <img class="page-head__img" src="{{ images }}{{ conference.logo }}" alt="{{ conference.info.title }}">
-                </div>
-            {% endif %}
-            {% if conference.info.ticket-url %}
-                <div class="page-head__cta">
-                    {% if conference.info.tickets-on-sale %}
-                        <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets</a>
-                    {% endif %}
-                </div>
-            {% endif %}
-        </div>
-    </div>
-</div>
 <div class="page-section page-section--dark">
     <div class="row">
         <div class="small-10 small-centered medium-8 columns">
