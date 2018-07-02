@@ -48,7 +48,7 @@ info:
   title: GrafanaCon NYC 2016
   city: New York, NY
   year: 2016
-  date: March 1-2
+  date: November 30 - December 1, 2016
   current: false
   ticket-url: 
   tickets-on-sale: false
@@ -56,6 +56,8 @@ info:
   about:
     title: Join us for GrafanaCon NYC and the Launch of Grafana 4.0
     content: |
+      ## **November 30 - December 1, 2016**
+
       Join the Grafana team and hundreds of monitoring and data aficionados for two days of content and speakers from across the Grafana ecosystem, led by Torkel Odegaard, the creator of Grafana.
 
       Set aboard The Intrepid Sea, Air & Space Museum, this Essex-class aircraft carrier boasts one of the most varied aircraft collections on the east coast, stunning views of the Hudson River and, did we forget to mention, a space shuttle!?
@@ -436,28 +438,53 @@ location:
 # ------------------------------------------------------------
 
 sponsors:
-  title: Want to Sponsor GrafanaCon EU?
-  description: |
-    Sponsoring GrafanaCon EU offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
-    Download our [Prospectus](/2018/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
-    For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+  why:
+    title: Interested in Sponsoring GrafanaCon NYC?
+    description: |
+      Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+      Download our [Prospectus](/2016/grafanacon_2016_prospectus.pdf) to learn more about our sponsorship levels.
+      For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+  title: Thanks to our Sponsors
   sponsor:
-    - name: Cloud Native Computing Foundation
-      url: https://www.cncf.io/
-      logo: amgen_logo.png
-
-
+    - name: Staples
+      url: https://www.staples.com/
+      logo: staples.png
+    - name: Kentik
+      url: https://www.kentik.com/
+      logo: kentik.jpg
+    - name: NS1
+      url: https://www.ns1.com/
+      logo: ns1-logo-meta.jpg
+    - name: Percona
+      url: https://www.percona.com/
+      logo: percona_logo.jpg
+    - name: Circonus
+      url: https://www.circonus.com/
+      logo: circonus_logo.jpg
+    - name: Create.io
+      url: https://www.crate.io/
+      logo: crate_io.png
+    - name: Voxter
+      url: https://www.voxter.com/
+      logo: voxter_logo.png
+    - name: InfluxData
+      url: https://www.influxdata.com/
+      logo: influxdata.png
+    - name: Packet
+      url: https://www.packet.com/
+      logo: packet_logo.png
+    - name: BelugaCDN
+      url: https://www.belugacdn.com/
+      logo: beluga_cdn.png
 # ------------------------------------------------------------
 # !LODGING
 # ------------------------------------------------------------
 
 lodging:
-  title: Where to Stay.
+  title: Recommended Hotel – YOTEL New York
   description: |
-    Preferred Hotel Reservations is the official housing agent for this event. We negotiated special rates and conditions at the hotels  for  GrafanaCon 2018. There are a number of hotel options for you to choose from.
-
-    Make sure to reserve your hotel as soon as possible, even if your travel is not yet confirmed, as reservations up to 9 rooms can be cancelled free of charge until 48 hours prior to arrival at most hotels.
-  url: https://www.preferredreservations.nl/grafanacon
+    GrafanaCon has worked with YOTEL New York to provide a discounted block of rooms for attendees. YOTEL is located in Midtown, Manhattan, just two blocks west of Times Square on the corner of Tenth Avenue and West 42nd Street at 570 Tenth Avenue, NY 10036, and a short walk to the conference venue. 
+  url: 
 
 
 # ------------------------------------------------------------
@@ -465,22 +492,117 @@ lodging:
 # ------------------------------------------------------------
 
 videos:
-  title: GrafanaCon EU 2018 Videos
+  title: GrafanaCon NYC 2016 Videos
   video:
-    - url: https://www.youtube.com/watch?v=zmsZq9Pfp1g
-      title: Automating Grafana Dashboards with Jsonnet
-      presentation: Julien_Pivotto_GrafanaCon_EU_2018.pdf
-      thumbnail: video_automating.jpeg
+    - url: https://www.youtube.com/watch?v=19MKjkEX4wY
+      title: This is GrafanaCon 2016
+      thumbnail: grafanacon_hype_reel.png
+    - url: https://www.youtube.com/watch?v=mgwQWFeiW_Y
+      title: GrafanaCon Kickoff
+      thumbnail: torkel_1.jpg
+    - url: https://youtu.be/JR7HZ2LTozg
+      title: Large-Scale Scientific Computing Monitoring with Grafana
+      thumbnail: fermilab.jpg
+    - url: https://www.youtube.com/watch?v=B16Za773OuE
+      title: The Launch of Grafana 4.0 and Native Alerting
+      thumbnail: torkel_2.jpg
+    - url: https://www.youtube.com/watch?v=BvFQoAF2bFo
+      title: The Culture and Reality of Monitoring at Stack Overflow
+      thumbnail: kyle.jpg
+    - url: https://www.youtube.com/watch?v=PrXBUFXsYQY
+      title: The Biz of Grafana
+      thumbnail: biz_of_grafana.jpg
+    - url: https://www.youtube.com/watch?v=czCI0q4CbcU
+      title: The Launch of Snap 1.0
+      thumbnail: snap_1.jpg
+    - url: https://www.youtube.com/watch?v=Hb_lcAGjfZg
+      title: The Open Source Monitoring Stack at Staples
+      thumbnail: staples.jpg
+    - url: https://www.youtube.com/watch?v=9huFzamSG8g
+      title: Launching Graphite 1.0
+      thumbnail: graphite.jpg
+    - url: https://www.youtube.com/watch?v=QtZ86KK5pIw
+      title: Panel - Open Source in the Enterprise
+      thumbnail: enterprise_panel.jpg
+    - url: https://www.youtube.com/watch?v=rSUPtxtEa9A
+      title: Circonus and IronDB
+      thumbnail: circonus.jpg
+    - url: https://www.youtube.com/watch?v=lUxch3sxSJs
+      title: Using Grafana at NetApp
+      thumbnail: yann_1.jpg
+    - url: https://www.youtube.com/watch?v=Ub0F_jc0YLI
+      title: NS1 - Intelligent DNS and Traffic Management
+      thumbnail: sully.jpg
+    - url: https://www.youtube.com/watch?v=GarWoFRXem4
+      title: Integrating Grafana, Prometheus for Easy MySQL & MongoDB Monitoring
+      thumbnail: percona.jpg
+    - url: https://www.youtube.com/watch?v=Wnclqc2rVf8
+      title: The Harvest/Graphite/Grafana Solution
+      thumbnail: yann_2.jpg
+    - url: https://www.youtube.com/watch?v=qChVC7Hd9BE
+      title: Elastic-Monitoring Using Grafana at Sony PlayStation
+      thumbnail: utkarsh_1.jpg
+    - url: https://www.youtube.com/watch?v=ucBlzUlC7jo
+      title: ADP Capacity Planning and Performance Analytics Service
+      thumbnail: carl_1.jpg
+    - url: https://www.youtube.com/watch?v=FHKnijjs5IM
+      title: Intel Snap Telemetry Framework & Plugin Architecture
+      thumbnail: snap_2.jpg
+    - url: https://www.youtube.com/watch?v=_xf-ZMNYDpk
+      title: Monitoring Anomalies in the Experimentation Platform at eBay
+      thumbnail: ebay.jpg
+    - url: https://www.youtube.com/watch?v=2ZlZuUS_X6M
+      title: The Heatmap and Histogram Panels
+      thumbnail: mtanda.jpg
+    - url: https://www.youtube.com/watch?v=pXYFKMDEoy4
+      title: Capacity and Performance Analytics Service at ADP
+      thumbnail: carl_2.jpg
+    - url: https://www.youtube.com/watch?v=llRhdvV25rg
+      title: Elastic-Monitoring Using Grafana at Sony PlayStation
+      thumbnail: utkarsh_2.jpg
+    - url: https://www.youtube.com/watch?v=nkCGOmLBI6I
+      title: Monitoring What Matters
+      thumbnail: brian_brazil.jpg
+    - url: https://www.youtube.com/watch?v=0Y_VdZphW1U
+      title: Using Grafana and CrateDB for Processing Your Machine Data
+      thumbnail: paul_adams.jpg
+    - url: https://www.youtube.com/watch?v=EbaO4qztLdo
+      title: The Hawkular Monitoring Ecosystem
+      thumbnail: heiko_rupp.jpg
+    - url: https://www.youtube.com/watch?v=veb0WonfVoU
+      title: How Gathering Metrics can Save Your Bacon
+      thumbnail: b_hawkins.jpg
+    - url: https://www.youtube.com/watch?v=hQMZiqt5I0k
+      title: Monitoring at scale using Grafana @ PayPal
+      thumbnail: paypal.jpg
+    - url: https://www.youtube.com/watch?v=Xqtfk3HQOAg
+      title: Monitoring InfluxCloud with InfluxDB
+      thumbnail: paul_dix.jpg
+    - url: https://www.youtube.com/watch?v=QVgcJ21xb80
+      title: Monitioring Your Network from the Inside Out
+      thumbnail: network_monitoring_panel.jpg
+    - url: https://www.youtube.com/watch?v=1w_xgcFwd7g
+      title: Building a Snap Telemetry Plugin
+      thumbnail: jacob_lisi.jpg
+    - url: https://www.youtube.com/watch?v=HOSPqjYd7AU
+      title: Panel - The Future of Metrics
+      thumbnail: future_metrics_panel.jpg
+    - url: https://www.youtube.com/watch?v=1f-1v6sC5Do
+      title: Kentik - Network Visibility for All
+      thumbnail: kentik.jpg
+    - url: https://www.youtube.com/watch?v=jfUb8pGERrg
+      title: Grafana 4 Features Demo Session
+      thumbnail: torkel_graf4_features.jpg
 
 
 # ------------------------------------------------------------
 # !GALLERY
 # ------------------------------------------------------------
 
-gallery:
-  title: Gallery
-  subhead: As you can see, we have a great time!
-  images:
-    - caption: GrafanaCon EU 2018
-      original: 001.jpg
-      thumbnail: thumb-001.jpg
+# gallery:
+#   title: Gallery
+#   subhead: As you can see, we have a great time!
+#   images:
+#     - caption: GrafanaCon EU 2018
+#       original: 001.jpg
+#       thumbnail: thumb-001.jpg

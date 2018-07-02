@@ -1,5 +1,10 @@
 {% if conference.sponsors %}
 <div class="page-section">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+             <h2 class="page-section__title">{{ conference.sponsors.title }}</h2>
+        </div>
+    </div>
     <div class="row columns">
         <ul class="sponsors-list">
             {% for sponsor in conference.sponsors.sponsor %}

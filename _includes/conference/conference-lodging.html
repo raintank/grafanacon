@@ -1,13 +1,15 @@
-{% if conference.about %}
+{% if conference.lodging %}
     <div class="page-section page-section--bordered">
         <div class="row">
             <div class="small-10 small-centered medium-8 columns">
                 <h2 class="page-section__title">{{ conference.lodging.title }}</h2>
                 <div class="page-section__body">
                     {{ conference.lodging.description | markdownify }}
-                    <div class="mt-small-5 text-center">
-                        <a class="btn btn--primary" href="{{ conference.lodging.url }}">Book My Hotel Room</a>
-                    </div>
+                    {% if conference.lodging.url %}
+                        <div class="mt-small-5 text-center">
+                            <a class="btn btn--primary" href="{{ conference.lodging.url }}">Book My Hotel Room</a>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
