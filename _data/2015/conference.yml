@@ -1,0 +1,320 @@
+# ============================================================
+# CONTENT:
+# 01 INFO
+# 02 SCHEDULE
+# 03 SPEAKERS
+# 04 EVENTS
+# 05 ABOUT
+# 06 LOCATION
+# 07 SPONSORS
+# 08 LODGING
+# 09 VIDEOS
+# 10 GALLERY
+# ============================================================
+
+
+# ------------------------------------------------------------
+# !THEME
+# ------------------------------------------------------------
+
+name: 2015 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
+logo: logo.png
+css: 2015.css
+fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
+
+
+# ------------------------------------------------------------
+# !NAVIGATTION
+# ------------------------------------------------------------
+
+navigation:
+  - name: Home
+    url: /
+  - name: Watch
+    url: /videos
+  - name: Schedule
+    url: /schedule
+  - name: Speakers
+    url: /speakers
+  - name: Info
+    url: /info
+
+
+# ------------------------------------------------------------
+# !INFO
+# ------------------------------------------------------------
+
+info:
+  title: GrafanaCon NYC 2015
+  city: New York, NY
+  year: 2015
+  date: October 15, 2015
+  current: false
+  ticket-url: 
+  tickets-on-sale: false
+  meta-description: GrafanaCon is an event with talks centered around Grafana and the surrounding ecosystem.
+  about:
+    title: Join us for GrafanaCon NYC and the Launch of Grafana 4.0
+    content: |
+      ### **New York, NY • Thursday, October 15, 2015 - Squarespace HQ**
+      
+      Spend an evening discussing Grafana, the leading open source graph and dashboard composer for visualizing time series metrics. This conference will feature talks by Grafana creator Torkel Ödegaard, as well as users and contributors from the Grafana community. The point of this conference is to come together to discuss how to make the most of the data you're collecting.
+      We plan to cover general information about using and getting the most out of Grafana, tips on building dashboards, in-depth feature demos, how-to's, and Q&A sessions; finishing the afternoon discussing the future of Grafana. We'll also be enjoying pizza and beer during the event. Everyone is welcome, and the best part is, it's **free**!
+
+
+# ------------------------------------------------------------
+# !SCHEDULE
+# ------------------------------------------------------------
+
+schedule:
+  - day: Day 1
+    timeslots:
+      - time: "5:00PM"
+        description: Registration
+      - time: "5:30PM"
+        speakers:
+          - name: Torkel Ödegaard
+            title: Welcome to GrafanaCon
+      - time: "5:40PM"
+        speakers:
+          - name: Matt Mihic
+            title: M3 and Metrics at Scale
+      - time: 6:05PM
+        speakers:
+          - name: Philip Wernersbach
+            title: Grafana and MySQL - Benefits and Challenges
+      - time: 6:20PM
+        speakers:
+          - name: Dieter Plaetinck
+            title: Alerting "in" Grafana
+      - time: 6:50PM
+        speakers:
+          - name: Jesse White
+            title: Tales of a Custom Data Source
+      - time: 7:05PM
+        description: "**BREAK**"
+      - time: 7:35PM
+        speakers:
+          - name: Tobias Schmidt
+            title: Prometheus and Grafana
+      - time: 7:55PM
+        speakers:
+          - name: Paul Dix
+            title: Query Language and Storage Engine Improvements in InfluxDB
+      - time: 8:10PM
+        speakers:
+          - name: Nikita Ostrovsky
+            title: Automating Grafana at Scale
+      - time: 8:25PM
+        speakers:
+          - name: Torkel Ödegaard
+            title: Panel – The Future of Grafana
+# ------------------------------------------------------------
+# !SPEAKERS
+# ------------------------------------------------------------
+
+speakers:
+  title: Speakers
+  subhead: We're proud to have confirmed these amazing speakers.
+  speakers:
+    - name: Torkel Odegaard
+      role: Creator - Grafana
+      company: Grafana Labs
+      logo:  grafana_logo.png
+      headshot: torkel.jpg
+      twitter: http://www.twitter.com/torkelo
+      github: https://github.com/torkelo
+      talk: Welcome to GrafanaCon
+      description: |
+        Torkel will be speaking on a number of subjects including general information about Grafana, and getting the most out of your data visualizations. He'll also provide some insight into new features, newly supported data sources and what you can expect to see in the next release. There will also be time for Q&A on anything Grafana-related.
+    - name: Matt Mihic
+      role: Lead Senior Staff Engineer
+      company: Uber
+      logo:  grafana_logo.png
+      headshot: matt.jpg
+      github: http://www.github.com/MMihic
+      talk: M3 and Metrics at Scale
+      description: |
+        Torkel will be speaking on a number of subjects including general information about Grafana, and getting the most out of your data visualizations. He'll also provide some insight into new features, newly supported data sources and what you can expect to see in the next release. There will also be time for Q&A on anything Grafana-related.
+    - name: Philip Wernersbach
+      role: Software Engineer
+      company: Ingram Content Group
+      logo:  grafana_logo.png
+      headshot: philip.jpg
+      github: http://github.com/philip-wernersbach
+      talk: Grafana and MySQL - Benefits and Challenges
+      description: |
+        Philip will be talking about his experiences with Grafana and MySQL. In an enterprise environment it is sometimes necessary to keep data in a traditional, general purpose SQL database such as MySQL or PostgreSQL. This talk will explore the challenges and benefits of using Grafana with an SQL database in a large enterprise production setting.
+    - name: Dieter Plaetinck
+      role: Principal Engineer
+      company: Grafana Labs
+      logo:  grafana_logo.png
+      headshot: dieter.png
+      twitter: http://www.twitter.com/dieter_be
+      github: http://www.github.com/dieterbe
+      talk: Alerting "in" Grafana
+      description: |
+        Dieter will be talking about alerting “in” Grafana. As one of the most requested features in our last survey, and one of the most active open GitHub issues, alerting in Grafana is both an exciting and contentious topic. Dieter will discuss our approach to tackling the alerting question in Grafana, and what’s coming down the pipe to allow people to manage their alerts side-by-side with their visualizations.
+    - name: Jesse White
+      role: CTO
+      company: The OpenNMS Group Inc.
+      logo:  grafana_logo.png
+      headshot: jesse.png
+      twitter: https://twitter.com/jesse_white_
+      github: http://github.com/j-white
+      talk: Tales of a Custom Data Source
+      description: |
+        Jesse will be talking about OpenNMS, an enterprise grade network management application platform that can be used to collect a wide array of metrics from network devices and services. Until recently, the only means of visualizing these metrics was through static images. Jesse will share his experiences developing and maintaining a custom data source that allows OpenNMS users to leverage the powers of Grafana.
+    - name: Tobias Schmidt
+      role: Production Engineer
+      company: Soundcloud
+      logo:  grafana_logo.png
+      headshot: tobias.jpg
+      twitter: http://twitter.com/dagrobie
+      github: http://github.com/grobie
+      talk: Prometheus and Grafana
+      description: |
+        Tobias will be giving an overview of Prometheus, an open-source monitoring system with a multi-dimensional label system, expressive query language and dashboard editor called PromDash. Learn about the highlights and differences of PromDash compared to Grafana and discuss the options to make Grafana the primary dashboard editor of the Prometheus project.
+    - name: Paul Dix
+      role: CEO
+      company: InfluxDB
+      logo:  grafana_logo.png
+      headshot: paul.jpg
+      twitter: http://twitter.com/pauldix
+      github: http://www.github.com/pauldix
+      talk: Query Language and Storage Engine Improvements in InfluxDB
+      description: |
+        Paul will be talking about upcoming improvements in the 0.9 series of InfluxDB, a popular data source amongst Grafana users that's under active development. Paul will discuss upcoming improvements to the InfluxDB query language, as well as a brand new storage engine with improved performance.
+    - name: Nikita Ostrovsky
+      role: Operations Architect
+      company: Outbrain
+      logo:  grafana_logo.png
+      headshot: nikita.jpg
+      twitter: http://twitter.com/nikgrok
+      talk: Automating Grafana at Scale
+      description: |
+        Nikita will be speaking about automating Grafana management via Chef and the API. The focus will be on interesting solutions to problems that Outbrain has encountered, including enforcing dashboard policy, quarantine, and managing dynamic data sources. This talk will focus on using automations to help run Grafana at scale
+
+# ------------------------------------------------------------
+# !EVENTS
+# ------------------------------------------------------------
+
+# events:
+#   title:
+#   intro:
+#   event:
+#     - name:
+#       description:
+#   sponsors:
+#     - name:
+#       address1:
+#       address2:
+#       address3:
+#       url:
+#       logo:
+
+
+# ------------------------------------------------------------
+# !ABOUT
+# ------------------------------------------------------------
+
+about:
+  title: What can I Expect at GrafanaCon?
+  content: |
+    GrafanaCon has grown in every way with each conference we've hosted. GrafanaCon NYC had over 250 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
+
+  # videos:
+  #   - title:
+  #     id:
+
+
+# ------------------------------------------------------------
+# !LOCATION
+# ------------------------------------------------------------
+
+location:
+  name: Squarespace HQ
+  coordinates: '40.721, -74.003'
+  description: |
+
+
+
+# ------------------------------------------------------------
+# !SPONSORS
+# ------------------------------------------------------------
+
+sponsors:
+  why:
+    title: Interested in Sponsoring GrafanaCon NYC?
+    description: |
+      Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+      Download our [Prospectus](/2016/grafanacon_2016_prospectus.pdf) to learn more about our sponsorship levels.
+      For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+  title: Thanks to our Sponsors
+  sponsor:
+    - name: Squarespace
+      url: https://www.squarespace.com/
+      logo: squarespace.png
+    - name: raintank
+      url: https://www.raintank.io/
+      logo: raintank-logo.png
+
+
+# ------------------------------------------------------------
+# !LODGING
+# ------------------------------------------------------------
+
+lodging:
+  title: Recommended Hotel – YOTEL New York
+  description: |
+    GrafanaCon has worked with YOTEL New York to provide a discounted block of rooms for attendees. YOTEL is located in Midtown, Manhattan, just two blocks west of Times Square on the corner of Tenth Avenue and West 42nd Street at 570 Tenth Avenue, NY 10036, and a short walk to the conference venue. 
+  url: 
+
+
+# ------------------------------------------------------------
+# !VIDEOS
+# ------------------------------------------------------------
+
+videos:
+  title: GrafanaCon NYC 2015 Videos
+  video:
+    - url: https://www.youtube.com/watch?v=b2mFBj1CkdY
+      title: GrafanaCon 2015 Kickoff
+      thumbnail: torkel_grafanacon2015_kickoff.jpg
+    - url: https://www.youtube.com/watch?v=C_H2ew8e5OM
+      title: Alerting in Grafana
+      thumbnail: dieter.jpg
+    - url: https://www.youtube.com/watch?v=89H48IwFeV4
+      title: Scaling Monitoring at Uber
+      thumbnail: uber.jpg
+    - url: https://www.youtube.com/watch?v=yG5iqtg6MGE
+      title: Automating Grafana Policies
+      thumbnail: outbrain.jpg
+    - url: https://www.youtube.com/watch?v=cXVI08iEu60
+      title: Prometheus Loves Grafana
+      thumbnail: soundcloud.jpg
+    - url: https://www.youtube.com/watch?v=TfCEQvQZ_AQ
+      title: The New InfluxDB
+      thumbnail: paul_dix_2.jpg
+    - url: https://www.youtube.com/watch?v=kBiR8aK0n_M
+      title: Grafana and MySQL
+      thumbnail: ingram.jpg
+    - url: https://www.youtube.com/watch?v=6X8ZkOf8MLs
+      title: Tales of a Custom Datasource
+      thumbnail: opennms.jpg
+    - url: https://www.youtube.com/watch?v=OWlZzh-R_JM
+      title: The Future of Grafana
+      thumbnail: torkel_future_2015.jpg
+
+
+# ------------------------------------------------------------
+# !GALLERY
+# ------------------------------------------------------------
+
+# gallery:
+#   title: Gallery
+#   subhead: As you can see, we have a great time!
+#   images:
+#     - caption: GrafanaCon EU 2018
+#       original: 001.jpg
+#       thumbnail: thumb-001.jpg
