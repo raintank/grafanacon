@@ -6,10 +6,10 @@
             <ul class="speakers-list">
                 {% for speaker in conference.speakers.speakers %}
                 <li class="speakers-list__item speaker">
-                    <div class="headshot{% unless speaker.twitter || speaker.github %} padded{% endunless %}">
+                    <div class="headshot{% unless speaker.twitter or speaker.github %} padded{% endunless %}">
                         <img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}">
                     </div>
-                    {% if speaker.twitter || speaker.github %}
+                    {% if speaker.twitter or speaker.github %}
                     <ul class="social-links">
                         {% if speaker.twitter %}
                             <li class="social-links__item">
