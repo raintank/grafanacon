@@ -50,7 +50,7 @@ info:
   year: 2016
   date: November 30 - December 1, 2016
   current: false
-  ticket-url: 
+  ticket-url:
   tickets-on-sale: false
   meta-description: GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. GrafanaCon EU will be held at the Compagnietheater in Amsterdam, Netherlands, March 1-2, 2018.
   about:
@@ -58,14 +58,14 @@ info:
     content: |
       ### **New York, NY • November 30 - December 1, 2016 • Intrepid Sea, Air & Space Museum**
 
-      
+
       Join the Grafana team and hundreds of monitoring and data aficionados for two days of content and speakers from across the Grafana ecosystem, led by Torkel Odegaard, the creator of Grafana.
 
       Set aboard The Intrepid Sea, Air & Space Museum, this Essex-class aircraft carrier boasts one of the most varied aircraft collections on the east coast, stunning views of the Hudson River and, did we forget to mention, a space shuttle!?
 
       **Day 1:** Single track talks and panels of general interest.
 
-      **Day 2:** Dual track format, with more detailed topics and deeper dives. 
+      **Day 2:** Dual track format, with more detailed topics and deeper dives.
 
       Day two will also have a plugin lounge with projects from across the ecosystem including Prometheus, Graphite, InfluxDB, worldPing, Kentik, Voxter, Circonus, Crate.io, NS1 and many others.
 
@@ -90,7 +90,7 @@ schedule:
           - name: Torkel Odegaard
             title: Welcome
           - name: Kevin Retzke
-            title: Large-Scale Scientific Computing Monitoring with Grafana 
+            title: Large-Scale Scientific Computing Monitoring with Grafana
           - name: Torkel Odegaard
             title: Launch of Grafana 4.0
           - name: Kyle Brandt
@@ -119,7 +119,7 @@ schedule:
           title: Using Grafana at NetApp
         - name: Peter Zaitsev
           title: How We Integrate Grafana with Prometheus for Easy MySQL and MongoDB Monitoring
-        - name: Raj Dutt, Carl DePasquale, Scott Johnson, Zac Smith 
+        - name: Raj Dutt, Carl DePasquale, Scott Johnson, Zac Smith
           title: PANEL – Open Source in the Enterprise
       - time: 3:30PM
         description: "**BREAK**"
@@ -140,10 +140,10 @@ schedule:
       - time: "9:30AM"
         speakers:
           - name: Paul Dix
-            title: GH 2 - Monitoring with InfluxDB and Grafana 
+            title: GH 2 - Monitoring with InfluxDB and Grafana
       - time: "9:40AM"
         speakers:
-          - name: Deepak Vasthimal 
+          - name: Deepak Vasthimal
             title: GH 1 -  Monitoring Anomalies in the Experimentation Platform at eBay
       - time: "10:00AM"
         speakers:
@@ -156,12 +156,12 @@ schedule:
       - time: "11:00AM"
         speakers:
         - name: Joel Cooklin, Matthew Brender
-          title: GH 1 - Snap Telemetry Framework & Plugin Architecture 
+          title: GH 1 - Snap Telemetry Framework & Plugin Architecture
         - name: Brian Hawkins
           title: GH 2 - Kairos DB, How Gathering Metrics can Save Your Bacon When Things Go Wrong.
       - time: "11:50AM"
         speakers:
-        - name: Carl DePasquale 
+        - name: Carl DePasquale
           title: GH 1 - ADP Capacity and Performance Analytics Service
         - name: Abhishek Sant, Senthil Pandurangan
           title: GH 2 - Monitoring at scale over diverse data sources using Grafana @ PayPal - Druid, TSDB, Hadoop
@@ -184,7 +184,7 @@ schedule:
         - name: Yann Bizeul
           title: GH 1 - The Harvest/Graphite/ Grafana Solution
         - name: Jacob Lisi
-          title: GH 2 - Building a Snap Plugin and Visualizing the Data in Grafana        
+          title: GH 2 - Building a Snap Plugin and Visualizing the Data in Grafana
       - time: "3:50PM"
         speakers:
           - name: Mitsuhiro Tanda
@@ -233,7 +233,7 @@ speakers:
       github: https://github.com/utkarshcmu
       talk: Elastic-Monitoring Using Grafana at Sony PlayStation
     - name: Kyle Brandt
-      role: Director, Site Reliability 
+      role: Director, Site Reliability
       company: Stack Overflow
       logo:  stack_overflow.png
       headshot: kyle.jpg
@@ -265,7 +265,7 @@ speakers:
       github: https://github.com/mtanda
       talk: An Introduction to the Heatmap / Histogram Plugin
     - name: Kevin Retzke
-      role: Applications Developer & System Analyst 
+      role: Applications Developer & System Analyst
       company: Fermilab
       logo:  fermilab.png
       headshot: kevin_retzke.jpg
@@ -310,7 +310,7 @@ speakers:
       github: https://twitter.com/ybontap
       talk: Harvest/Graphite/Grafana Solution
     - name: Abhishek Sant
-      role: Senior Software Engineer 
+      role: Senior Software Engineer
       company: Paypal
       logo:  paypal.png
       headshot: abhishek.jpg
@@ -393,7 +393,7 @@ events:
       description: Directly following the last talk on November 30, we will take a short walk to Lucky Strike Manhattan for bowling, drinks, dinner and awesome conversation.
   sponsors:
     - name: Lucky Strike Manahattan
-      address1: 624-660 W. 42nd Street,  
+      address1: 624-660 W. 42nd Street,
       address2: New York, NY, 10036
       address3:
       url: http://luckystrikesocial.com
@@ -420,9 +420,9 @@ about:
 
 location:
   name: Intrepid Sea, Air & Space Museum
-  coordinates: '40.761, -74.002'
+  coordinates: '-73.979372, 40.756177'
   description: |
-    The Intrepid Sea, Air & Space Museum is a non-profit, educational institution featuring the legendary aircraft carrier Intrepid, the space shuttle Enterprise, the world’s fastest jets and a guided missile submarine. Visitors of all ages and abilities are taken on an interactive journey through history to learn about American innovation and bravery. 
+    The Intrepid Sea, Air & Space Museum is a non-profit, educational institution featuring the legendary aircraft carrier Intrepid, the space shuttle Enterprise, the world’s fastest jets and a guided missile submarine. Visitors of all ages and abilities are taken on an interactive journey through history to learn about American innovation and bravery.
     * One of the most varied aircraft collections on the East Coast
     * Pier 86, W. 46th Street and 12th Avenue
 
@@ -484,8 +484,8 @@ sponsors:
 lodging:
   title: Recommended Hotel – YOTEL New York
   description: |
-    GrafanaCon has worked with YOTEL New York to provide a discounted block of rooms for attendees. YOTEL is located in Midtown, Manhattan, just two blocks west of Times Square on the corner of Tenth Avenue and West 42nd Street at 570 Tenth Avenue, NY 10036, and a short walk to the conference venue. 
-  url: 
+    GrafanaCon has worked with YOTEL New York to provide a discounted block of rooms for attendees. YOTEL is located in Midtown, Manhattan, just two blocks west of Times Square on the corner of Tenth Avenue and West 42nd Street at 570 Tenth Avenue, NY 10036, and a short walk to the conference venue.
+  url:
 
 
 # ------------------------------------------------------------
