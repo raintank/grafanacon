@@ -54,11 +54,14 @@ info:
   tickets-on-sale: false
   meta-description: GrafanaCon is an event with talks centered around Grafana and the surrounding ecosystem.
   about:
-    title: Join us for GrafanaCon NYC and the Launch of Grafana 4.0
+    title: Join us for an evening to discuss Grafana, open source monitoring, and the extended Grafana community.
     content: |
       ### **New York, NY • Thursday, October 15, 2015 - Squarespace HQ**
 
-      Spend an evening discussing Grafana, the leading open source graph and dashboard composer for visualizing time series metrics. This conference will feature talks by Grafana creator Torkel Ödegaard, as well as users and contributors from the Grafana community. The point of this conference is to come together to discuss how to make the most of the data you're collecting.
+      Spend an evening discussing Grafana, the leading open source graph and dashboard composer for visualizing time series metrics. 
+
+      This conference will feature talks by Grafana creator Torkel Ödegaard, as well as users and contributors from the Grafana community. The point of this conference is to come together to discuss how to make the most of the data you're collecting.
+      
       We plan to cover general information about using and getting the most out of Grafana, tips on building dashboards, in-depth feature demos, how-to's, and Q&A sessions; finishing the afternoon discussing the future of Grafana. We'll also be enjoying pizza and beer during the event. Everyone is welcome, and the best part is, it's **free**!
 
 
@@ -263,11 +266,11 @@ sponsors:
 # !LODGING
 # ------------------------------------------------------------
 
-lodging:
-  title: Recommended Hotel – YOTEL New York
-  description: |
-    GrafanaCon has worked with YOTEL New York to provide a discounted block of rooms for attendees. YOTEL is located in Midtown, Manhattan, just two blocks west of Times Square on the corner of Tenth Avenue and West 42nd Street at 570 Tenth Avenue, NY 10036, and a short walk to the conference venue.
-  url:
+# lodging:
+#   title: Recommended Hotel – YOTEL New York
+#   description: |
+#     GrafanaCon has worked with YOTEL New York to provide a discounted block of rooms for attendees. YOTEL is located in Midtown, Manhattan, just two blocks west of Times Square on the corner of Tenth Avenue and West 42nd Street at 570 Tenth Avenue, NY 10036, and a short walk to the conference venue.
+#   url:
 
 
 # ------------------------------------------------------------
@@ -282,27 +285,34 @@ videos:
       thumbnail: torkel_grafanacon2015_kickoff.jpg
     - url: https://www.youtube.com/watch?v=C_H2ew8e5OM
       title: Alerting in Grafana
+      presentation: alerting_in_grafana.pdf
       thumbnail: dieter.jpg
     - url: https://www.youtube.com/watch?v=89H48IwFeV4
       title: Scaling Monitoring at Uber
       thumbnail: uber.jpg
     - url: https://www.youtube.com/watch?v=yG5iqtg6MGE
       title: Automating Grafana Policies
+      presentation: GrafanaOB.pdf
       thumbnail: outbrain.jpg
     - url: https://www.youtube.com/watch?v=cXVI08iEu60
       title: Prometheus Loves Grafana
+      presentation: Prometheus_loves_Grafana.pdf
       thumbnail: soundcloud.jpg
     - url: https://www.youtube.com/watch?v=TfCEQvQZ_AQ
       title: The New InfluxDB
+      presentation: GrafanaCon_Lightning_Talk.pdf
       thumbnail: paul_dix_2.jpg
     - url: https://www.youtube.com/watch?v=kBiR8aK0n_M
       title: Grafana and MySQL
+      presentation: Philip_Wernersbach_Grafanacon_2015_Presentation.pdf
       thumbnail: ingram.jpg
     - url: https://www.youtube.com/watch?v=6X8ZkOf8MLs
       title: Tales of a Custom Datasource
+      presentation: Tales_of_a_Custom_Data_Source.pdf
       thumbnail: opennms.jpg
     - url: https://www.youtube.com/watch?v=OWlZzh-R_JM
       title: The Future of Grafana
+      presentation: Torkel_future_grafana_panel.pdf
       thumbnail: torkel_future_2015.jpg
 
 

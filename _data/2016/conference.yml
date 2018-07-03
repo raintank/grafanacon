@@ -500,96 +500,123 @@ videos:
       thumbnail: grafanacon_hype_reel.png
     - url: https://www.youtube.com/watch?v=mgwQWFeiW_Y
       title: GrafanaCon Kickoff
+      presentation: torkel_odegaard_welcome.pdf
       thumbnail: torkel_1.jpg
     - url: https://youtu.be/JR7HZ2LTozg
       title: Large-Scale Scientific Computing Monitoring with Grafana
+      presentation: kevin-retzke-grafanacon-2016.pdf
       thumbnail: fermilab.jpg
     - url: https://www.youtube.com/watch?v=B16Za773OuE
       title: The Launch of Grafana 4.0 and Native Alerting
       thumbnail: torkel_2.jpg
     - url: https://www.youtube.com/watch?v=BvFQoAF2bFo
       title: The Culture and Reality of Monitoring at Stack Overflow
+      presentation: kyle_brandt_monitoring.pdf
       thumbnail: kyle.jpg
     - url: https://www.youtube.com/watch?v=PrXBUFXsYQY
       title: The Biz of Grafana
+      presentation: raj_dutt_completed_stackdeck.pdf
       thumbnail: biz_of_grafana.jpg
     - url: https://www.youtube.com/watch?v=czCI0q4CbcU
       title: The Launch of Snap 1.0
+      presentation: nick_weaver_snap_grafanacon.pdf
       thumbnail: snap_1.jpg
     - url: https://www.youtube.com/watch?v=Hb_lcAGjfZg
       title: The Open Source Monitoring Stack at Staples
+      presentation: yasmin_rajabi_staples.pdf
       thumbnail: staples.jpg
     - url: https://www.youtube.com/watch?v=9huFzamSG8g
       title: Launching Graphite 1.0
+      presentation: jason_dixon_graphite-1.0-ish.pdf
       thumbnail: graphite.jpg
     - url: https://www.youtube.com/watch?v=QtZ86KK5pIw
       title: Panel - Open Source in the Enterprise
       thumbnail: enterprise_panel.jpg
     - url: https://www.youtube.com/watch?v=rSUPtxtEa9A
       title: Circonus and IronDB
+      presentation: riley_berton_circonus.pdf
       thumbnail: circonus.jpg
     - url: https://www.youtube.com/watch?v=lUxch3sxSJs
       title: Using Grafana at NetApp
+      presentation: yann_bizeul_NetApp_GrafanaCon_2016.pdf
       thumbnail: yann_1.jpg
     - url: https://www.youtube.com/watch?v=Ub0F_jc0YLI
       title: NS1 - Intelligent DNS and Traffic Management
+      presentation: jon_sullivan_ns1.pdf
       thumbnail: sully.jpg
     - url: https://www.youtube.com/watch?v=GarWoFRXem4
       title: Integrating Grafana, Prometheus for Easy MySQL & MongoDB Monitoring
+      presentation: peter-zatisev_How-We-Integrate-Grafana-with-Prometheus.pdf
       thumbnail: percona.jpg
     - url: https://www.youtube.com/watch?v=Wnclqc2rVf8
       title: The Harvest/Graphite/Grafana Solution
+      presentation: yann_bizeul_NetApp_GrafanaCon_2016.pdf
       thumbnail: yann_2.jpg
     - url: https://www.youtube.com/watch?v=qChVC7Hd9BE
       title: Elastic-Monitoring Using Grafana at Sony PlayStation
+      presentation: utkarsh_bhatnagar_sony_playstation.pdf
       thumbnail: utkarsh_1.jpg
     - url: https://www.youtube.com/watch?v=ucBlzUlC7jo
       title: ADP Capacity Planning and Performance Analytics Service
+      presentation: carl_depasquale_ADP-GrafanaCon2016.pdf
       thumbnail: carl_1.jpg
     - url: https://www.youtube.com/watch?v=FHKnijjs5IM
       title: Intel Snap Telemetry Framework & Plugin Architecture
+      presentation: matthew_brender_joel_cooklin_intel_snap.pdf
       thumbnail: snap_2.jpg
     - url: https://www.youtube.com/watch?v=_xf-ZMNYDpk
       title: Monitoring Anomalies in the Experimentation Platform at eBay
+      presentation: deepak_Monitoring_Anomalies_Experimentation_Platform.pdf
       thumbnail: ebay.jpg
     - url: https://www.youtube.com/watch?v=2ZlZuUS_X6M
       title: The Heatmap and Histogram Panels
+      presentation: mitsuhiro_tanda_grafana-plugin.pdf
       thumbnail: mtanda.jpg
     - url: https://www.youtube.com/watch?v=pXYFKMDEoy4
       title: Capacity and Performance Analytics Service at ADP
+      presentation: carl_depasquale_ADP-GrafanaCon2016.pdf
       thumbnail: carl_2.jpg
     - url: https://www.youtube.com/watch?v=llRhdvV25rg
       title: Elastic-Monitoring Using Grafana at Sony PlayStation
+      presentation: utkarsh_bhatnagar_sony_playstation.pdf
       thumbnail: utkarsh_2.jpg
     - url: https://www.youtube.com/watch?v=nkCGOmLBI6I
       title: Monitoring What Matters
+      presentation: brian-brazil-anintroductiontoprometheus.pdf
       thumbnail: brian_brazil.jpg
     - url: https://www.youtube.com/watch?v=0Y_VdZphW1U
       title: Using Grafana and CrateDB for Processing Your Machine Data
+      presentation: paul_adams_Crate_io_Grafana.pdf
       thumbnail: paul_adams.jpg
     - url: https://www.youtube.com/watch?v=EbaO4qztLdo
       title: The Hawkular Monitoring Ecosystem
+      presentation: heiko_rupp_hawkular.pdf
       thumbnail: heiko_rupp.jpg
     - url: https://www.youtube.com/watch?v=veb0WonfVoU
       title: How Gathering Metrics can Save Your Bacon
+      presentation: brian_hawkins_Save_Your_Bacon.pdf
       thumbnail: b_hawkins.jpg
     - url: https://www.youtube.com/watch?v=hQMZiqt5I0k
       title: Monitoring at scale using Grafana @ PayPal
+      presentation: abhishank-senthil-paypal-druid.pdf
       thumbnail: paypal.jpg
     - url: https://www.youtube.com/watch?v=Xqtfk3HQOAg
       title: Monitoring InfluxCloud with InfluxDB
+      presentation: paul_dix_Monitoring_InfluxCloud_InfluxDB.pdf
       thumbnail: paul_dix.jpg
     - url: https://www.youtube.com/watch?v=QVgcJ21xb80
       title: Monitioring Your Network from the Inside Out
       thumbnail: network_monitoring_panel.jpg
     - url: https://www.youtube.com/watch?v=1w_xgcFwd7g
       title: Building a Snap Telemetry Plugin
+      presentation: jacob_lisi_HowToWriteAndVisualizeASnapPlugin.pdf
       thumbnail: jacob_lisi.jpg
     - url: https://www.youtube.com/watch?v=HOSPqjYd7AU
       title: Panel - The Future of Metrics
       thumbnail: future_metrics_panel.jpg
     - url: https://www.youtube.com/watch?v=1f-1v6sC5Do
       title: Kentik - Network Visibility for All
+      presentation: avi_freedman_kentik-grafanacon-2016v2.pdf
       thumbnail: kentik.jpg
     - url: https://www.youtube.com/watch?v=jfUb8pGERrg
       title: Grafana 4 Features Demo Session
