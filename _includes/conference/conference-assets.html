@@ -11,7 +11,6 @@
   };
 </script>
 
-{% if conference.gallery %}
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="{{ site.baseurl }}/assets/vendor/jquery.sticky.js"></script>
@@ -25,21 +24,23 @@
       addListeners();
     });
 
-    var $gallery = $('#lightgallery');
+    {% if conference.gallery %}
+      var $gallery = $('#lightgallery');
 
-    $($gallery).lightGallery();
+      $($gallery).lightGallery();
 
-    var $grid = $gallery.masonry({
-      itemSelector: '.gallery-list__item',
-      columnWidth: '.grid-sizer',
-      gutter: 0,
-      percentPosition: true,
-      transitionDuration: '100ms'
-    });
+      var $grid = $gallery.masonry({
+        itemSelector: '.gallery-list__item',
+        columnWidth: '.grid-sizer',
+        gutter: 0,
+        percentPosition: true,
+        transitionDuration: '100ms'
+      });
 
-    $grid.imagesLoaded().progress( function() {
-      $grid.masonry('layout');
-    });
+      $grid.imagesLoaded().progress( function() {
+        $grid.masonry('layout');
+      });
+    {% endif %}
 
     function addListeners() {
       $('#siteNavOpen').on('click', navToggleClickHandler);
@@ -54,5 +55,3 @@
       toggleNav();
     }
   </script>
-
-{% endif %}
