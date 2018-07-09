@@ -18,7 +18,8 @@
 # ------------------------------------------------------------
 
 name: 2018 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
-logo: logo.png
+nav-logo: grafanacon_eu_nav-logo.svg
+logo:
 css: 2018.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 
@@ -28,7 +29,7 @@ fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 # ------------------------------------------------------------
 
 navigation:
-  - name: Home
+  - name: Welcome
     url: /
   - name: Watch
     url: /videos
@@ -54,7 +55,7 @@ info:
   tickets-on-sale: false
   meta-description: GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. GrafanaCon EU will be held at the Compagnietheater in Amsterdam, Netherlands, March 1-2, 2018.
   about:
-    title: Join us for GrafanaCon EU and the Launch of Grafana 5.0
+    title: GrafanaCon EU and the Launch of Grafana 5.0
     content: |
       GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxData, Elasticsearch Kubernetes, and more.
 
@@ -572,7 +573,7 @@ events:
     - name: Conference Afterparty
       description: Directly following the last talk on March 1, in the **Compagnietheater's Cafe, Zuilenzaal and Foyer**, we will have the official after conference reception! We will provide a walking dinner, drinks, and plenty of time to chat with attendees and sponsors.
     - name: Official Grafana 5 Launch Party
-      description: Following the conference afterparty, we are hosting an official Grafana 5 launch party. A short walk through the Red Light District will take you to the Ton Ton Club - an arcade and bar where you'll enjoy free games, drinks and snacks starting at 8pm.
+      description: Following the conference afterparty, we are hosting an official Grafana 5 launch party. A short walk through the Red Light District will take you to the Ton Ton Club arcade and bar, where you'll enjoy free games, drinks and snacks at 8pm.
   sponsors:
     - name: Ton Ton Club
       address1: Sint Annendwarsstraat 6,
@@ -589,12 +590,12 @@ events:
 about:
   title: What can I Expect at GrafanaCon?
   content: |
-    GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 300 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
+    GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 350 monitoring and data aficionados, 30+ talks and countless opportunities to meet new people and learn from each other.
 
-    To see what GrafanaCon is like, check out the [videos from our previous conferences](https://grafana.com/grafanacon), but to get a true sense, you really should experience it in person.
+    To see what GrafanaCon is like, check out the [videos from our most recent conferences](/2018/videos), but to get a true sense, you really should experience it in person.
   videos:
-    - title: Highlights from GrafanaCon NYC 2016
-      id: 19MKjkEX4wY
+    - title: This is GrafanaCon EU 2018
+      id: o2-S4jVF0Bk
 
 
 # ------------------------------------------------------------
@@ -615,7 +616,7 @@ location:
 # ------------------------------------------------------------
 
 sponsors:
-  title: Want to Sponsor GrafanaCon EU?
+  title: We Love our Sponsors
   description: |
     Sponsoring GrafanaCon EU offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
 
@@ -649,7 +650,7 @@ sponsors:
       logo: packet_sponsor_logo.png
     - name: Timescale
       url: https://www.timescale.com/
-      logo: timescale_logo.png
+      logo: timescale_sponsor_logo.png
     - name: Kausal
       url: https://kausal.co/
       logo: kausal_logo.png
@@ -679,7 +680,7 @@ lodging:
 # ------------------------------------------------------------
 
 videos:
-  title: GrafanaCon EU 2018 Videos
+  title: Check out all the talks from GrafanaCon EU 2018
   video:
     - url: https://www.youtube.com/watch?v=JtjxeZxdKWA
       title: GrafanaCon EU 2018 Kickoff

@@ -18,7 +18,8 @@
 # ------------------------------------------------------------
 
 name: 2016 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
-logo: logo.png
+nav-logo: logo.png
+logo:
 css: 2016.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 
@@ -28,7 +29,7 @@ fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 # ------------------------------------------------------------
 
 navigation:
-  - name: Home
+  - name: Welcome
     url: /
   - name: Watch
     url: /videos
@@ -54,7 +55,7 @@ info:
   tickets-on-sale: false
   meta-description: GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. GrafanaCon EU will be held at the Compagnietheater in Amsterdam, Netherlands, March 1-2, 2018.
   about:
-    title: Join us for GrafanaCon NYC and the Launch of Grafana 4.0
+    title: GrafanaCon NYC and the Launch of Grafana 4.0
     content: |
       ### **New York, NY • November 30 - December 1, 2016 • Intrepid Sea, Air & Space Museum**
 

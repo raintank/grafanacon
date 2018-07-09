@@ -62,7 +62,7 @@ $yiq-contrasted-threshold:  150 !default;
 $yiq-text-dark:         $gray-9 !default;
 $yiq-text-light:        $white !default;
 
-$base-link-color: $tertiary-color !default;
+$base-link-color: $primary-color !default;
 
 
 // Hero
@@ -81,11 +81,11 @@ $page-hero-background-pos:  50% !default;
 // --------------------------------------------------------------------------
 
 $nav-sticky-bg-color:     $white !default;
-$nav-logo-max-width:      rem-calc(75) !default;
+$nav-logo-max-width:      rem-calc(200) !default; // was 75 TRW
 $nav-item-max-width:      rem-calc(320) !default;
 $nav-item-margin:         $small-spacing !default;
 $nav-link-color:          $base-link-color !default;
-$nav-list-open-btn-bg:    $tertiary-color !default;
+$nav-list-open-btn-bg:    $primary-color !default;
 
 
 // Page

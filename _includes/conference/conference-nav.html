@@ -3,9 +3,9 @@
 <div id="header" class="header">
     <div class="row columns">
         <nav class="site-nav">
-            {% if conference.logo %}
+            {% if conference.nav-logo %}
                 <a href="{{ site.baseurl }}/{{ conference.name }}" class="site-nav__home-link">
-                    <img class="site-nav__logo" src="{{ images }}{{ conference.logo }}" alt="{{ conference.info.title }}">
+                    <img class="site-nav__logo" src="{{ images }}{{ conference.nav-logo }}" alt="{{ conference.info.title }}">
                 </a>
             {% endif %}
             <button id="siteNavOpen" class="site-nav__open">Menu</button>

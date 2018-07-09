@@ -19,6 +19,18 @@ body.nav-is-open {
 
 .sticky-wrapper.is-sticky > .header {
   background: $nav-sticky-bg-color;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.sticky-wrapper > .header {
+  background: linear-gradient(rgba(0,0,0,0.9) 0, rgba(0,0,0,0) 100%);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .header > .row {
@@ -33,7 +45,7 @@ body.nav-is-open {
 
 .site-nav__logo {
   display: block;
-  max-width: rem-calc(75);
+  max-width: $nav-logo-max-width; // was rem-calc(200) TRW
   margin: 0 auto;
 }
 

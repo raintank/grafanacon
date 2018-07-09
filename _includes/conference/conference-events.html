@@ -1,7 +1,7 @@
 {% if conference.events %}
 <div class="page-section page-section--dark">
     <div class="row">
-        <div class="small-11 small-centered medium-9 columns">
+        <div class="small-10 small-centered medium-8 columns">
             <h2 class="page-section__title">{{ conference.events.title }}</h2>
             <div class="page-section__body">
                 <p>{{ conference.events.intro }}</p>
@@ -9,7 +9,7 @@
             {% for event in conference.events.event %}
                 <h3 class="page-section__event-title">{{ event.name }}</h3>
                 <div class="page-section__body">
-                    <p>{{ event.description }}</p>
+                    <p>{{ event.description | markdownify }}</p>
                 </div>
             {% endfor %}
             {% for sponsor in conference.events.sponsors %}

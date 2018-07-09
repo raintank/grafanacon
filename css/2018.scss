@@ -19,6 +19,12 @@ $primary-color:     #eb237c;
 $secondary-color:   #160328;
 $tertiary-color:    #4999ef;
 
+// Navigation
+// --------------------------------------------------------------------------
+
+$nav-sticky-bg-color:     rgba(0,0,0,0.9);
+$page-hero-background:    url('../2018/images/grafanacon_eu_hero.jpg');
+
 // --------------------------------------------------------------------------
 // END OVVERIDES
 // --------------------------------------------------------------------------
@@ -34,4 +40,9 @@ $tertiary-color:    #4999ef;
 
 body {
   @include web-font('Gothic A1', sans-serif);
+  line-height: 1.7;
+}
+
+.page-hero {
+	min-height: rem-calc(450);
 }

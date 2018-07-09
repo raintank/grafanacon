@@ -8,6 +8,16 @@
                     {{ conference.info.about.content | markdownify }}
                 </div>
             {% endif %}
+            {% if conference.about.videos %}
+                    {% for video in conference.about.videos %}
+                        <div class="page-section__video mt-small-5">
+                            <!-- <h4 class="text-center mb-small-2">{{ video.title }}</h4> -->
+                            <div class="video-wrap">
+                                <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
         </div>
     </div>
 </div>

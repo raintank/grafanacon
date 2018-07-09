@@ -18,7 +18,8 @@
 # ------------------------------------------------------------
 
 name: 2015 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
-logo: logo.png
+nav-logo: logo.png
+logo:
 css: 2015.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 
@@ -28,7 +29,7 @@ fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 # ------------------------------------------------------------
 
 navigation:
-  - name: Home
+  - name: Welcome
     url: /
   - name: Watch
     url: /videos

@@ -49,7 +49,7 @@
 }
 
 .page-section--dark .page-section__title {
-  border-color: $white;
+  border-color: $primary-color;
   color: $white;
 }
 
@@ -58,7 +58,7 @@
   font-size: $page-section-body-font-size;
 
   @include breakpoint(medium up) {
-    font-size: $page-section-title-font-size * 1.125;
+    font-size: $page-section-title-font-size * 1.0; //Was 1.125 TRW
   }
 }
 
@@ -66,7 +66,7 @@
   margin: 0 0 .125em;
   color: $page-section-event-title-color;
   font-size: $page-section-event-title-font-size;
-  font-weight: 400;
+  font-weight: 700;
 
   @include breakpoint(medium up) {
     font-size: $page-section-event-title-font-size * 1.125;

@@ -15,9 +15,22 @@
 // PLACE CUSTOM STYLE OVERRIDE VARIABLES HERE
 // --------------------------------------------------------------------------
 
-$primary-color:     #eb237c;
-$secondary-color:   #160328;
-$tertiary-color:    #4999ef;
+$primary-color:     #02191f;
+$secondary-color:   #fecd08;
+$tertiary-color:    #efefef;
+$nav-link-color:	#ffffff;
+
+$page-section-dark-bg:	$primary-color;
+$page-section-dark-color:	#b5b5b5;
+
+$video-slide-link-color:	$tertiary-color;
+
+// Navigation
+// --------------------------------------------------------------------------
+
+$nav-sticky-bg-color:     rgba(0,0,0,0.9);
+$page-hero-background:    url('../2016/images/grafanacon_nyc_hero.jpg');
+
 
 // --------------------------------------------------------------------------
 // END OVVERIDES
@@ -34,4 +47,23 @@ $tertiary-color:    #4999ef;
 
 body {
   @include web-font('Gothic A1', sans-serif);
+  line-height: 1.7;
+}
+
+.page-hero {
+	min-height: rem-calc(450);
+}
+
+.page-section .page-section__title {
+  border-color: $primary-color;
+}
+
+
+.page-section--dark .page-section__title {
+  border-color: $secondary-color;
+  color: $white;
+}
+
+.videos-list__link {
+	color: $tertiary-color;
 }
