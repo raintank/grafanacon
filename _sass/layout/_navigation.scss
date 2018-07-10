@@ -7,6 +7,7 @@ body.nav-is-open {
 }
 
 .header {
+  position: relative;
   z-index: 100 !important;
   width: 100%;
   padding: $base-spacing 0;
@@ -18,19 +19,13 @@ body.nav-is-open {
 }
 
 .sticky-wrapper.is-sticky > .header {
+  transition: all .5s ease-in-out;
   background: $nav-sticky-bg-color;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 .sticky-wrapper > .header {
-  background: linear-gradient(rgba(0,0,0,0.9) 0, rgba(0,0,0,0) 100%);
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  transition: all .25s ease-in-out;
+  background: linear-gradient(rgba($black, .9) 0, rgba($black, 0) 100%);
 }
 
 .header > .row {
