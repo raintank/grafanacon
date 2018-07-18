@@ -562,8 +562,8 @@ speakers:
       headshot: anko_duizer.jpg
       twitter: https://twitter.com/ankoduizer
       github: https://github.com/ankodu
-      talk: Cosmos DB
-      description: Abstract not available.
+      talk: Cosmos DB and Grafana
+      description:
 
 
 # ------------------------------------------------------------
