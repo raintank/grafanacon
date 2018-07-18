@@ -9,16 +9,28 @@
                 </div>
             {% endif %}
             {% if conference.info.about.videos %}
-                    {% for video in conference.info.about.videos %}
-                        <div class="page-section__video mt-small-5">
-                            <!-- <h4 class="text-center mb-small-2">{{ video.title }}</h4> -->
-                            <div class="video-wrap">
-                                <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
-                            </div>
+                {% for video in conference.info.about.videos %}
+                    <div class="page-section__video mt-small-5">
+                        <!-- <h4 class="text-center mb-small-2">{{ video.title }}</h4> -->
+                        <div class="video-wrap">
+                            <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
                         </div>
-                    {% endfor %}
-                {% endif %}
+                    </div>
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
 </div>
 {% endif %}
+{% if conference.info.about.sponsorship-opportunitues %}
+<div class="page-section page-section--dark">
+        <div class="row">
+            <div class="small-10 small-centered medium-8 columns">
+                <h2 class="page-section__title">{{ conference.info.about.sponsorship-opportunitues.title }}</h2>
+                <div class="page-section__body">
+                    {{ conference.info.about.sponsorship-opportunitues.content | markdownify }}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>

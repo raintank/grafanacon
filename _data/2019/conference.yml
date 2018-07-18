@@ -66,6 +66,14 @@ info:
       Ticket includes **breakfast & refreshments and lunch both days**, coffee tea all day,  entry to the post-conference party with dinner and open bar, and entry to our special Grafana launch party.
 
       ### Check out the video from our last GrafanaCon!
+      
+    sponsorship-opportunitues:
+      title: Interested in Sponsoring GrafanaCon LA? 
+      content: |
+        Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+        Download our [Prospectus](/2019/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
+        For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+      
     videos:
     - title: This is GrafanaCon EU 2018
       id: o2-S4jVF0Bk

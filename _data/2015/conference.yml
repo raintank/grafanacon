@@ -227,7 +227,7 @@ speakers:
 about:
   title: What can I Expect at GrafanaCon?
   content: |
-    GrafanaCon has grown in every way with each conference we've hosted. GrafanaCon NYC had over 250 monitoring and data aficionados, 20+ talks and countless opportunities to meet new people and learn from each other.
+    GrafanaCon 2015 was our first event to gauge interest in a Grafana-focused conference. Our innagural event was 1 evening and included 8 speakers and 100+ attendees. This small event gave us an important data point that with the proper planning and speakers, the Grafana community would find a ton of value meeting each other in person, learning more about Grafana, and having fun! 
 
   # videos:
   #   - title:
@@ -239,7 +239,7 @@ about:
 # ------------------------------------------------------------
 
 location:
-  name: Squarespace HQ
+  name: The Venue - Squarespace HQ
   coordinates: '-74.01, 40.74'
   description: |
 
