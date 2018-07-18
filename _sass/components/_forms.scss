@@ -1,0 +1,40 @@
+.cfp ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+.cfp ::-moz-placeholder {
+  color: rgba(220, 220, 220, 0.75);
+}
+
+label {
+  font-weight: bold;
+  font-size: rem-calc(18);
+}
+
+input {
+  display: block;
+  width: 100%;
+  color: rgb(220, 220, 220);
+  height: rem-calc(40);
+  font-size: rem-calc(14);
+  padding: 0 10px;
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+select {
+  height: rem-calc(40);
+}
+
+textarea, select {
+  width: 100%;
+  display: block;
+  background-color: rgba(255,255,255, 0.2);
+  color: rgb(220, 220, 220);
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+}
