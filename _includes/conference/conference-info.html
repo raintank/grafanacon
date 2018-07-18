@@ -8,8 +8,8 @@
                     {{ conference.info.about.content | markdownify }}
                 </div>
             {% endif %}
-            {% if conference.about.videos %}
-                    {% for video in conference.about.videos %}
+            {% if conference.info.about.videos %}
+                    {% for video in conference.info.about.videos %}
                         <div class="page-section__video mt-small-5">
                             <!-- <h4 class="text-center mb-small-2">{{ video.title }}</h4> -->
                             <div class="video-wrap">

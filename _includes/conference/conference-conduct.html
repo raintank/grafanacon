@@ -1,0 +1,14 @@
+{% if conference.conduct %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+            {% if conference.conduct.content %}
+                <h2 class="page-section__title">{{ conference.conduct.title }}</h2>
+                <div class="page-section__body">
+                    {{ conference.conduct.content | markdownify }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}

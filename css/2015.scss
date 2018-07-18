@@ -15,12 +15,12 @@
 // PLACE CUSTOM STYLE OVERRIDE VARIABLES HERE
 // --------------------------------------------------------------------------
 
-$primary-color:     #262626;
-$secondary-color:   #fecd08;
+$primary-color:     #fecd08;
+$secondary-color:   #262626;
 $tertiary-color:    #efefef;
-$nav-link-color:	$secondary-color;
+$nav-link-color:	$primary-color;
 
-$page-section-dark-bg:	$primary-color;
+$page-section-dark-bg:	$secondary-color;
 $page-section-dark-color:	#b5b5b5;
 
 $video-slide-link-color:	$tertiary-color;
@@ -60,7 +60,7 @@ body {
 
 
 .page-section--dark .page-section__title {
-  border-color: $secondary-color;
+  border-color: $primary-color;
   color: $white;
 }
 

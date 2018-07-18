@@ -1,0 +1,238 @@
+# ============================================================
+# CONTENT:
+# 01 INFO
+# 02 SCHEDULE
+# 03 SPEAKERS
+# 04 EVENTS
+# 05 ABOUT
+# 06 LOCATION
+# 07 SPONSORS
+# 08 LODGING
+# 09 VIDEOS
+# 10 GALLERY
+# ============================================================
+
+
+# ------------------------------------------------------------
+# !THEME
+# ------------------------------------------------------------
+
+name: 2019 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
+nav-logo: grafanacon_la_nav-logo.svg
+logo:
+css: 2019.css
+fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
+
+
+# ------------------------------------------------------------
+# !NAVIGATTION
+# ------------------------------------------------------------
+
+navigation:
+  - name: Welcome
+    url: /
+  # - name: Watch
+  #   url: /videos
+  # - name: Schedule
+  #   url: /schedule
+  # - name: Speakers
+  #   url: /speakers
+  - name: CFP
+    url: /cfp
+  - name: Conduct
+    url: /conduct
+
+
+# ------------------------------------------------------------
+# !INFO
+# ------------------------------------------------------------
+
+info:
+  title: GrafanaCon LA
+  city: Los Angeles
+  year: 2019
+  date: February 25-26
+  current: true
+  ticket-url:
+  tickets-on-sale: false
+  meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding ecosystem. Additional information including conference dates, venue and CFP will be available soon.
+  about:
+    title: GrafanaCon LA
+    content: |
+      GrafanaCon is a two-day event with talks focused on Grafana and the surrounding ecosystem. Additional information including conference dates, venue and CFP will be available soon.
+
+      In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxData, Elasticsearch Kubernetes, and more.
+
+      Ticket includes **breakfast & refreshments and lunch both days**, coffee tea all day,  entry to the post-conference party with dinner and open bar, and entry to our special Grafana launch party.
+    videos:
+    - title: This is GrafanaCon EU 2018
+      id: o2-S4jVF0Bk
+
+# ------------------------------------------------------------
+# !SCHEDULE
+# ------------------------------------------------------------
+
+schedule:
+  - day: Day 1
+    timeslots:
+      - time: "8:00AM"
+        description: Registration/Coffee
+      - time: "9:45AM"
+        speakers:
+          - name: Torkel Odegaard
+            title: Welcome to GrafanaCon
+
+
+# ------------------------------------------------------------
+# !SPEAKERS
+# ------------------------------------------------------------
+
+# speakers:
+#   title: Speakers
+#   subhead: We're proud to have confirmed these amazing speakers.
+#   speakers:
+#     - name: Torkel Odegaard
+#       role: Creator | Project Lead
+#       company: Grafana
+#       logo: grafana_logo.png
+#       headshot: torkel_odegaard.jpg
+#       twitter: https://github.com/torkelo
+#       github: https://twitter.com/torkelo
+#       talk: Grafana v5 and the Future
+#       description: |
+#         The launch of Grafana v5 is probably the single biggest enhancement of the project's history. New features include a totally revamped layout engine, dashboard folders, and some foundational UX/UI improvements.
+
+#         We'll dive into the new features as well as what's on the horizon for Grafana
+
+
+# ------------------------------------------------------------
+# !EVENTS
+# ------------------------------------------------------------
+
+# events:
+#   title: Our After Conference Events
+#   intro: After a long day of talks, demos and networking, we thought it would be important to unwind a little. We have two after conference events on the first evening that you won't want to miss.
+#   event:
+#     - name: Conference Afterparty
+#       description: Directly following the last talk on March 1, in the **Compagnietheater's Cafe, Zuilenzaal and Foyer**, we will have the official after conference reception! We will provide a walking dinner, drinks, and plenty of time to chat with attendees and sponsors.
+#     - name: Official Grafana 5 Launch Party
+#       description: Following the conference afterparty, we are hosting an official Grafana 5 launch party. A short walk through the Red Light District will take you to the Ton Ton Club arcade and bar, where you'll enjoy free games, drinks and snacks at 8pm.
+#   sponsors:
+#     - name: TBD
+#       address1: 1933 S. Broadway
+#       address2: Lower Level
+#       address3: Los Angeles, CA, 90007
+#       url: https://tontonclub.nl/centrum/
+#       logo: tonton_logo_outline_white.png
+
+
+# ------------------------------------------------------------
+# !ABOUT
+# ------------------------------------------------------------
+
+# about:
+#   title: What can I Expect at GrafanaCon?
+#   content: |
+#     GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 450 monitoring and data aficionados, 30+ talks and countless opportunities to meet new people and learn from each other.
+
+#     To see what GrafanaCon is like, check out the [videos from our most recent conferences](/2018/videos), but to get a true sense, you really should experience it in person.
+#   videos:
+#     - title: This is GrafanaCon EU 2018
+#       id: o2-S4jVF0Bk
+
+
+# ------------------------------------------------------------
+# !LOCATION
+# ------------------------------------------------------------
+
+location:
+  name: Magic Box at the Reef
+  coordinates: '-118.268, 34.031'
+  description: |
+    GrafanaCon LA will be held in sunny Los Angeles. Details to come.
+
+
+# ------------------------------------------------------------
+# !SPONSORS
+# ------------------------------------------------------------
+
+# sponsors:
+#   title: We Love our Sponsors
+#   why:
+#     title: Why Sponsor GrafanaCon?
+#     description: |
+#       Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+
+#       Download our [Prospectus](/2018/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
+
+#       For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+#   sponsor:
+#     - name: Grafana
+#       url: https://www.grafana.com/
+#       logo: grafana_logo.png
+
+
+# ------------------------------------------------------------
+# !LODGING
+# ------------------------------------------------------------
+
+lodging:
+  title: Where to Stay.
+  description: |
+    We will work with hotels in the area to reserve soft block of rooms at a discount for attendees. Details will be available soon.
+  url:
+
+
+# ------------------------------------------------------------
+# !VIDEOS
+# ------------------------------------------------------------
+
+videos:
+  title: Check out all the talks from GrafanaCon EU 2018
+  video:
+    - url: https://www.youtube.com/watch?v=JtjxeZxdKWA
+      title: GrafanaCon EU 2018 Kickoff
+      presentation: Torkel_Odegaard_Welcome_GrafanaCon_EU_2018.pdf
+      thumbnail: video_kickoff.jpg
+
+
+# ------------------------------------------------------------
+# !GALLERY
+# ------------------------------------------------------------
+
+gallery:
+  title: Gallery
+  subhead: As you can see, we have a great time!
+  images:
+    - caption: GrafanaCon EU 2018
+      original: 001.jpg
+      thumbnail: thumb-001.jpg
+
+# ------------------------------------------------------------
+# !CONDUCT
+# ------------------------------------------------------------
+
+conduct:
+  title: Code of Conduct
+  content: |
+    All representatives, speakers, sponsors and volunteers at any GrafanaCon event are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.
+
+    ## The Quick Version
+    GrafanaCon is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+
+    ## The Less Quick Version
+    Harassment includes offensive comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+
+    Participants asked to stop any harassing behavior are expected to comply immediately.
+
+    Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material.
+
+    Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive to those around you. Excessive swearing and offensive jokes are not appropriate for GrafanaCon.
+
+    If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+
+    If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff will be visible by their special badges and clothing.
+
+    Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+
+    We expect participants to follow these rules at all conference venues and conference-related social events.
