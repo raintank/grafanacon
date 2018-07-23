@@ -1,25 +1,3 @@
-<script>
-// boilerplate form handler
-var formHandler = function (url) {
-  return function () {
-    var data = {};
-    var parent = $(this).parent();
-    var inputs = parent.find('.form-input');
-    for (var i=0; i<inputs.length; i++) {
-      data[inputs[i].name] = inputs[i].value;
-    }
-    var thanks = function (response) {
-      parent.parent().parent().find('p, form').css('display', 'none')
-      parent.parent().removeClass('text-left').addClass('text-center');
-      parent.parent().append('<span class="success">Thanks for your submission! We\'ll reach out if we think your talk is a good fit</span>');
-    }
-    $.post(url, data, thanks).fail(thanks);
-    return false;
-  }
-}
-$(function() { $('.cfp .signup form').on('click', 'a', formHandler('https://grafanacon-la-2019.herokuapp.com/abstracts/new')); });
-</script>
-
 <div class="page-section page-section--dark">
     <div class="row">
         <div class="small-10 small-centered medium-12 columns">
@@ -37,48 +15,51 @@ $(function() { $('.cfp .signup form').on('click', 'a', formHandler('https://graf
         </div>
     </div>
     <div class="row">
-        <div class="small-10 small-centered medium-8 medium-uncentered columns">
-			<section class="cfp">
-				<div class="signup text-left">		
-					<p>All fields with an (<span class="required">*</span>) asterisk are required. We don't require your <strong>Twitter</strong> or <strong>GitHub</strong> handles, but we'd love to include them on your badge.</p>		
+      <div class="small-10 small-centered medium-8 medium-uncentered columns">
+        <section class="cfp">
+          <div id="cfpForm" class="signup text-left" data-endpoint="{{ conference.cfp.endpoint }}">
+            <p>All fields with an (<span class="required">*</span>) asterisk are required. We don't require your <strong>Twitter</strong> or <strong>GitHub</strong> handles, but we'd love to include them on your badge.</p>
 
-					<form role="form">
-						<div class="form-group">
-						  	<label for="full_name"><span class="required">&#42;</span> Name:</label>
-						  	<input type="text" class="form-control form-input" name="full_name" placeholder="Jane Doe"></input>
-						</div>
-						<div class="form-group">
-						  	<label for="email"><span class="required">&#42;</span> Email:</label>
-						  	<input type="email" class="form-control form-input" name="email" placeholder="jane@doe.com"></input>
-						</div>
-						<div class="form-group">
-					  		<label for="twitter">Twitter (&#64;handle):</label>
-					  		<input type="text" class="form-control form-input" name="twitter" placeholder="@twitter"></input>
-						</div>
-						<div class="form-group">
-					  		<label for="github">GitHub (username):</label>
-					  		<input type="text" class="form-control form-input" name="github" placeholder="hubber123"></input>
-						</div>
-						<div class="form-group">
-							<label for="type"><span class="required">&#42;</span> Type:</label>
-							<select class="form-control form-input" name="type">
-								<option value="workshop">Workshop (30 minutes)</option>
-								<option value="session">Session (20 minutes)</option>
-								<option value="lightning">Lightning Talk (10 minutes)</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<label for="title"><span class="required">&#42;</span> Title:</label>
-							<input type="text" class="form-control form-input" name="title" placeholder="Our Exciting Monitoring Story"></input>
-						</div>
-						<div class="form-group">
-							<label for="body"><span class="required">&#42;</span> Abstract:</label>
-							<textarea class="form-control form-input" name="body" rows="10" placeholder="A paragraph or two explaining your proposed talk. We'll be in touch if we have questions."></textarea>
-						</div>
-						<a class="btn btn-primary" href="#">Submit My Abstract</a>
-					</form>
-				</div>	
-			</section>    
-        </div>
+            <form role="form">
+              <div class="form-group">
+                <label for="full_name"><span class="required">&#42;</span> Name:</label>
+                <input type="text" class="form-control form-input" name="full_name" placeholder="Jane Doe"></input>
+              </div>
+              <div class="form-group">
+                <label for="email"><span class="required">&#42;</span> Email:</label>
+                <input type="email" class="form-control form-input" name="email" placeholder="jane@doe.com"></input>
+              </div>
+              <div class="form-group">
+                <label for="twitter">Twitter (&#64;handle):</label>
+                <input type="text" class="form-control form-input" name="twitter" placeholder="@twitter"></input>
+              </div>
+              <div class="form-group">
+                <label for="github">GitHub (username):</label>
+                <input type="text" class="form-control form-input" name="github" placeholder="hubber123"></input>
+              </div>
+              <div class="form-group">
+                <label for="type"><span class="required">&#42;</span> Type:</label>
+                <select class="form-control form-input" name="type">
+                  <option value="workshop">Workshop (30 minutes)</option>
+                  <option value="session">Session (20 minutes)</option>
+                  <option value="lightning">Lightning Talk (10 minutes)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="title"><span class="required">&#42;</span> Title:</label>
+                <input type="text" class="form-control form-input" name="title" placeholder="Our Exciting Monitoring Story"></input>
+              </div>
+              <div class="form-group">
+                <label for="body"><span class="required">&#42;</span> Abstract:</label>
+                <textarea class="form-control form-input" name="body" rows="10" placeholder="A paragraph or two explaining your proposed talk. We'll be in touch if we have questions."></textarea>
+              </div>
+              <div id="cfpSubmit" class="btn btn--primary">Submit My Abstract</div>
+            </form>
+          </div>
+          <div id="cfpSuccess" class="text-center" style="display: none;">
+            <span class="success">Thanks for your submission! We\'ll reach out if we think your talk is a good fit</span>
+          </div>
+        </section>
+      </div>
     </div>
 </div>
