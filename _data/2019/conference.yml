@@ -61,9 +61,9 @@ info:
     content: |
       GrafanaCon is a two-day event with talks focused on Grafana and the surrounding ecosystem. Additional information including conference dates, venue and **[CFP will be available soon](/2019/cfp)**.
 
-      In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxData, Elasticsearch Kubernetes, and more.
+      In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch Kubernetes, and more.
 
-      Ticket includes **breakfast & refreshments and lunch both days**, coffee tea all day,  entry to the post-conference party with dinner and open bar, and entry to our special Grafana launch party.
+      Ticket includes **breakfast & refreshments and lunch both days**, coffee tea all day, entry to the post-conference reception with dinner and drinks, and entry to our special Grafana after party.
 
       ### Check out the video from our last GrafanaCon!
       
@@ -77,6 +77,31 @@ info:
     videos:
     - title: This is GrafanaCon EU 2018
       id: o2-S4jVF0Bk
+
+  why-attend:
+    title: Why Should You Attend GrafanaCon? *
+    subtitle: "\n * And How to Get Your Boss to Send You"
+    content: |
+      **1. Learning is fundamental.** It goes without saying that there’s a lot of information to be had at a GrafanaCon. Because so many different people have embraced Grafana—from the monitoring tinkerer to Fortune 500 companies—GrafanaCon provides the opportunity to get first-hand accounts of monitoring at every scale. Here you can learn monitoring best practices from companies like eBay and Uber, and the ins and outs of the latest open source monitoring tools. GrafanaCon isn’t just about Grafana; it also encompasses the open source monitoring ecosystem at large. You can find out more about Prometheus, Graphite, InfluxDB, Kubernetes, and others. At the last GrafanaCon, attendees heard from more than 30 speakers over two days, covering topics ranging from how Bloomberg built its monitoring infrastructure, to an overview of the RED Method of instrumenting services (from its creator!), to a preview of the new Influx Functional Query Engine. 
+
+      **2. Networking opportunities galore.** Social media can bridge distance, and websites contain a wealth of information, but neither can be a true substitute for the energy of face-to-face interaction and instruction. Here’s your chance to meet your LinkedIn connections and open source co-contributors in real life. Find like-minded people, curious fellow engineers, hobbyists, and people just learning about time series data, data visualization, and open source software. While GrafanaCon has grown year over year, we believe it’s still an intimate environment where people can really get to know their tribe. In addition to the sessions, there are lunches, breaks, and an after-hours party scheduled for attendees to get their networking on.
+
+      **3. Hands-on demos.** Where else can you get all the industry leaders and experts in one room? GrafanaCon is the perfect place to learn about new features in Grafana, get in-depth demos and tutorials, tips and tricks, and learn about new products in the extended Grafana landscape—all from the founders and creators themselves. 
+
+      **4. Be part of the open source software community.** More than ever, Fortune 500 companies and other enterprises realize the significant business value of open source software: more rapid feature releases, better code quality, reduced vendor lock-in, reduced costs. And as more and more companies adopt these technologies, being a part of the open source software community is valuable to its employees, too. It’s like a stamp of approval on your CV. Attending GrafanaCon can help you learn how to navigate an open source project, make contributions, and build relationships with maintainers and fellow contributors—all skills that can help you do your current job (or get your dream job).
+
+      **5.  You’ve got wisdom to impart, too.** You’ve been in the trenches, so you have your own monitoring story to tell. At GrafanaCon, the experiences you’ve had and the lessons you’ve learned can be immensely valuable to your fellow attendees. You could even be the hero!  
+
+      **6. Invest in yourself.** You’re awesome, and you’re worth it. Not only will you come back from GrafanaCon recharged with new ideas on monitoring and observability to benefit your company, but you’ll also get the chance to grow both professionally and personally.
+
+      **7. Share with your coworkers.** Bring what you’ve gleaned back to your colleagues. You can even host a meetup or a training session, and invite your new GrafanaCon connections. Learning new things is great, but passing on what you’ve learned to others is priceless.
+
+      **8. Have fun.** While the problems we solve through monitoring are important for businesses, we want to provide a safe, supportive, and above all, fun experience. Work hard, play hard: Break out of your shell, and come home with some new life-long connections. Our after-conference receptions are always fun, whether we’re bowling in NYC or hanging out at an arcade in Amsterdam. Also: swag.
+
+      Guess what? All of the above can be cited to convince your boss to send you to GrafanaCon. (Okay, maybe not #8. And lose the references to your CV.) 
+
+      We understand that conferences can be expensive—the price of the ticket, travel, lodging, meals, and time off from our actual jobs. But think about what you get in return: the opportunity to get hands-on trials of new tools, learn how monitoring is implemented at scale by some of the biggest companies in the world, and crowdsource solutions for monitoring issues we’ve all struggled through. You’ll come back to work invigorated and inspired, armed with new ways of looking at and transforming the data you collect, important industry connections, and fresh ideas that will ultimately help you and your business succeed. Isn’t that worth your while?
+
 
 # ------------------------------------------------------------
 # !SCHEDULE

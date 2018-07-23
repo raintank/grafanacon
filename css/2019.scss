@@ -41,6 +41,10 @@ $page-hero-background:    #222 url('../2019/images/grafanacon_la_hero.jpg');
 body {
   @include web-font('Gothic A1', sans-serif);
   line-height: 1.7;
+
+  strong {
+  	color: $primary-color;
+  }
 }
 
 .page-hero {

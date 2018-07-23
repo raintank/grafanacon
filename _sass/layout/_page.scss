@@ -58,7 +58,7 @@
   font-size: $page-section-body-font-size;
 
   @include breakpoint(medium up) {
-    font-size: $page-section-title-font-size * 1.0; //Was 1.125 TRW
+    font-size: $page-section-title-font-size * 0.75; //Was 1.125 TRW
   }
 }
 

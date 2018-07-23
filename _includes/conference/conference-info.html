@@ -21,6 +21,19 @@
         </div>
     </div>
 </div>
+{% if conference.info.why-attend %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+            <h2 class="page-section__title">{{ conference.info.why-attend.title }}</h2>
+            <h5 class="page-section__subtitle">{{ conference.info.why-attend.subtitle }}</h5>
+            <br />
+            <div class="page-section__body">
+                {{ conference.info.why-attend.content | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>
 {% endif %}
 {% if conference.info.about.sponsorship-opportunitues %}
 <div class="page-section page-section--dark">
@@ -34,3 +47,4 @@
         </div>
     {% endif %}
 </div>
+{% endif %}
