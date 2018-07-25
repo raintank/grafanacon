@@ -17,41 +17,4 @@
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="{{ site.baseurl }}/assets/vendor/lightgallery/js/lightgallery.min.js"></script>
-
-  <script>
-    $(document).ready(function(){
-      $("#header").sticky({topSpacing:0});
-      addListeners();
-    });
-
-    {% if conference.gallery %}
-      var $gallery = $('#lightgallery');
-
-      $($gallery).lightGallery();
-
-      var $grid = $gallery.masonry({
-        itemSelector: '.gallery-list__item',
-        columnWidth: '.grid-sizer',
-        gutter: 0,
-        percentPosition: true,
-        transitionDuration: '100ms'
-      });
-
-      $grid.imagesLoaded().progress( function() {
-        $grid.masonry('layout');
-      });
-    {% endif %}
-
-    function addListeners() {
-      $('#siteNavOpen').on('click', navToggleClickHandler);
-    }
-
-    function toggleNav() {
-      $('#siteNav').toggleClass('open');
-      $('body').toggleClass('nav-is-open');
-    }
-
-    function navToggleClickHandler() {
-      toggleNav();
-    }
-  </script>
+  <script src="{{ site.baseurl }}/assets/js/conference.js"></script>
