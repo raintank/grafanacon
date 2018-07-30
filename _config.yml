@@ -2,7 +2,7 @@
 title: Grafanacon
 description: GrafanaCon is our annual metrics &amp; monitoring conference where hundreds of monitoring and data aficionados from across the Grafana ecosystem gather to discuss metric collection, data viz &amp; monitoring.
 email: trent@grafana.com
-baseurl: "/grafanacon/" # the subpath of your site, e.g. /blog
+baseurl: "/grafanacon" # the subpath of your site, e.g. /blog
 url: "https://raintank.github.io/" # the base hostname & protocol for your site
 
 # Build settings
