@@ -40,6 +40,8 @@ navigation:
   #   url: /schedule
   # - name: Speakers
   #   url: /speakers
+  - name: Sponsor
+    url: /sponsor
   - name: CFP
     url: /cfp
   - name: Conduct
@@ -196,20 +198,18 @@ location:
 # !SPONSORS
 # ------------------------------------------------------------
 
-# sponsors:
-#   title: We Love our Sponsors
-#   why:
-#     title: Why Sponsor GrafanaCon?
-#     description: |
-#       Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
-
-#       Download our [Prospectus](/2018/grafanacon_eu_prospectus.pdf) to learn more about our sponsorship levels.
-
-#       For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
-#   sponsor:
-#     - name: Grafana
-#       url: https://www.grafana.com/
-#       logo: grafana_logo.png
+sponsors:
+  title: We Love our Sponsors
+  why:
+    title: Why Sponsor GrafanaCon?
+    description: |
+      Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
+      Download our [Prospectus](/grafanacon/2019/grafanacon_lax_prospectus.pdf) to learn more about our sponsorship levels.
+      For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+  sponsor:
+    - name: Grafana
+      url: https://www.grafana.com/
+      logo: grafana_logo.png
 
 
 # ------------------------------------------------------------
