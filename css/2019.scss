@@ -29,8 +29,7 @@ $page-hero-background:    #222 url('../2019/images/grafanacon_la_hero.jpg');
 // END OVVERIDES
 // --------------------------------------------------------------------------
 
-$font-name: Titillium Web;
-$font-type: sans-serif;
+
 
 @import 'global';
 
@@ -50,4 +49,14 @@ body {
 
 .page-hero {
 	min-height: rem-calc(450);
+}
+
+#cfpSuccess {
+	h3 {
+		color: #fff;
+		font-size: 1.5rem;
+		border: 1px solid #00f0ff;
+		margin: 1.0em 1.0em 1.0em 0;
+	    padding: 0.25em 1em;
+	}
 }
