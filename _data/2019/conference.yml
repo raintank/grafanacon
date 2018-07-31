@@ -51,32 +51,32 @@ navigation:
 # ------------------------------------------------------------
 
 info:
-  title: GrafanaCon LA
+  title: GrafanaCon LAX
   city: Los Angeles
   year: 2019
   date: February 25-26
   current: true
   ticket-url:
   tickets-on-sale: false
-  meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding ecosystem. Additional information including conference dates, venue and CFP will be available soon.
+  meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. Additional information including conference dates, and venue will be added shortly.
   about:
-    title: GrafanaCon LA, Feb 25-26, 2019
+    title: GrafanaCon LAX, Feb 25-26, 2019
     content: |
-      ### GrafanaCon Los Angeles dates announced and **[CFP is now open!](/grafanacon/2019/cfp)**
+      ### GrafanaCon LAX dates announced and **[CFP is now open!](/grafanacon/2019/cfp)**
 
-      GrafanaCon is a two-day event with talks focused on Grafana and the surrounding ecosystem.
+      Join us in sunny Los Angeles, California for two-days of talks focused on Grafana and the surrounding open source monitoring ecosystem.
 
-      In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch Kubernetes, and more.
+      In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
 
-      Ticket includes breakfast & refreshments and lunch both days, coffee and tea all day, entry to the post-conference reception with dinner and drinks, and entry to our special Grafana after party.
+      Ticket includes breakfast & refreshments and lunch both days, all day refreshments, entry to the post-conference reception with dinner and drinks, and entry to our special Grafana after party.
 
       **Get a taste of what GrafanaCon is like in the video below**
 
     sponsorship-opportunitues:
-      title: Interested in Sponsoring GrafanaCon LA?
+      title: Interested in Sponsoring GrafanaCon LAX?
       content: |
         Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
-        Download our [Prospectus](/2019/grafanacon_la_prospectus.pdf) to learn more about our sponsorship levels.
+        Download our [Prospectus](/grafanacon/2019/grafanacon_lax_prospectus.pdf) to learn more about our sponsorship levels.
         For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
 
     videos:
@@ -120,7 +120,7 @@ schedule:
       - time: "9:45AM"
         speakers:
           - name: Torkel Odegaard
-            title: Welcome to GrafanaCon
+            title: Welcome to GrafanaCon LAX
 
 
 # ------------------------------------------------------------
@@ -186,7 +186,7 @@ schedule:
 # ------------------------------------------------------------
 
 location:
-  name: Magic Box at the Reef
+  name:
   coordinates: '-118.268, 34.031'
   description: |
     GrafanaCon LA will be held in sunny Los Angeles. Details to come.
