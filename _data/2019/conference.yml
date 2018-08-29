@@ -61,14 +61,15 @@ info:
   ticket-url:
   tickets-on-sale: false
   meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. Additional information including conference dates, and venue will be added shortly.
-  about:
-    title: GrafanaCon LA, Feb 25-26, 2019
+  about: 
+    title: |
+      Join us for GrafanaCon LA & the Launch of Grafana 6, 
+      Feb 25-26, 2019
+    
     content: |
       ### GrafanaCon LA dates announced and **[CFP is now open!](/2019/cfp)**
 
-      Join us in sunny Los Angeles, California for two-days of talks focused on Grafana and the surrounding open source monitoring ecosystem.
-
-      In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
+      GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
 
       Ticket includes breakfast & refreshments and lunch both days, all day refreshments, entry to the post-conference reception with dinner and drinks, and entry to our special Grafana after party.
 
