@@ -21,7 +21,7 @@ cfp:
 # ------------------------------------------------------------
 
 name: 2019 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
-nav-logo: grafanacon_la_nav-logo.svg
+nav-logo: grafanacon_la_nav-logo.png
 logo:
 css: 2019.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
