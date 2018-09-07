@@ -8,15 +8,6 @@
                         <img class="page-hero__img" src="{{ images }}{{ conference.logo }}" alt="{{ conference.info.title }}">
                     </div>
                 {% endif %}
-                {% if conference.info.ticket-url %}
-                    <div class="page-hero__cta text-center">
-                        {% if conference.info.tickets-on-sale %}
-                            <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets</a>
-                        {% else %}
-                            <span class="btn btn--primary">Sold Out</span>
-                        {% endif %}
-                    </div>
-                {% endif %}
             </div>
         </div>
     {% endif %}
