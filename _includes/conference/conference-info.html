@@ -8,15 +8,14 @@
                     {{ conference.info.about.content | markdownify }}
                 </div>
             {% endif %}
-            {% if conference.info.about.videos %}
-                {% for video in conference.info.about.videos %}
-                    <div class="page-section__video mt-small-5">
-                        <!-- <h4 class="text-center mb-small-2">{{ video.title }}</h4> -->
-                        <div class="video-wrap">
-                            <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
-                        </div>
-                    </div>
-                {% endfor %}
+            {% if conference.info.ticket-url %}
+                <div class="page-hero__cta text-center">
+                    {% if conference.info.tickets-on-sale %}
+                        <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets Now</a>
+                    {% else %}
+                        <span class="btn btn--primary">Sold Out</span>
+                    {% endif %}
+                </div>
             {% endif %}
         </div>
     </div>
@@ -31,6 +30,22 @@
             <div class="page-section__body">
                 {{ conference.info.why-attend.content | markdownify }}
             </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if conference.info.about.videos %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+        {% for video in conference.info.about.videos %}
+            <div class="page-section__video mt-small-5">
+                <h4 class="mb-small-2">{{ video.headline | markdownify }}</h4>
+                <div class="video-wrap">
+                    <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
+                </div>
+            </div>
+        {% endfor %}
         </div>
     </div>
 </div>

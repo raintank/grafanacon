@@ -73,8 +73,6 @@ info:
 
       Ticket includes breakfast & refreshments and lunch both days, all day refreshments, entry to the post-conference reception with dinner and drinks, and entry to our special Grafana after party.
 
-      **Get a taste of what GrafanaCon is like in the video below**
-
     sponsorship-opportunitues:
       title: Interested in Sponsoring GrafanaCon LA?
       content: |
@@ -85,7 +83,9 @@ info:
     videos:
     - title: This is GrafanaCon EU 2018
       id: o2-S4jVF0Bk
-
+      headline: |
+        **Get a taste of what GrafanaCon is like in the video below** 
+        
   why-attend:
     title: Why Should You Attend GrafanaCon? *
     subtitle: "\n * And How to Get Your Boss to Send You"
