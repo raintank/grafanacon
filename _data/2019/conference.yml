@@ -58,8 +58,8 @@ info:
   year: 2019
   date: February 25-26
   current: true
-  ticket-url:
-  tickets-on-sale: false
+  ticket-url: https://ti.to/grafanacon/grafanacon-la-2019
+  tickets-on-sale: true
   meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. Additional information including conference dates, and venue will be added shortly.
   about: 
     title: |
