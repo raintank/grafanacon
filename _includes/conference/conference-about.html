@@ -1,10 +1,21 @@
 {% if conference.about %}
-    <div class="page-section">
+    <div class="page-section page-section--dark">
         <div class="row">
             <div class="small-10 small-centered medium-8 columns">
                 <h2 class="page-section__title">{{ conference.about.title }}</h2>
                 <div class="page-section__body">
                     {{ conference.about.content | markdownify }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-10 small-centered medium-8 columns">
+                <div class="page-hero__cta text-center">
+                    {% if conference.info.tickets-on-sale %}
+                        <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets Now</a>
+                    {% else %}
+                        <span class="btn btn--primary">Sold Out</span>
+                    {% endif %}
                 </div>
             </div>
         </div>

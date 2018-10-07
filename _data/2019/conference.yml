@@ -34,6 +34,8 @@ fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 navigation:
   - name: Welcome
     url: /
+  - name: About
+    url: /info
   # - name: Watch
   #   url: /videos
   # - name: Schedule
@@ -173,15 +175,15 @@ schedule:
 # !ABOUT
 # ------------------------------------------------------------
 
-# about:
-#   title: What can I Expect at GrafanaCon?
-#   content: |
-#     GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 450 monitoring and data aficionados, 30+ talks and countless opportunities to meet new people and learn from each other.
+about:
+  title: What can I Expect at GrafanaCon?
+  content: |
+    GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 450 monitoring and data aficionados, 30+ talks and countless opportunities to meet new people and learn from each other.
 
-#     To see what GrafanaCon is like, check out the [videos from our most recent conferences](/2018/videos), but to get a true sense, you really should experience it in person.
-#   videos:
-#     - title: This is GrafanaCon EU 2018
-#       id: o2-S4jVF0Bk
+    To see what GrafanaCon is like, check out the [videos from our most recent conferences](/2018/videos), but to get a true sense, you really should experience it in person.
+  videos:
+    - title: This is GrafanaCon EU 2018
+      id: o2-S4jVF0Bk
 
 
 # ------------------------------------------------------------
@@ -189,11 +191,11 @@ schedule:
 # ------------------------------------------------------------
 
 location:
-  name:
-  coordinates: '-118.268, 34.031'
+  name: Magic Box at the Reef
+  coordinates: '-118.2687699, 34.031094'
   description: |
-    GrafanaCon LA will be held in sunny Los Angeles. Details to come.
-
+    Magic Box @ The REEF is L.A. newest downtown meeting space. Housed in the iconic LA Mart building, this collection of gorgeous, modern, renovated spaces will play host to GrfanaCon LA.
+  image: magicbox.jpg
 
 # ------------------------------------------------------------
 # !SPONSORS
