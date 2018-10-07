@@ -33,6 +33,14 @@ body.nav-is-open {
   transition: all 0.25s ease-in-out;
 }
 
+.sticky-wrapper > .header,
+.sticky-wrapper.is-sticky > .header {
+  @include breakpoint(small only) {
+    padding: 0;
+    background: transparent;
+  }
+}
+
 .header > .row {
   position: relative;
 }
@@ -58,6 +66,7 @@ body.nav-is-open {
   @extend %ui-list;
 
   @include breakpoint(small only) {
+    visibility: hidden;
     position: fixed;
     z-index: 100;
     top: 0;
@@ -81,7 +90,8 @@ body.nav-is-open {
 
 .site-nav__list.open {
   @include breakpoint(small only) {
-    transform: none;
+    visibility: visible;
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -95,6 +105,7 @@ body.nav-is-open {
   left: 0;
   width: 100%;
   padding: rem-calc(10 20);
+  outline: 0;
   background: $nav-list-open-btn-bg;
   color: $white;
   font-weight: 600;
