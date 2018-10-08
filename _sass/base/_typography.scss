@@ -5,5 +5,5 @@
 
 
 body {
-  @include web-font('PT Sans', sans-serif);
+  @extend %web-font;
 }
