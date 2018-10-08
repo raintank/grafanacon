@@ -19,7 +19,7 @@
 
 name: 2016 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
 nav-logo: logo.png
-logo:
+logo: logo.png
 css: 2016.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 

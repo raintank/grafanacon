@@ -114,7 +114,16 @@
   height: rem-calc(350);
 }
 
+.page-hero__logo {
+  display: none;
 
+  @include breakpoint(small only) {
+    display: block;
+    padding-top: 40%;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
 
 // Footer
 // -------------------------------------------------------------------------

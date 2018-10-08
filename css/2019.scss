@@ -2,7 +2,7 @@
 ---
 
 // =========================================================================
-// 2018
+// 2019
 // =========================================================================
 
 
@@ -49,6 +49,14 @@ body {
 
 .page-hero {
 	min-height: rem-calc(450);
+}
+
+.page-hero__logo {
+	background: url(../2019/images/grafanacon_la_logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 140px;
+    background-size: contain;
+    height: 400px;
 }
 
 #cfpSuccess {

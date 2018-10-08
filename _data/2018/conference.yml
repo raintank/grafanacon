@@ -19,7 +19,7 @@
 
 name: 2018 # SHOULD ALWAYS BE THE SAME AS PARENT DIRECTORY
 nav-logo: grafanacon_eu_nav-logo.svg
-logo:
+logo: grafanacon_eu_nav-logo.svg
 css: 2018.css
 fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 

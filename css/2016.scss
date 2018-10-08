@@ -67,3 +67,11 @@ body {
 .videos-list__link {
 	color: $tertiary-color;
 }
+
+.page-hero__logo {
+	background: url(../2016/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 140px;
+    background-size: contain;
+    height: 400px;
+}
