@@ -7,34 +7,29 @@ body.nav-is-open {
 }
 
 .header {
+  position: fixed;
   z-index: 100 !important;
+  top: 0;
+  right: 0;
+  left: 0;
   width: 100%;
   padding: $base-spacing 0;
   will-change: position;
+  transition: all .25s ease-in-out;
+  background: linear-gradient(rgba($nav-sticky-bg-color, .9) 0, rgba($nav-sticky-bg-color, 0) 100%);
 
   @include breakpoint(small only) {
     padding-top: $base-spacing * 2;
   }
 }
 
-.sticky-wrapper.is-sticky > .header {
+.header.fixed {
+  transition: all .5s ease-in-out;
   background: $nav-sticky-bg-color;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
-.sticky-wrapper > .header {
-  background: linear-gradient(rgba(0,0,0,0.9) 0, rgba(0,0,0,0) 100%);
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-
-.sticky-wrapper > .header,
-.sticky-wrapper.is-sticky > .header {
+.header,
+.header.fixed {
   @include breakpoint(small only) {
     padding: 0;
     background: transparent;
@@ -97,8 +92,9 @@ body.nav-is-open {
 }
 
 .site-nav__open {
+  @extend %web-font;
   display: block;
-  position: fixed;
+  position: absolute;
   z-index: 200;
   top: 0;
   right: 0;
@@ -110,6 +106,7 @@ body.nav-is-open {
   color: $white;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 
   @include breakpoint(medium up) {
     display: none;

@@ -11,10 +11,23 @@
   };
 </script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="{{ site.baseurl }}/assets/vendor/jquery.sticky.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/vendor/lightgallery/js/lightgallery.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/conference.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--   <script src="{{ site.baseurl }}/assets/vendor/jquery.sticky.js"></script> -->
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/lightgallery/js/lightgallery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/conference.js"></script>
+
+<script type="text/javascript">
+  $(window).scroll(function() {
+    var sticky = $('#header'),
+      scroll = $(window).scrollTop();
+
+    if (scroll >= 40) {
+      sticky.addClass('fixed'); }
+    else {
+     sticky.removeClass('fixed');
+  }
+  });
+</script>
