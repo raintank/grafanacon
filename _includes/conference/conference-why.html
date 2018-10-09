@@ -1,0 +1,25 @@
+{% if conference.why %}
+    <div class="page-section page-section--dark">
+        <div class="row">
+            <div class="small-10 small-centered medium-8 columns">
+                <h2 class="page-section__title">{{ conference.why.why-attend.title }}</h2>
+                <h5 class="page-section__subtitle">{{ conference.why.why-attend.subtitle }}</h5>
+                <br />
+                <div class="page-section__body">
+                    {{ conference.why.why-attend.content | markdownify }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-10 small-centered medium-8 columns">
+                <div class="page-hero__cta text-center">
+                    {% if conference.info.tickets-on-sale %}
+                        <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets Now</a>
+                    {% else %}
+                        <span class="btn btn--primary">Sold Out</span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
