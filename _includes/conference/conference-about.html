@@ -5,6 +5,16 @@
                 <h2 class="page-section__title">{{ conference.about.title }}</h2>
                 <div class="page-section__body">
                     {{ conference.about.content | markdownify }}
+                    {% if conference.info.about.image4 %}
+                    <div class="small-12 medium-6 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.image4 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.image5 %}
+                    <div class="small-12 medium-6 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.image5 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

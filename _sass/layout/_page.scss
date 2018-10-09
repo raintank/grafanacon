@@ -21,6 +21,17 @@
   border-top: $page-section-border;
 }
 
+.page-section--no-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.page-section--no-bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .page-section__title {
   @include web-font(#{$page-section-title-font-family}, $page-section-title-font-type);
   margin: $page-section-title-margin;

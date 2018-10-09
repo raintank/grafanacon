@@ -75,8 +75,20 @@ info:
       ### GrafanaCon LA dates announced and **[CFP is now open!](/2019/cfp)**
 
       GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
-
-      Ticket includes breakfast & refreshments and lunch both days, all day refreshments, entry to the post-conference reception with dinner and drinks, and entry to our special Grafana after party.
+    content-b: |
+      ### Your ticket includes:
+      * 2 days of talks focused on Grafana and the open source monitoring ecosystem
+      * Breakfast, lunch, refreshments; both days
+      * Admission to the evening reception and official Grafana 6 launch party
+      * Demos on new Grafana features and deep technical dives
+      * Awesome conference swag
+      * Friends for life
+    
+    image1: 065.jpg
+    image2: 037.jpg
+    image3: 041.jpg
+    image4: 137.jpg
+    image5: 025.jpg
 
     sponsorship-opportunitues:
       title: Interested in Sponsoring GrafanaCon LA?
@@ -182,7 +194,7 @@ about:
   title: What can I Expect at GrafanaCon?
   content: |
     GrafanaCon has grown in every way with each conference we've hosted. This year we're expecting over 450 monitoring and data aficionados, 30+ talks and countless opportunities to meet new people and learn from each other.
-
+  content-b: |
     To see what GrafanaCon is like, check out the [videos from our most recent conferences](/2018/videos), but to get a true sense, you really should experience it in person.
   videos:
     - title: This is GrafanaCon EU 2018
@@ -239,6 +251,10 @@ sponsors:
       Sponsoring GrafanaCon offers valuable exposure and a great way to connect with Grafana users, the extended Grafana  community, as well as monitoring and open source software enthusiasts. Each GrafanaCon has been bigger and better than the previous in every way, and GrafanaCon EU will be no exception!
       Download our [Prospectus](/2019/grafanacon_la_prospectus.pdf) to learn more about our sponsorship levels.
       For additional sponsorship opportunities, or to inquire about custom packages, please [email us](mailto:hello@grafana.com), we'd be happy to work with you.
+  
+    image1: 005.jpg
+    image2: 023.jpg
+  
   # sponsor:
   #   - name: Grafana
   #     url: https://www.grafana.com/
