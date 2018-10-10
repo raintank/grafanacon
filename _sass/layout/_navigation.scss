@@ -114,7 +114,8 @@ body.nav-is-open {
   position: absolute;
   left: rem-calc(5);
   width: rem-calc(30);
-  height: rem-calc(4);
+  height: rem-calc(3);
+  border-radius: rem-calc(2);
   transition: all 150ms ease-in-out;
   background: $nav-hamburger-color;
 }
