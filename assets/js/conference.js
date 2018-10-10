@@ -27,6 +27,7 @@ function addListeners() {
 
 function toggleNav() {
   $('#siteNav').toggleClass('open');
+  $('#siteNavOpen').toggleClass('open');
   $('body').toggleClass('nav-is-open');
 }
 
