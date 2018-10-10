@@ -8,7 +8,11 @@
                     <img class="site-nav__logo" src="{{ images }}{{ conference.nav-logo }}" alt="{{ conference.info.title }}">
                 </a>
             {% endif %}
-            <button id="siteNavOpen" class="site-nav__open">Menu</button>
+            <button id="siteNavOpen" class="site-nav__open">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </button>
             <ul id="siteNav" class="site-nav__list">
                 {% for item in conference.navigation %}
                     <li class="site-nav__list-item">

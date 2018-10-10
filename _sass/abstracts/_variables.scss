@@ -85,7 +85,8 @@ $nav-logo-max-width:      rem-calc(200) !default; // was 75 TRW
 $nav-item-max-width:      rem-calc(320) !default;
 $nav-item-margin:         $small-spacing !default;
 $nav-link-color:          $base-link-color !default;
-$nav-list-open-btn-bg:    $primary-color !default;
+$nav-list-hamburger-bg:   rgba($nav-sticky-bg-color, .9) !default;
+$nav-hamburger-color:     $white !default;
 
 
 // Page
