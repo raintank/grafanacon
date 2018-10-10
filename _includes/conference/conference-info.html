@@ -1,5 +1,5 @@
 {% if conference.info %}
-<div class="page-section page-section--dark">
+<div class="page-section page-section--dark page-section--no-bottom">
     <div class="row">
         <div class="small-10 small-centered medium-8 columns">
             {% if conference.info.about.content %}
@@ -16,7 +16,27 @@
                 {% endif %}
                 <div class="page-section__body">
                     {{ conference.info.about.content | markdownify }}
+                    {% if conference.info.about.image1 %}
+                    <div class="small-12 medium-6 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.image1 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.image2 %}
+                    <div class="small-12 medium-6 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.image2 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
                 </div>
+                 {% if conference.info.about.content-b %}
+                <div class="page-section__body">
+                    {{ conference.info.about.content-b | markdownify }}
+                    {% if conference.info.about.image3 %}
+                    <div class="small-12 medium-12 inline-img columns">
+                        <img src="{{ images }}/{{ conference.info.about.image3 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
             {% endif %}
         </div>
     </div>
@@ -27,7 +47,7 @@
         <div class="small-10 small-centered medium-8 columns">
         {% for video in conference.info.about.videos %}
             <div class="page-section__video mt-small-5">
-                <h4 class="mb-small-2">{{ video.headline | markdownify }}</h4>
+                <h3 class="mb-small-2">{{ video.headline | markdownify }}</h3>
                 <div class="video-wrap">
                     <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
                 </div>
@@ -37,16 +57,5 @@
     </div>
 </div>
 {% endif %}
-{% if conference.info.about.sponsorship-opportunitues %}
-<div class="page-section page-section--dark">
-        <div class="row">
-            <div class="small-10 small-centered medium-8 columns">
-                <h2 class="page-section__title">{{ conference.info.about.sponsorship-opportunitues.title }}</h2>
-                <div class="page-section__body">
-                    {{ conference.info.about.sponsorship-opportunitues.content | markdownify }}
-                </div>
-            </div>
-        </div>
-    {% endif %}
 </div>
 {% endif %}
