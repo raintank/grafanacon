@@ -16,6 +16,46 @@
                 {% endif %}
                 <div class="page-section__body">
                     {{ conference.info.about.content | markdownify }}
+
+                    {% if conference.info.about.talks %}
+                    {{ conference.info.about.talks | markdownify }}
+
+                    {% if conference.info.about.logo1 %}
+                    <div class="small-6 medium-4 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.logo1 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.logo2 %}
+                    <div class="small-6 medium-4 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.logo2 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.logo3 %}
+                    <div class="small-6 medium-4 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.logo3 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.logo4 %}
+                    <div class="small-6 medium-4 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.logo4 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.logo5 %}
+                    <div class="small-6 medium-4 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.logo5 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.logo6 %}
+                    <div class="small-6 medium-4 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.logo6 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% endif %}
+                </div>
+                {% if conference.info.about.content-c %}
+                <div class="page-section__body">
+                    {{ conference.info.about.content-c | markdownify }}
+
                     {% if conference.info.about.image1 %}
                     <div class="small-12 medium-6 columns inline-img side-by-side">
                         <img src="{{ images }}/{{ conference.info.about.image1 }}" alt="GrafanaCon EU">
@@ -26,6 +66,7 @@
                         <img src="{{ images }}/{{ conference.info.about.image2 }}" alt="GrafanaCon EU">
                     </div>
                     {% endif %}
+                {% endif %}
                 </div>
                  {% if conference.info.about.content-b %}
                 <div class="page-section__body">

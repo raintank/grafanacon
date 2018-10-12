@@ -65,16 +65,26 @@ info:
   current: true
   ticket-url: https://ti.to/grafanacon/grafanacon-la-2019
   tickets-on-sale: true
-  meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. Additional information including conference dates, and venue will be added shortly.
+  meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem.
   about: 
     title: |
       Join us for GrafanaCon LA & the Launch of Grafana 6, 
       Feb 25-26, 2019
     
     content: |
-      ### GrafanaCon LA dates announced and **[CFP is now open!](/2019/cfp)**
+      ### **[CFP will be closing soon!](/2019/cfp)** We plan to close the CFP window Monday, October 15. Submit your talk before it's too late.
 
-      GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the monitoring community like Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
+      GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the extended open source monitoring community.
+    
+    talks: |
+      #### GrafanaCon LA, will host talks focused on Grafana featues and how-to's, Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
+    logo1: logos/grafana_logo.svg
+    logo2: logos/prometheus_logo.svg
+    logo3: logos/kubernetes_logo.svg
+    logo4: logos/graphite_logo.svg
+    logo5: logos/influxdb_logo.svg
+    logo6: logos/elasticsearch_logo.svg
+
     content-b: |
       ### Your ticket includes:
       * 2 days of talks focused on Grafana and the open source monitoring ecosystem
@@ -89,6 +99,16 @@ info:
     image3: 041.jpg
     image4: 137.jpg
     image5: 025.jpg
+
+    content-c: |
+      #### Popular talks from GrafanaCon EU include:
+      * [Grafana at CERN](https://www.youtube.com/watch?v=ksjDBjApl6Q)
+      * [Evolution of Telemetry at Bloomberg](https://www.youtube.com/watch?v=v6AoyEovSa4)
+      * [Running a power plant with Grafana](https://www.youtube.com/watch?v=I3o3tnj5j6s)
+      * [Using Prometheus and Grafana for Monitoring my Power Usage](https://www.youtube.com/watch?v=wtna51BLYMc)
+      * The imfamous [TSDB deathpanel](https://www.youtube.com/watch?v=usaIsA1a93g)
+
+      [See all of the talks from GrafanaCon EU 2018](http://grafanacon.org/2018/videos)
 
     sponsorship-opportunitues:
       title: Interested in Sponsoring GrafanaCon LA?
