@@ -17,7 +17,10 @@
                 <div class="page-section__body">
                     {{ conference.info.about.content | markdownify }}
 
+                    <br />
+                    <br />
                     {% if conference.info.about.talks %}
+                    <h2 class="page-section__title">{{ conference.info.about.section-title}}</h2>
                     {{ conference.info.about.talks | markdownify }}
 
                     {% if conference.info.about.logo1 %}

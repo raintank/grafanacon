@@ -78,6 +78,10 @@ info:
     
     talks: |
       #### GrafanaCon LA, will host talks focused on Grafana featues and how-to's, Graphite, Prometheus, InfluxDB, Elasticsearch, Kubernetes, and more.
+      
+    section-title: |
+      What can I expect?
+    
     logo1: logos/grafana_logo.svg
     logo2: logos/prometheus_logo.svg
     logo3: logos/kubernetes_logo.svg
