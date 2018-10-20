@@ -47,8 +47,8 @@ navigation:
   #   url: /speakers
   - name: Sponsor
     url: /sponsor
-  - name: CFP
-    url: /cfp
+  # - name: CFP
+  #   url: /cfp
   - name: Conduct
     url: /conduct
 
@@ -72,7 +72,11 @@ info:
       Feb 25-26, 2019
     
     content: |
-      ### **[CFP will be closing soon!](/2019/cfp)** We plan to close the CFP window Monday, October 15. Submit your talk before it's too late.
+      ### **The CFP has offically closed!** 
+
+      #### Thank you so much for all of the great submissions. Over the next few weeks we'll be undertaking the difficult task of reviewing all of the proposals and making final talk selections. All speakers will be notified via email with next steps.
+      
+      ---
 
       GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem. In addition to the latest features and functionality of Grafana, you can expect to see and hear from members of the extended open source monitoring community.
     

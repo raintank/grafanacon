@@ -19,6 +19,14 @@ $primary-color:     #728fa5;
 $secondary-color:   #000;
 $tertiary-color:    #fc4e00;
 
+hr {
+    height: 1px !important;
+    outline: none;
+    background-color: $primary-color;
+    border: none;
+    margin-bottom: 40px;
+}
+
 // Navigation
 // --------------------------------------------------------------------------
 
