@@ -194,13 +194,13 @@ speakers:
       # talk:
       # description:
 
-    # - name: Paul Dix
-    #   role: Co-Founder | CTO
-    #   company: InfluxData
-    #   logo: influxdata_logo.png
-    #   headshot: paul_dix.jpg
-    #   twitter: https://twitter.com/pauldix
-    #   github: https://github.com/pauldix
+    - name: Paul Dix
+      role: Co-Founder | CTO
+      company: InfluxData
+      logo: influxdata_logo.png
+      headshot: paul_dix.jpg
+      twitter: https://twitter.com/pauldix
+      github: https://github.com/pauldix
       # talk:
       # description:
 
