@@ -158,6 +158,16 @@ speakers:
       # talk:
       # description:
 
+    - name: Brendan Burns
+      role: Distinguished Engineer & Kubernetes co-founder
+      company: Microsoft
+      logo: microsoft_logo.png
+      headshot: brendan_burns.jpg
+      twitter: https://twitter.com/brendandburns
+      github: https://github.com/brendandburns
+      talk:
+      description:
+        
     - name: Stig Sorensen
       role: Head Of Telemetry
       company: Bloomberg
@@ -204,15 +214,6 @@ speakers:
       # talk:
       # description:
 
-    # - name: Pooja Shelar
-    #   role: TCoE Performance Testing Services
-    #   company: Sony
-    #   logo: sony_logo.png
-    #   headshot: paul_dix.jpg
-    #   twitter: https://twitter.com/pauldix
-    #   github: https://github.com/pauldix
-      # talk:
-      # description:
 # ------------------------------------------------------------
 # !EVENTS
 # ------------------------------------------------------------
