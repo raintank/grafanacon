@@ -146,7 +146,7 @@ schedule:
 
 speakers:
   title: Speakers
-  subhead: We're proud to have confirmed these amazing speakers.
+  subhead: We're proud to have confirmed these amazing speakers. We're adding more all the time!
   speakers:
     - name: Torkel Odegaard
       role: Creator | Project Lead
@@ -167,7 +167,7 @@ speakers:
       github: https://github.com/brendandburns
       talk:
       description:
-        
+
     - name: Stig Sorensen
       role: Head Of Telemetry
       company: Bloomberg
