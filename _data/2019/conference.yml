@@ -35,22 +35,22 @@ fonts: "'Gothic A1:400,700:latin', 'Playfair Display'"
 navigation:
   - name: Welcome
     url: /
-  # - name: About
-  #   url: /info
   - name: Why Attend?
     url: /why
   # - name: Watch
   #   url: /videos
   # - name: Schedule
   #   url: /schedule
+  - name: Travel
+    url: /travel
   - name: Speakers
     url: /speakers
   - name: Sponsor
     url: /sponsor
-  - name: CFP
-    url: /cfp
   - name: Conduct
     url: /conduct
+  - name: CFP
+    url: /cfp
 
 
 # ------------------------------------------------------------
@@ -149,7 +149,7 @@ speakers:
   subhead: We're proud to have confirmed these amazing speakers. We're adding more all the time!
   speakers:
     - name: Torkel Odegaard
-      role: Creator | Project Lead
+      role: Grafana Creator & Project Lead
       company: Grafana
       logo: grafana_logo.png
       headshot: torkel_odegaard.jpg
@@ -211,6 +211,26 @@ speakers:
       headshot: paul_dix.jpg
       twitter: https://twitter.com/pauldix
       github: https://github.com/pauldix
+      # talk:
+      # description:
+
+    - name: Tom Wilkie
+      role: VP, Product - Grafana Labs
+      company: Prometheus
+      logo: prometheus_logo.jpg
+      headshot: tom_wilkie.jpg
+      twitter: https://twitter.com/tom_wilkie
+      github: https://github.com/tomwilkie
+      # talk:
+      # description:
+
+    - name: Dan Cech
+      role: VP, Platform Services - Grafana Labs
+      company: Graphite
+      logo: graphite_logo.jpg
+      headshot: dan_cech.jpg
+      twitter: https://twitter.com/DanCech
+      github: https://github.com/DanCech
       # talk:
       # description:
 
@@ -285,7 +305,7 @@ location:
   name: Magic Box at the Reef
   coordinates: '-118.2687699, 34.031094'
   description: |
-    Magic Box @ The REEF is L.A. newest downtown meeting space. Housed in the iconic LA Mart building, this collection of gorgeous, modern, renovated spaces will play host to GrfanaCon LA.
+    Magic Box @ The REEF is Los Angeles' newest downtown meeting space. Housed in the iconic LA Mart building, this collection of gorgeous, modern, renovated spaces will play host to GrfanaCon LA.
   image: magicbox.jpg
 
 # ------------------------------------------------------------
@@ -315,9 +335,11 @@ sponsors:
 # ------------------------------------------------------------
 
 lodging:
-  title: Where to Stay.
+  title: Need a Place to Stay in L.A.?
   description: |
-    We will work with hotels in the area to reserve soft block of rooms at a discount for attendees. Details will be available soon.
+    [**Ace Hotel, Downtown LA**](https://www.acehotel.com/losangeles) is offering a 15% discount to GrafanaCon attendees by using the promotional code **BANDWIDTH**. This rooms will go fast so please book early.
+
+    [**Luxe City Center Hotel**](http://luxecitycenter.com) is also providing a 10% discount for GrafanaCon attendees. Please contact their Hotel Reservations Department at **[(213) 743-7601](tel:213-743-7601)** 9AM-5PM PST M-F to create reservations. To receive the disounted rate, please identify yourself as part of **GrafanaCon 2019**. Please note that deadline for room reservations is on February 4, 2019.
   url:
 
 
