@@ -26,7 +26,6 @@
   padding-top: 0;
 }
 
-
 .page-section--no-bottom {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -98,6 +97,25 @@
   background: $page-hero-background;
   background-position: 50%;
   background-size: cover;
+}
+
+.page-hero__title {
+  @include web-font(#{$page-section-title-font-family}, $page-section-title-font-type);
+  margin: $page-section-title-margin;
+  padding: $page-section-title-padding;
+  font-size: $page-section-title-font-size;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @include breakpoint(medium up) {
+    font-size: $page-section-title-font-size * 2;
+  }
+
+  span {
+    font-size: 80%; 
+  }
 }
 
 .page-hero__body {

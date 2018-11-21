@@ -15,23 +15,22 @@
 // PLACE CUSTOM STYLE OVERRIDE VARIABLES HERE
 // --------------------------------------------------------------------------
 
+$page-section-title-font-family: 'Exo';
+$page-section-title-font-type: 'sans-serif';
+
 $primary-color:     #728fa5;
 $secondary-color:   #000;
 $tertiary-color:    #fc4e00;
-
-hr {
-    height: 1px !important;
-    outline: none;
-    background-color: $primary-color;
-    border: none;
-    margin-bottom: 40px;
-}
 
 // Navigation
 // --------------------------------------------------------------------------
 
 $nav-sticky-bg-color:     rgba(0,0,0,0.9);
-$page-hero-background:    #222 url('../2019/images/grafanacon_la_hero2.jpg');
+
+// Hero
+// --------------------------------------------------------------------------
+
+$page-hero-background:    #222 url('../2019/images/la_palm_hero.jpg');
 
 // --------------------------------------------------------------------------
 // END OVVERIDES
@@ -45,37 +44,82 @@ $page-hero-background:    #222 url('../2019/images/grafanacon_la_hero2.jpg');
 
 // CONFERENCE SPECIFIC STYLES
 // --------------------------------------------------------------------------
+.btn--primary {
+  background: $tertiary-color;
+
+  &:hover,
+  &:focus {
+    background-color: shade($tertiary-color, 20%);
+    text-decoration: none;
+  }
+}
+
+hr {
+    height: 1px !important;
+    outline: none;
+    background-color: $primary-color;
+    border: none;
+    margin-bottom: 40px;
+}
 
 body {
   @include web-font('Gothic A1', sans-serif);
   line-height: 1.7;
 
   strong {
-  	color: $primary-color;
+  	font-weight: bold;
+    color: $primary-color;
   }
 }
 
 .page-hero {
-	min-height: rem-calc(450);
+	min-height: rem-calc(500);
+}
+
+.page-hero__title {
+  border: none;
+  font-weight: 800;
+  line-height: 1.2;
+
+  span {
+    font-weight: 600;
+  }
+}
+
+
+.page-hero__body {
+  position: relative;
+  top: 160px;
+  min-height: 250px;
+  @include breakpoint(small only) {
+    top: 0;
+  }
 }
 
 .page-hero__logo {
 	background: url(../2019/images/grafanacon_la_logo.png);
-    background-repeat: no-repeat;
-    background-position: 0 140px;
-    background-size: contain;
-    height: 400px;
+  background-repeat: no-repeat;
+  background-position: 0 80px;
+  background-size: contain;
+  height: 250px;
+}
+
+.page-section__title {
+  border: none;
 }
 
 #cfpSuccess {
 	h3 {
-		color: #fff;
-		font-size: 1.5rem;
-		border: 1px solid #00f0ff;
-		margin: 1.0em 1.0em 1.0em 0;
-	    padding: 0.25em 1em;
+	 color: #fff;
+	 font-size: 1.5rem;
+	 border: 1px solid #00f0ff;
+	 margin: 1.0em 1.0em 1.0em 0;
+	 padding: 0.25em 1em;
 	}
 }
+
+// For Images
+// --------------------------------------------------------------------------
 
 .side-by-side {
 	margin-left: 0;

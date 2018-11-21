@@ -2,18 +2,10 @@
 <div class="page-section page-section--dark page-section--no-bottom">
     <div class="row">
         <div class="small-10 small-centered medium-8 columns">
-            {% if conference.info.about.content %}
+            {% if conference.info.about.title %}
                 <h2 class="page-section__title">{{ conference.info.about.title }}</h2>
-                {% if conference.info.ticket-url %}
-                <div class="page-hero__cta text-center">
-                    {% if conference.info.tickets-on-sale %}
-                        <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets Now</a>
-                    {% else %}
-                        <span class="btn btn--primary">Sold Out</span>
-                    {% endif %}
-                </div>
-                <br />
-                {% endif %}
+            {% endif %}
+            {% if conference.info.about.content %}
                 <div class="page-section__body">
                     {{ conference.info.about.content | markdownify }}
 

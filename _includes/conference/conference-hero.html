@@ -8,6 +8,20 @@
                         <!-- <img class="page-hero__img" src="{{ images }}{{ conference.logo }}" alt="{{ conference.info.title }}"> -->
                     </div>
                 {% endif %}
+                {% if conference.title %}
+                <h2 class="page-hero__title">{{ conference.title }}
+                <br>
+                <span>Feb 25-26, 2019</span></h2>
+                {% endif %}
+                {% if conference.info.ticket-url %}
+                    <div class="page-hero__cta text-center">
+                        {% if conference.info.tickets-on-sale %}
+                            <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Buy Tickets</a>
+                        {% else %}
+                            <span class="btn btn--primary">Sold Out</span>
+                        {% endif %}
+                    </div>
+                {% endif %}
             </div>
         </div>
     {% endif %}
