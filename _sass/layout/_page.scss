@@ -83,6 +83,19 @@
   }
 }
 
+.page-section__video-title {
+  @include web-font(#{$page-section-title-font-family}, $page-section-title-font-type);
+  margin: $page-section-title-margin;
+  padding: $page-section-title-padding;
+  font-size: rem-calc(16);
+  text-align: center;
+  color: $white;
+
+  @include breakpoint(medium up) {
+    font-size: $page-section-title-font-size * 1.5
+  }
+}
+
 .page-section__video + .page-section__video {
   margin-top: $base-spacing;
 }

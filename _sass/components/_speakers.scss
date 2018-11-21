@@ -16,6 +16,11 @@
   }
 }
 
+.speaker-featured {
+   background: url(/2019/images/headshots/headshot_bg.gif) 6px 0% no-repeat;
+  background-size: contain;
+}
+
 .speakers-list__item {
   @include breakpoint(medium up) {
     width: 30%;

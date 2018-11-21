@@ -1,20 +1,12 @@
-{% if conference.about %}
-    <div class="page-section page-section--dark">
+{% if conference.why %}
+    <div class="page-section page-section--dark page-section-1">
         <div class="row">
             <div class="small-10 small-centered medium-8 columns">
-                <h2 class="page-section__title">{{ conference.about.title }}</h2>
+                <h2 class="page-section__title">{{ conference.why.why-attend.title }}</h2>
+                <h5 class="page-section__subtitle">{{ conference.why.why-attend.subtitle }}</h5>
+                <br />
                 <div class="page-section__body">
-                    {{ conference.about.content | markdownify }}
-                    {% if conference.info.about.image4 %}
-                    <div class="small-12 medium-6 columns inline-img side-by-side">
-                        <img src="{{ images }}/{{ conference.info.about.image4 }}" alt="GrafanaCon EU">
-                    </div>
-                    {% endif %}
-                    {% if conference.info.about.image5 %}
-                    <div class="small-12 medium-6 columns inline-img side-by-side">
-                        <img src="{{ images }}/{{ conference.info.about.image5 }}" alt="GrafanaCon EU">
-                    </div>
-                    {% endif %}
+                    {{ conference.why.why-attend.content | markdownify }}
                 </div>
             </div>
         </div>
@@ -32,15 +24,23 @@
     </div>
 {% endif %}
 
-{% if conference.why %}
+{% if conference.about %}
     <div class="page-section page-section--dark">
         <div class="row">
             <div class="small-10 small-centered medium-8 columns">
-                <h2 class="page-section__title">{{ conference.why.why-attend.title }}</h2>
-                <h5 class="page-section__subtitle">{{ conference.why.why-attend.subtitle }}</h5>
-                <br />
+                <h2 class="page-section__title">{{ conference.about.title }}</h2>
                 <div class="page-section__body">
-                    {{ conference.why.why-attend.content | markdownify }}
+                    {{ conference.about.content | markdownify }}
+                    {% if conference.info.about.image4 %}
+                    <div class="small-12 medium-6 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.image4 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
+                    {% if conference.info.about.image5 %}
+                    <div class="small-12 medium-6 columns inline-img side-by-side">
+                        <img src="{{ images }}/{{ conference.info.about.image5 }}" alt="GrafanaCon EU">
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
