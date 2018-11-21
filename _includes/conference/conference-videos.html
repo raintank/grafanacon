@@ -1,3 +1,18 @@
+{% if conference.videos.featured-video %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+            <div class="page-section__video mt-small-5">
+                <h3 class="mb-small-2">{{ conference.videos.featured-video.headline | markdownify }}</h3>
+                <div class="video-wrap">
+                    <iframe class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/{{ conference.videos.featured-video.id }}?rel=0&showinfo=0&modestbranding=1" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
 {% if conference.videos %}
 <div class="page-section page-section--dark">
     <div class="row columns">

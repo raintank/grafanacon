@@ -1,7 +1,7 @@
 {% if conference.speakers %}
     <div class="page-section page-section--bordered">
         <div class="row columns">
-            <h3 class="page-section__subtitle">{{ conference.speakers.title }}</h3>
+            <h2 class="page-section__title">{{ conference.speakers.title }}</h2>
             <h4 class="page-section__subhead">{{ conference.speakers.subhead }}</h4>
             <ul class="speakers-list">
                 {% for speaker in conference.speakers.speakers %}
