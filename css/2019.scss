@@ -97,6 +97,9 @@ body {
   @include breakpoint(small only) {
     top: 0;
   }
+  @include breakpoint(medium only) {
+    top: 0;
+  }
 }
 
 .page-hero__logo {
