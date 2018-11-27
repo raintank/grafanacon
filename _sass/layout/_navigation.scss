@@ -18,7 +18,7 @@ body.nav-is-open {
   transition: all .25s ease-in-out;
   background: linear-gradient(rgba($nav-sticky-bg-color, .9) 0, rgba($nav-sticky-bg-color, 0) 100%);
 
-  @include breakpoint(small only) {
+  @include breakpoint($nav-hamburger-bp-show) {
     padding-top: $base-spacing * 2;
   }
 }
@@ -30,7 +30,7 @@ body.nav-is-open {
 
 .header,
 .header.fixed {
-  @include breakpoint(small only) {
+  @include breakpoint($nav-hamburger-bp-show) {
     padding: 0;
     background: transparent;
   }
@@ -41,7 +41,7 @@ body.nav-is-open {
 }
 
 .site-nav__home-link {
-  @include breakpoint(small only) {
+  @include breakpoint($nav-hamburger-bp-show) {
     display: none;
   }
 }
@@ -60,7 +60,7 @@ body.nav-is-open {
 .site-nav__list {
   @extend %ui-list;
 
-  @include breakpoint(small only) {
+  @include breakpoint($nav-hamburger-bp-show) {
     visibility: hidden;
     position: fixed;
     z-index: 100;
@@ -75,7 +75,7 @@ body.nav-is-open {
     background: $secondary-color;
   }
 
-  @include breakpoint(medium up) {
+  @include breakpoint($nav-hamburder-bp-hide) {
     display: flex;
     flex: 1;
     flex-flow: row wrap;
@@ -84,7 +84,7 @@ body.nav-is-open {
 }
 
 .site-nav__list.open {
-  @include breakpoint(small only) {
+  @include breakpoint($nav-hamburger-bp-show) {
     visibility: visible;
     transform: translateY(0);
     opacity: 1;
@@ -104,7 +104,7 @@ body.nav-is-open {
   background: $nav-list-hamburger-bg;
   cursor: pointer;
 
-  @include breakpoint(medium up) {
+  @include breakpoint($nav-hamburder-bp-hide) {
     display: none;
   }
 }
@@ -148,7 +148,7 @@ body.nav-is-open {
   display: block;
   text-align: center;
 
-  @include breakpoint(small only) {
+  @include breakpoint($nav-hamburger-bp-show) {
     margin-bottom: $base-spacing;
     text-transform: uppercase;
 
@@ -157,14 +157,14 @@ body.nav-is-open {
     }
   }
 
-  @include breakpoint(medium up) {
+  @include breakpoint($nav-hamburder-bp-hide) {
     max-width: rem-calc(320);
     text-align: right;
   }
 }
 
 .site-nav__list-item + .site-nav__list-item {
-  @include breakpoint(medium up) {
+  @include breakpoint($nav-hamburder-bp-hide) {
     margin-left: $small-spacing;
   }
 }
