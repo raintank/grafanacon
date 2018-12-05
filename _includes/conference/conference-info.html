@@ -47,9 +47,19 @@
                     {% endif %}
                     {% endif %}
                 </div>
-                {% if conference.info.about.content-c %}
+                
+
+                {% if conference.format %}
+                <h2 class="page-section__title" id="format">{{ conference.format.title }}</h2>
                 <div class="page-section__body">
-                    {{ conference.info.about.content-c | markdownify }}
+                    {{ conference.format.content | markdownify }}
+                {% endif %}
+                </div>
+
+                
+                {% if conference.info.about.content-b %}
+                <div class="page-section__body">
+                    {{ conference.info.about.content-b | markdownify }}
 
                     {% if conference.info.about.image1 %}
                     <div class="small-12 medium-6 columns inline-img side-by-side">
@@ -63,9 +73,9 @@
                     {% endif %}
                 {% endif %}
                 </div>
-                 {% if conference.info.about.content-b %}
+                 {% if conference.info.about.content-c %}
                 <div class="page-section__body">
-                    {{ conference.info.about.content-b | markdownify }}
+                    {{ conference.info.about.content-c | markdownify }}
                     {% if conference.info.about.image3 %}
                     <div class="small-12 medium-12 inline-img columns">
                         <img src="{{ images }}/{{ conference.info.about.image3 }}" alt="GrafanaCon EU">
