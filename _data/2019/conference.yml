@@ -425,6 +425,9 @@ sponsors:
     - name: InfluxData
       url: https://www.influxdata.com/
       logo: influxdata_logo.png
+    - name: Packet
+      url: https://www.packet.net/
+      logo: packet_sponsor_logo.png
 
 # ------------------------------------------------------------
 # !LODGING
