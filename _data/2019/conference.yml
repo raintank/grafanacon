@@ -426,8 +426,11 @@ sponsors:
       url: https://www.influxdata.com/
       logo: influxdata_logo.png
     - name: Packet
-      url: https://www.packet.net/
+      url: https://www.packet.com/
       logo: packet_sponsor_logo.png
+    - name: VictorOps
+      url: https://www.victorops.com
+      logo: victorops_sponsor_logo.jpg
 
 # ------------------------------------------------------------
 # !LODGING
