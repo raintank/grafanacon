@@ -431,6 +431,9 @@ sponsors:
     - name: VictorOps
       url: https://www.victorops.com
       logo: victorops_sponsor_logo.jpg
+    - name: Sensu
+      url: https://www.sensu.io
+      logo: sensu_sponsor_logo.jpg
 
 # ------------------------------------------------------------
 # !LODGING
