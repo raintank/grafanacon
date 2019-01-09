@@ -339,11 +339,12 @@ speakers:
       # description:
 
     - name: Blerim Sheqa
-      role: Senior Developer
-      company: Netways
-      logo: netways_logo.png
+      role: CPO
+      company: Icinga
+      logo: icinga_logo.jpg
       headshot: blerim_sheqa.jpg
       github: https://github.com/bobapple
+      twitter: https://twitter.com/bobapple
       # talk:
       # description: |
 
@@ -384,6 +385,17 @@ speakers:
       github: https://github.com/seanlaff
       # talk:
       # description: |
+
+    - name: Christophe Fargette
+      role: Co-founder & Practice Lead
+      company: Phlyt
+      logo: phlyt_logo.jpg
+      headshot: christophe_fargette.jpg
+      twitter: https://www.twitter.com/_christophe_f
+      github: https://github.com/christophe-f
+      # talk:
+      # description: |
+
 # ------------------------------------------------------------
 # !EVENTS
 # ------------------------------------------------------------
@@ -487,12 +499,12 @@ sponsors:
     - name: Packet
       url: https://www.packet.com/
       logo: packet_sponsor_logo.png
-    - name: VictorOps
-      url: https://www.victorops.com
-      logo: victorops_sponsor_logo.jpg
     - name: Sensu
       url: https://www.sensu.io
       logo: sensu_sponsor_logo.jpg
+    - name: VictorOps
+      url: https://www.victorops.com
+      logo: victorops_sponsor_logo.jpg
 
 # ------------------------------------------------------------
 # !LODGING
