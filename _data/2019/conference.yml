@@ -328,6 +328,62 @@ speakers:
       # talk:
       # description:
 
+    - name: Nikki Attea
+      role: Software Engineer
+      company: Sensu
+      logo: sensu_logo.jpg
+      headshot: nikki_attea.jpg
+      twitter: https://twitter.com/thenikkiki
+      github: https://github.com/nikkiki
+      # talk:
+      # description:
+
+    - name: Blerim Sheqa
+      role: Senior Developer
+      company: Netways
+      logo: netways_logo.png
+      headshot: blerim_sheqa.jpg
+      github: https://github.com/bobapple
+      # talk:
+      # description: |
+
+    - name: Jordan J. Hamel
+      role: Head of Monitoring Platforms
+      company: Amgen
+      logo: amgen_logo.png
+      headshot: jordan_j_hamel.jpg
+      twitter: https://twitter.com/jordanjohnhamel
+      # talk:
+      # description: |
+
+    - name: Hendrik Broering
+      role: COO
+      company: AMMP Technologies
+      logo: ammp_logo.jpg
+      headshot: hendrik_broering.jpg
+      linkedin: https://www.linkedin.com/in/hendrik-broering/
+      # talk:
+      # description: |
+
+    - name: Vijay Samuel
+      role: Member Of Technical Staff
+      company: eBay
+      logo: ebay_logo.png
+      headshot: vijay_samuel.jpg
+      twitter: https://twitter.com/vjsamuel_
+      github: https://github.com/vjsamuel
+      # talk:
+      # description: |
+
+    - name: Sean Lafferty
+      role: Software Engineer
+      company: SevOne
+      logo: sevone_logo.jpg
+      headshot: sean_lafferty.jpg
+      linkedin: https://www.linkedin.com/in/seanlafferty/
+      github: https://github.com/seanlaff
+      # talk:
+      # description: |
 # ------------------------------------------------------------
 # !EVENTS
 # ------------------------------------------------------------
@@ -425,6 +481,9 @@ sponsors:
     - name: InfluxData
       url: https://www.influxdata.com/
       logo: influxdata_logo.png
+    - name: Google Cloud
+      url: https://cloud.google.com/
+      logo: google_cloud_color.png
     - name: Packet
       url: https://www.packet.com/
       logo: packet_sponsor_logo.png
