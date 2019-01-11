@@ -366,8 +366,17 @@ speakers:
       # talk:
       # description: |
 
+    - name: Diana Hsieh
+      role: Product Lead
+      company: Timescale
+      logo: timescale_logo.jpg
+      headshot: diana_hsieh.jpg
+      twitter: https://www.twitter.com/dianasaur323
+      # talk:
+      # description: |
+      
     - name: Vijay Samuel
-      role: Member Of Technical Staff
+      role: MTS 1, Software Engineer
       company: eBay
       logo: ebay_logo.png
       headshot: vijay_samuel.jpg
@@ -395,6 +404,7 @@ speakers:
       github: https://github.com/christophe-f
       # talk:
       # description: |
+
 
 # ------------------------------------------------------------
 # !EVENTS
@@ -507,7 +517,7 @@ sponsors:
       logo: victorops_sponsor_logo.jpg
     - name: PagerTree
       url: https://www.pagertree.com
-      logo: pagertree_logo.jpg
+      logo: pagertree_sponsor_logo.png
 
 # ------------------------------------------------------------
 # !LODGING
