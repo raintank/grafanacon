@@ -374,7 +374,7 @@ speakers:
       twitter: https://www.twitter.com/dianasaur323
       # talk:
       # description: |
-      
+
     - name: Vijay Samuel
       role: MTS 1, Software Engineer
       company: eBay
@@ -392,6 +392,16 @@ speakers:
       headshot: sean_lafferty.jpg
       linkedin: https://www.linkedin.com/in/seanlafferty/
       github: https://github.com/seanlaff
+      # talk:
+      # description: |
+
+    - name: Wenting Gong
+      role: Software Engineer
+      company: SevOne
+      logo: tinder_logo.jpg
+      headshot: wenting_gong.jpg
+      linkedin: https://www.linkedin.com/in/wentingg/
+      github: https://github.com/christine-gong
       # talk:
       # description: |
 
