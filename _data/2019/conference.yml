@@ -349,11 +349,12 @@ speakers:
       # description: |
 
     - name: Jordan J. Hamel
-      role: Head of Monitoring Platforms
+      role: Software Design Engineer
       company: Amgen
       logo: amgen_logo.png
       headshot: jordan_j_hamel.jpg
       twitter: https://twitter.com/jordanjohnhamel
+      github: https://github.com/jordo1138
       # talk:
       # description: |
 
@@ -412,6 +413,15 @@ speakers:
       headshot: christophe_fargette.jpg
       twitter: https://www.twitter.com/_christophe_f
       github: https://github.com/christophe-f
+      # talk:
+      # description: |
+
+    - name: Joy Wang
+      role: Product Manager
+      company: Google
+      logo: google_logo.png
+      headshot: joy_wang.jpg
+      linkedin: https://www.linkedin.com/in/joyjiayiwang/
       # talk:
       # description: |
 
