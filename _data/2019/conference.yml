@@ -398,7 +398,7 @@ speakers:
 
     - name: Wenting Gong
       role: Software Engineer
-      company: SevOne
+      company: Tinder
       logo: tinder_logo.jpg
       headshot: wenting_gong.jpg
       linkedin: https://www.linkedin.com/in/wentingg/
@@ -425,6 +425,14 @@ speakers:
       # talk:
       # description: |
 
+    - name: Svet Bajlekov
+      role: Co-founder / CEO
+      company: AMMP Technologies
+      logo: ammp_logo.jpg
+      headshot: svet_bajlekov.jpg
+      linkedin: https://www.linkedin.com/in/bajlekov/
+      # talk:
+      # description: |
 
 # ------------------------------------------------------------
 # !EVENTS
