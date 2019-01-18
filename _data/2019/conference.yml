@@ -525,6 +525,9 @@ sponsors:
     image2: 023.jpg
   
   sponsor:
+    - name: Oracle
+      url: https://www.oracle.com/
+      logo: oracle_logo.png
     - name: Timescale
       url: https://www.timescale.com/
       logo: timescale_sponsor_logo.png
