@@ -434,6 +434,17 @@ speakers:
       # talk:
       # description: |
 
+    - name: Scott Kidder
+      role: Staff Software Engineer
+      company: Mux
+      logo: mux_logo.jpg
+      headshot: scott_kidder.jpg
+      # linkedin:
+      # twitter:
+      # github:
+      # talk:
+      # description: |
+
 # ------------------------------------------------------------
 # !EVENTS
 # ------------------------------------------------------------
