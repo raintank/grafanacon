@@ -42,16 +42,16 @@ navigation:
   #   url: /videos
   # - name: Schedule
   #   url: /schedule
-  - name: Travel
-    url: /travel
   - name: Speakers
     url: /speakers
   - name: Sponsor
     url: /sponsor
+  - name: Travel
+    url: /travel
   - name: Conduct
     url: /conduct
-  - name: CFP
-    url: /cfp
+  # - name: CFP
+  #   url: /cfp
 
 
 # ------------------------------------------------------------
@@ -153,11 +153,62 @@ schedule:
   - day: Day 1
     timeslots:
       - time: "8:00AM"
-        description: Registration/Coffee
-      - time: "9:45AM"
+        description: Registration and Breakfast
+      - time: "9:30AM"
         speakers:
           - name: Torkel Odegaard
-            title: Welcome to GrafanaCon LA
+            title: Welcome | Project update | What's new in Grafana v6
+          - name: Wenting Gong
+            title: Tinder Swipes Right on Grafana
+          - name: James Wetherall
+            title: Monitoring EMS (Ambulance) Service Operations
+      - time: 11:00AM
+        description: "**BREAK**"
+      - time: 11:20AM
+        speakers:
+          - name: Stig Sorensen & Sean Hanson
+            title: How Bloomberg's Central Telemetry Team Drives Value
+          - name: Tom Wilkie, David Kaltschmidt, Dieter Plaetinck
+            title: The Future of Grafana
+      - time: "12:50PM"
+        description: "**LUNCH**"
+      - time: "2:00PM"
+        speakers:
+          - name: Coming Soon
+            title: Panel Discussion
+          - name: Blerim Sheqa
+            title: How not to Fail at Data Visualization
+          - name: Jordan J. Hamel
+            title: Who's Oncall?
+          - name: Sean Porter
+            title: Sensu
+          - name: Nikki Attea
+            title: Sensu Check Metric Extraction with InfluxDB and Grafana
+          - name: Pooja Shelar
+            title:  Monitoring as a Medium for cCommunication
+      - time: 3:30PM
+        description: "**BREAK**"
+      - time: 3:50PM
+        speakers:
+          - name: Daniel Lee
+            title: New cloud data sources & highlights from the community plugin repository
+          - name: Joy Wang
+            title: Stackdriver and Grafana
+          - name: Hendrik Broering
+            title: How IoT is enabling electrification across rural Africa with smart, renewable energy
+          - name: Sean Lafferty
+            title: Live streaming datasources, Sevone
+          - name: Brendan Burns
+            title: Kubernetes and Democratizing Distributed Systems
+      - time: 5:30PM
+        description: "**After Conference Reception**"
+      - time: 8:00PM
+        description: "**Grafana v6 Launch Party**"
+  - day: Day 2
+    timeslots:
+      - time: "8:00AM"
+        description: Day 2 tracks will be announced shortly.
+
 
 # ------------------------------------------------------------
 # !FEATURED SPEAKERS
@@ -249,8 +300,11 @@ speakers:
       headshot: torkel_odegaard.jpg
       twitter: https://github.com/torkelo
       github: https://twitter.com/torkelo
-      # talk:
-      # description:
+      talk: Grafana v6 and the Future
+      description: |
+        One of the most notable new features in Grafana v6 is the Explore UI, but that's not all!
+
+        Torkel will dive into the new features included in the latest release as well as what’s on the horizon for Grafana.
 
     - name: Brendan Burns
       role: Distinguished Engineer & Kubernetes co-founder
@@ -259,24 +313,31 @@ speakers:
       headshot: brendan_burns.jpg
       twitter: https://twitter.com/brendandburns
       github: https://github.com/brendandburns
-      talk:
-      description:
+      talk: Kubernetes and Democratizing Distributed Systems
+      description: We're excited to have Kubernetes co-founder, Brendan Burns as a keynote speaker at GrafanaCon. Learn about Kubernetes and democratizing distributed systems.
 
     - name: Stig Sorensen
       role: Head Of Telemetry
       company: Bloomberg
       logo: bloomberg_logo.png
       headshot: stig_sorensen.jpg
-      # talk:
-      # description:
+      talk: How Bloomberg's Central Telemetry Team Drives Value
+      description: |
+        This talk will focus on how the telemetry team delivers value for Bloomberg's 5,500+ engineers around the globe, with as little effort as possible required by application or SRE teams. 
+        
+        Learn about enhancements Bloomberg made to open source software, as well as successes (and failures) in adopting various performance metrics.
 
     - name: Sean Hanson
       role: Software Developer
       company: Bloomberg
       logo: bloomberg_logo.png
       headshot: sean_hanson.jpg
-      # talk:
-      # description:
+      talk: How Bloomberg's central telemetry team drives value
+      description: |
+        This talk will focus on how the telemetry team delivers value for Bloomberg's 5,500+ engineers around the globe, with as little effort as possible required by application or SRE teams. 
+        
+        Learn about enhancements Bloomberg made to open source software, as well as successes (and failures) in adopting various performance metrics.
+
 
     - name: Dave Cadwallader
       role: Site Reliability Architect
@@ -285,8 +346,11 @@ speakers:
       headshot: dave_cadwallader.jpg
       twitter: https://github.com/geekdave
       github: https://twitter.com/geek_dave
-      # talk:
-      # description: 
+      talk: ELI5 - What I Learned Teaching Grafana to My Son
+      description: |
+        Take away some plans and starter code for how to use Grafana at home for whimsical and educational purposes. Inviting family to do these projects with us is a great way to help them understand what we do at work all day! But the benefits extend far beyond keeping a child entertained. 
+
+        We’ll conclude with some thoughts about how we can take these lessons and apply them towards making our own workplaces better. We can all strive to “Explain it like I’m five” to each other more often -- not to be patronizing, but to encourage a culture of tinkering and playfulness, without the fear of breaking things.
 
     - name: Ben Kochie
       role: Staff Backend Engineer, Monitor
@@ -295,8 +359,13 @@ speakers:
       headshot: ben_kochie.jpg
       gitlab: https://gitlab.com/bjk-gitlab
       github: https://github.com/superq
-      # talk:
-      # description:
+      talk: Shut up and take my metrics!
+      description: |
+        Have you thought about running Grafana exposed to everyone on the internet? Probably not!
+
+        At GitLab we value transparency, so this is exactly what we do. Every metric we use for running gitlab.com is visible to the public.
+
+        This talk will give an overview of how we operate Grafana, Prometheus, Trickster, and Thanos to create both internal and external dashboards.
 
     - name: Paul Dix
       role: Co-Founder | CTO
@@ -305,8 +374,9 @@ speakers:
       headshot: paul_dix.jpg
       twitter: https://twitter.com/pauldix
       github: https://github.com/pauldix
-      # talk:
-      # description:
+      talk: Grafana and Flux
+      description: |
+        The new Flux (formerly IFQL) super-charges queries both for analytics and data science. Get an overview of the language features as well as the moving parts for a working deployment. Grafana shares Flux’s passion for analytics and data science. For that reason, they are very excited to showcase the new Flux support within Grafana, and a couple of common analytics use cases to get the most out of your data.
 
     - name: Tom Wilkie
       role: VP, Product - Grafana Labs
@@ -315,8 +385,8 @@ speakers:
       headshot: tom_wilkie.jpg
       twitter: https://twitter.com/tom_wilkie
       github: https://github.com/tomwilkie
-      # talk:
-      # description:
+      talk: Grafana Loki – like Prometheus, but for logs
+      description: In this talk we will discuss the motivation behind Loki, its design and architecture, and what the future holds. Its early days, but so far the response to the project has been overwhelming, with more the 4.5k GitHub stars and over 12hrs at the top spot on Hacker News.
 
     - name: Dan Cech
       role: VP, Platform Services - Grafana Labs
@@ -325,9 +395,12 @@ speakers:
       headshot: dan_cech.jpg
       twitter: https://twitter.com/DanCech
       github: https://github.com/DanCech
-      # talk:
-      # description:
+      talk: IoT Workshop
+      description: |
+        Grafana isn't only used to visualize infra monitorig. More people are visualizing data from sensors and other IoT devices in their homes and businesses.
 
+        In this hands-on workshop, learn how to collect data from a temperature sensor and visualize the data in Grafana.
+    
     - name: Nikki Attea
       role: Software Engineer
       company: Sensu
@@ -335,8 +408,14 @@ speakers:
       headshot: nikki_attea.jpg
       twitter: https://twitter.com/thenikkiki
       github: https://github.com/nikkiki
-      # talk:
-      # description:
+      talk: Sensu Check Metric Extraction with InfluxDB and Grafana
+      description: |
+        Sensu supports four different metric formats for check output metric extraction, and can integrate with any time series database as long as there’s a handler written for it. Get an overview of just one of the endless permutations of metrics software you can pair with Sensu:
+        
+        1. Collect using Sensu check output metric extraction
+        2. Transform with a Sensu InfluxDB Handler
+        3. Record in an InfluxDB time series database
+        4. Visualize on a Grafana dashboard
 
     - name: Blerim Sheqa
       role: CPO
@@ -345,8 +424,11 @@ speakers:
       headshot: blerim_sheqa.jpg
       github: https://github.com/bobapple
       twitter: https://twitter.com/bobapple
-      # talk:
-      # description: |
+      talk: How not to Fail at Data Visualization
+      description: |
+        Grafana, with its huge amount of data sources and plugins, has all the capabilities one needs to create accurate graphs. Although creating dashboards is easy, interpreting each panel is hard if it's not correctly visualised. Misinterpretation is one of the most common causes of wrong conclusions that make us hunt ghosts during debugging sessions. There are many common pitfalls which we can avoid if we follow some rules. 
+
+        Learn about some of the most common mistakes in visualizations and how to avoid them.
 
     - name: Jordan J. Hamel
       role: Software Design Engineer
@@ -355,8 +437,9 @@ speakers:
       headshot: jordan_j_hamel.jpg
       twitter: https://twitter.com/jordanjohnhamel
       github: https://github.com/jordo1138
-      # talk:
-      # description: |
+      talk: Who's Oncall?
+      description: |
+        Get an overview of how Amgen has implemented oncall data to be viewable within Grafana so that anyone looking up an app that has some alerts associated with it can also know who the current engineer oncall and what their information is in case anyone needs to proactively reach out to them regarding degraded user experience, before any alerts are triggered.
 
     - name: Hendrik Broering
       role: COO
@@ -364,8 +447,11 @@ speakers:
       logo: ammp_logo.jpg
       headshot: hendrik_broering.jpg
       linkedin: https://www.linkedin.com/in/hendrik-broering/
-      # talk:
-      # description: |
+      talk: How IoT is enabling electrification across rural Africa with smart, renewable energy
+      description: |
+        The role of IoT to produce tangible impacts on the ground in Africa. How we used Grafana and InfluxDB to be able to remotely monitor our mini-grids in Tanzania. This reduced the number of long and cumbersome site trips and enabled us to guarantee a 24/7 power supply. 
+        
+        See how IoT devices truly increased the standard of living in the community including smart water pump operation and the supply of power for a welding business.
 
     - name: Diana Hsieh
       role: Product Lead
@@ -373,8 +459,9 @@ speakers:
       logo: timescale_logo.jpg
       headshot: diana_hsieh.jpg
       twitter: https://www.twitter.com/dianasaur323
-      # talk:
-      # description: |
+      talk: How to Expand Grafana’s Footprint within your Organization Using the PostgreSQL Datasource and Query Builder
+      description: |
+        This talk is delivered by TimescaleDB, who contributed the PostgreSQL query builder. It covers the rationale for why we decided to contribute these new functionalities, offers an overview of the new features, and provides insight into the real-world examples of how users are leveraging Grafana and SQL to power analytics and visualizations across their organizations.
 
     - name: Vijay Samuel
       role: MTS 1, Software Engineer
@@ -383,8 +470,9 @@ speakers:
       headshot: vijay_samuel.jpg
       twitter: https://twitter.com/vjsamuel_
       github: https://github.com/vjsamuel
-      # talk:
-      # description: |
+      talk: Grafana @ eBay - Moving Monitoring Visualizations from custom UIs to Grafana Plugins
+      description: |
+        This talk focuses on the journey that eBay took in rethinking how they do monitoring with the help of Grafana and the lessons they learned along the way.
 
     - name: Sean Lafferty
       role: Software Engineer
@@ -393,8 +481,9 @@ speakers:
       headshot: sean_lafferty.jpg
       linkedin: https://www.linkedin.com/in/seanlafferty/
       github: https://github.com/seanlaff
-      # talk:
-      # description: |
+      talk: Live Data from Streaming Datasources
+      description: |
+        At SevOne we collect high resolution network telemetry data where live visualization of that data is crucial for operations. Using a refresh rate on a large report fetches duplicate data unnecessarily, slowing the user experience. We decided to investigate adding streaming to Grafana, and found it was possible without any modifications to the Grafana server.
 
     - name: Wenting Gong
       role: Software Engineer
@@ -403,8 +492,14 @@ speakers:
       headshot: wenting_gong.jpg
       linkedin: https://www.linkedin.com/in/wentingg/
       github: https://github.com/christine-gong
-      # talk:
-      # description: |
+      talk: Tinder swipes right on Grafana for Observability
+      description: |
+        In this session, we will showcase Grafana’s immense usage at Tinder:
+        
+        * How Grafana became the most important layer of Tinder's monitoring stack by utilizing its dashboards and alerting capabilities.
+        * How Tinder leveraged Grafanalib (open source library) to: 
+          1. Automate data sources creation and deletion when an application is on-boarded or off-boarded; 
+          2. Generate a set of drilled-down dashboards representing different application’s workflows taking advantage of Grafana’s dashboard folders.
 
     - name: Christophe Fargette
       role: Co-founder & Practice Lead
@@ -413,8 +508,9 @@ speakers:
       headshot: christophe_fargette.jpg
       twitter: https://www.twitter.com/_christophe_f
       github: https://github.com/christophe-f
-      # talk:
-      # description: |
+      talk: Visualize your Chaos Engineering experiments with Grafana
+      description: |
+        In this session, we will inject some chaos into a Spring Boot application. We will collect all the metrics from the application and the experiments in Prometheus. We will create Grafana dashboards to visualize the results and see how the application is performing in the real world.
 
     - name: Joy Wang
       role: Product Manager
@@ -422,8 +518,9 @@ speakers:
       logo: google_logo.png
       headshot: joy_wang.jpg
       linkedin: https://www.linkedin.com/in/joyjiayiwang/
-      # talk:
-      # description: |
+      talk: Stackdriver and Grafana
+      description: |
+        The Google Cloud team worked closely with Grafana Labs to build a Stackdriver data source for Grafana. This new plugin lets you seamlessly incorporate Stackdriver data into your Grafana instance effortlessly.
 
     - name: Svet Bajlekov
       role: Co-founder / CEO
@@ -431,8 +528,11 @@ speakers:
       logo: ammp_logo.jpg
       headshot: svet_bajlekov.jpg
       linkedin: https://www.linkedin.com/in/bajlekov/
-      # talk:
-      # description: |
+      talk: An open technology stack for smart energy and industrial IoT with Grafana
+      description: |
+        A new breed of open-source building blocks is emerging — and is bringing Internet-scale best practices to the industrial IoT space. These building blocks implement open, standards-compliant communications protocols, allowing devices and data streams to be connected in a secure, flexible and scalable way. Grafana — given its time-series focus, and flexible/extensible design — is the natural front-end for this.
+
+        This talk will cover some of underlying technologies, focusing on the ways in which Grafana delivers key functionality.
 
     - name: Scott Kidder
       role: Staff Software Engineer
@@ -442,8 +542,22 @@ speakers:
       # linkedin:
       # twitter:
       # github:
-      # talk:
+      talk: Treating Dashboards like Code
+      description: |
+        In this talk, learn about Mux's approach to managing Grafana dashboards like code: checking them into a source-code repository and deploying them to every Kubernetes cluster via an automated build system. This ensures the Grafana dashboards are consistent across all Kubernetes clusters, making for a more productive and reliable experience.
+
+      # - name: Pooja Shelar
+      # role: Software Developer
+      # company: Sony Pictures Entertainment
+      # logo: spe_logo.jpg
+      # headshot: pooja_shelar.jpg
+      # twitter: 
+      # github:
+      # talk: Monitoring as a medium for communication
       # description: |
+      #   With Grafana’s powerful visualization, integration with multiple plugins, built-in alerting and many more features, Sony Pictures Entertainment has found a good means to capture performance metrics for evaluation by higher management. This helps in decision making on how to improve our current systems and design improved applications to deliver various business solutions.
+
+      #   Learn about Grafana's impact at SPE which has resulted in high performance solutions.
 
 # ------------------------------------------------------------
 # !EVENTS
