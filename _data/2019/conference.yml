@@ -558,17 +558,29 @@ speakers:
 
         This talk will cover some of underlying technologies, focusing on the ways in which Grafana delivers key functionality.
 
-    - name: Scott Kidder
-      role: Staff Software Engineer
-      company: Mux
-      logo: mux_logo.jpg
-      headshot: scott_kidder.jpg
+    - name: James Wetherall
+      role: Group Manager, Public Safety
+      company: Trapeze Group Asia Pacific
+      logo: trapeze_logo.jpg
+      headshot: james_wetherall.jpg
       # linkedin:
       # twitter:
       # github:
-      talk: Treating Dashboards like Code
+      talk: Monitoring EMS (Ambulance) Service Operations
       description: |
-        In this talk, learn about Mux's approach to managing Grafana dashboards like code: checking them into a source-code repository and deploying them to every Kubernetes cluster via an automated build system. This ensures the Grafana dashboards are consistent across all Kubernetes clusters, making for a more productive and reliable experience.
+        Explore how Trapeze is leveraging Grafana as a key platform for visualising and communicating a real-time picture and how this is being utilised within Emergency Service organisations. We will discuss how we are supporting critical decision making through bringing together a broad range of information streams and technology. This talk will discuss some of our current stack and areas were currently exploring including Grafana, Postgres, SQL Server, Kafka, MQTT and Prometheus.
+
+    - name: Alexey Velikiy
+      company: Founder, CorpGlory Inc.
+      logo: corpglory_logo.jpg
+      headshot: alexey_velikiy.jpg
+      linkedin: https://www.linkedin.com/in/alexeyvelikiy
+      twitter: https://twitter.com/jonyrock
+      # github:
+      talk: Extending Grafana to a new timeseries analysis platform with Hastic
+      description: |
+        Learn about Hastic - a hackable tool for making pattern detection and predictions for your timeseries data, and explore Grafana plugins to create visualiatinos and custom analytics from new data sources.
+
 
       # - name: Pooja Shelar
       # role: Software Developer
