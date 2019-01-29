@@ -134,12 +134,12 @@ info:
 format:
  title: The Conference Format
  content: |
-  **Day 1** at GrafanaCon LA will be single track and have keynotes from the core Grafana team, experts in data science, talks from the creators and maintainers of the most popular open source monitoring tools, and talks from the community on observability and monitoring at scale.
+  **Day 1** at GrafanaCon LA will be single track and have keynotes from the core Grafana team, talks from the creators and maintainers of the most popular open source monitoring tools, and hear from the community on observability and monitoring at scale.
 
-  **Day 2:** Based on your feeback, **GrafanaCon is getting a lot more hands on!** GrafanaCon LA is going to feature TSDB focused tracks and workshops led by experts that will let you roll up your sleeves with:
-  * **InfluxDB**
-  * **Prometheus and Kubernetes**
-  * **Graphite**
+  **Day 2:** Based on your feedback, **GrafanaCon is getting a lot more hands on!** GrafanaCon LA is going to feature TSDB focused tracks and workshops led by experts that will let you roll up your sleeves with:
+  * **Real Time Analytics in IoT**
+  * **Cloud Native Observability**
+  * **SQL and Business Analytics**
   * **Extending Grafana through plugins, and developing your own**
   * **Advanced Grafana workshops**
   * **Visualizing data from IoT sensors**
