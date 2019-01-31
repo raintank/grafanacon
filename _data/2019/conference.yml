@@ -465,6 +465,19 @@ speakers:
       description: |
         Get an overview of how Amgen has implemented oncall data to be viewable within Grafana so that anyone looking up an app that has some alerts associated with it can also know who the current engineer oncall and what their information is in case anyone needs to proactively reach out to them regarding degraded user experience, before any alerts are triggered.
 
+    - name: David Kaltschmidt
+      role: Director, UX
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: david_kaltschmidt.jpg
+      twitter: https://twitter.com/davkals
+      github: https://github.com/davkal
+      talk: Eplore Workflow
+      description: |
+        Grafana 6.0 adds a new way to explore ad-hoc queries and data. You can now view both metric and log data in Grafana.
+
+        David will walk through the new interface of the explore workflow and discuss what's on the horizon. 
+
     - name: Hendrik Broering
       role: COO
       company: AMMP Technologies
@@ -508,7 +521,16 @@ speakers:
       talk: Live Data from Streaming Datasources
       description: |
         At SevOne we collect high resolution network telemetry data where live visualization of that data is crucial for operations. Using a refresh rate on a large report fetches duplicate data unnecessarily, slowing the user experience. We decided to investigate adding streaming to Grafana, and found it was possible without any modifications to the Grafana server.
-
+    
+    - name: Raj Dutt
+      role: Co-Founder | CEO
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: raj_dutt.jpg
+      twitter: https://twitter.com/nopzor
+      talk: The Business of Grafana
+      description: Raj will provide an update on Grafana Labs and provide some insight on building a company around an open source project. Grafana Labs has grown tremendously since the last GrafanaCon. Learn about how the team has grown, our view on the open source software landscape, and what's to come for Grafana Labs.
+  
     - name: Wenting Gong
       role: Software Engineer
       company: Tinder
@@ -524,7 +546,7 @@ speakers:
         * How Tinder leveraged Grafanalib (open source library) to: 
           1. Automate data sources creation and deletion when an application is on-boarded or off-boarded; 
           2. Generate a set of drilled-down dashboards representing different application’s workflows taking advantage of Grafana’s dashboard folders.
-
+    
     - name: Christophe Fargette
       role: Co-founder & Practice Lead
       company: Phlyt
@@ -535,6 +557,17 @@ speakers:
       talk: Visualize your Chaos Engineering experiments with Grafana
       description: |
         In this session, we will inject some chaos into a Spring Boot application. We will collect all the metrics from the application and the experiments in Prometheus. We will create Grafana dashboards to visualize the results and see how the application is performing in the real world.
+
+    - name: Dieter Plaetinck
+      role: Principal Engineer
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: dieter_plaetinck.jpg
+      twitter: https://twitter.com/Dieter_be
+      github: https://github.com/Dieterbe
+      talk: MetricTank
+      description: |
+        Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
 
     - name: Joy Wang
       role: Product Manager
@@ -582,18 +615,32 @@ speakers:
         Learn about Hastic - a hackable tool for making pattern detection and predictions for your timeseries data, and explore Grafana plugins to create visualiatinos and custom analytics from new data sources.
 
 
-      # - name: Pooja Shelar
-      # role: Software Developer
-      # company: Sony Pictures Entertainment
-      # logo: spe_logo.jpg
-      # headshot: pooja_shelar.jpg
-      # twitter: 
+    - name: Pooja Shelar
+      role: Lead Performance Engineer
+      company: Sony Pictures Entertainment
+      logo: spe_logo.jpg
+      headshot: pooja_shelar.jpg
+      # twitter:
       # github:
-      # talk: Monitoring as a medium for communication
-      # description: |
-      #   With Grafana’s powerful visualization, integration with multiple plugins, built-in alerting and many more features, Sony Pictures Entertainment has found a good means to capture performance metrics for evaluation by higher management. This helps in decision making on how to improve our current systems and design improved applications to deliver various business solutions.
+      linkedin: linkedin.com/in/pooja-shelar-1593a662
+      talk: Monitoring as a medium for communication
+      description: |
+        With Grafana’s powerful visualization, integration with multiple plugins, built-in alerting and many more features, Sony Pictures Entertainment has found a good means to capture performance metrics for evaluation by higher management. This helps in decision making on how to improve our current systems and design improved applications to deliver various business solutions.
 
-      #   Learn about Grafana's impact at SPE which has resulted in high performance solutions.
+        Learn about Grafana's impact at SPE which has resulted in high performance solutions.
+
+    - name: Daniel Lee
+      role: Senior Software Engineer
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: daniel_lee.jpg
+      twitter: https://twitter.com/danlimerick
+      github: https://github.com/daniellee
+      talk: New Cloud Data Sources & Highlights from the Community Plugin Repository
+      description: |
+        Grafana 3.0 added a robust plugin architecture that allowed developers to extend Grafana's capabilities and add new data sources, panel types, and dashboards. Grafana now also supports the three major cloud platforms.
+
+        Daniel will provide an update about this new cloud platform support as well as some highlights on notable community supported plugins.  
 
 # ------------------------------------------------------------
 # !EVENTS
