@@ -614,6 +614,16 @@ speakers:
       description: |
         Learn about Hastic - a hackable tool for making pattern detection and predictions for your timeseries data, and explore Grafana plugins to create visualiatinos and custom analytics from new data sources.
 
+    - name: Scott Kidder
+      company: Staff Software Engineer
+      logo: mux_logo.jpg
+      headshot: scott_kidder.jpg
+      # linkedin:
+      # twitter:
+      # github:
+      talk:  Treating Dashboards like Code
+      description: |
+        Learn about managing Grafana dashboards like code: checking them into source-code repository and deploying them to every Kubernetes cluster via an automated build system. This ensures the Grafana dashboards are consistent across all Kubernetes clusters, making for a more productive and reliable experience.
 
     - name: Pooja Shelar
       role: Lead Performance Engineer
