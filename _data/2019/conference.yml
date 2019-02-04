@@ -181,7 +181,7 @@ schedule:
           - name: Jordan J. Hamel
             title: Who's Oncall?
           - name: Sean Porter
-            title: Sensu
+            title: Today's Challenges of Big Infra Monitoring
           - name: Nikki Attea
             title: Sensu Check Metric Extraction with InfluxDB and Grafana
           - name: Pooja Shelar
@@ -425,6 +425,17 @@ speakers:
 
         In this hands-on workshop, learn how to collect data from a temperature sensor and visualize the data in Grafana.
     
+    - name: Sean Porter
+      role: Co-founder, CTO
+      company: Sensu
+      logo: sensu_logo.jpg
+      headshot: sean_porter.jpg
+      twitter: https://twitter.com/portertech
+      github: https://github.com/portertech
+      talk: Today's Challenges of Big Infra Monitoring
+      description: |
+        Applications are complex systems. Their many moving parts, component and dependency services, may span any number of infrastructure technologies and platforms, from bare metal to serverless. Learn how to overcome many of these challenges and effectively monitor these ever-changing heterogeneous environments.
+
     - name: Nikki Attea
       role: Software Engineer
       company: Sensu
