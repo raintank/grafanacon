@@ -157,7 +157,7 @@ schedule:
       - time: 9:30AM
         speakers:
           - name: Torkel Odegaard
-            title: Welcome | Project Update | What's New in Grafana v6
+            title: Welcome | Grafana Project Update &  What’s New in v6.0
           - name: Wenting Gong
             title: Tinder Swipes Right on Grafana
           - name: James Wetherall
@@ -170,6 +170,10 @@ schedule:
             title: How Bloomberg's Central Telemetry Team Drives Value
           - name: Tom Wilkie, David Kaltschmidt, Dieter Plaetinck
             title: The Future of Grafana
+          - name: Melanie Postma
+            title: VictorOps
+          - name: Mies Hernandez van Leuffen
+            title: Oracle
       - time: 12:50PM
         description: "**LUNCH**"
       - time: 2:00PM
@@ -207,26 +211,36 @@ schedule:
   - day: Day 2
     timeslots:
       - time: 8:00AM
-        description: Day 2 tracks will be announced shortly.
+        description: Registration and Breakfast
       - time: 9:30AM
         speakers:
           - name: Raj Dutt
             title: Welcome and Kickoff
       - time: 9:40AM
-        description: Day 2 tracks
+        description: |
+          **DAY 2 TRACKS**
+          * **Real Time Analytics in IoT**
+          * **Cloudnative Observability**
+          * **SQL and Business Analytics**
+
       - time: 11:10AM
         description: "**BREAK**"
       - time: 11:30AM
-        description: Day 2 tracks continued
+        description: "**DAY 2 TRACKS CONTINUED**"
       - time: 12:50PM
         description: "**LUNCH**"
       - time: 2:00PM
-        description: Day 2 workshops
+        description: |
+          **Day 2 WORKSHOPS**
+          * **Extending Grafana**
+          * **Getting the most out of Grafana**
+          * **IoT**
+
       - time: 3:30PM
         description: "**BREAK**"
       - time: 4:00PM
         speakers:
-          - name: Dave Calldwaller
+          - name: Dave Cadwallader
             title: ELI5 - What I Learned Teaching Grafana to My Son
           - name: Vijay Samuel
             title: Grafana @ eBay - Moving Monitoring Visualizations from custom UIs to Grafana Plugins
@@ -324,11 +338,9 @@ speakers:
       headshot: torkel_odegaard.jpg
       twitter: https://github.com/torkelo
       github: https://twitter.com/torkelo
-      talk: Grafana v6 and the Future
+      talk: Grafana Project Update &  What’s new in v6.0
       description: |
-        One of the most notable new features in Grafana v6 is the Explore UI, but that's not all!
-
-        Torkel will dive into the new features included in the latest release as well as what’s on the horizon for Grafana.
+        In this talk the creator and project leader Torkel Ödegaard will give a general project update. Showcase the main features added during the last year as well as unveil what is new in Grafana 6. 
 
     - name: Brendan Burns
       role: Distinguished Engineer & Kubernetes co-founder
@@ -659,9 +671,7 @@ speakers:
       github: https://github.com/daniellee
       talk: New Cloud Data Sources & Highlights from the Community Plugin Repository
       description: |
-        Grafana 3.0 added a robust plugin architecture that allowed developers to extend Grafana's capabilities and add new data sources, panel types, and dashboards. Grafana now also supports the three major cloud platforms.
-
-        Daniel will provide an update about this new cloud platform support as well as some highlights on notable community supported plugins.  
+        Learn about the new Azure & Stackdriver data sources and get to know some of the popular community Grafana plugins.   
 
 # ------------------------------------------------------------
 # !EVENTS
@@ -757,15 +767,15 @@ sponsors:
     - name: Oracle
       url: https://www.oracle.com/
       logo: oracle_logo.png
-    - name: Timescale
-      url: https://www.timescale.com/
-      logo: timescale_sponsor_logo.png
     - name: InfluxData
       url: https://www.influxdata.com/
       logo: influxdata_logo.png
     - name: Google Cloud
       url: https://cloud.google.com/
       logo: google_cloud_color.png
+    - name: Timescale
+      url: https://www.timescale.com/
+      logo: timescale_sponsor_logo.png
     - name: Packet
       url: https://www.packet.com/
       logo: packet_sponsor_logo.png
