@@ -1,0 +1,29 @@
+{% if conference.workshops %}
+    <div class="page-section page-section--bordered">
+        <div class="row columns">
+            <h2 class="page-section__title">{{ conference.workshops.title }}</h2>
+            <h4 class="page-section__subhead">{{ conference.workshops.subhead }}</h4>
+            <ul class="speakers-list">
+                {% for speaker in conference.workshops.speakers %}
+                <li class="speakers-list__item speaker">
+                    <div class="headshot{% unless speaker.twitter or speaker.github %} padded{% endunless %}">
+                        <img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}">
+                    </div>
+                    <div class="speaker-meta">
+                        <div class="name text-center">{{ speaker.name }}</div>
+                    </div>
+                    <!-- <div class="logo" style="background-image: url('{{ images }}logos/{{ speaker.logo }}');">
+                        <div class="company text-center">{{ speaker.company }}</div>
+                    </div> -->
+                    {% if speaker.talk %}
+                    <div class="talk">“{{ speaker.talk }}”</div>
+                    {% endif %}
+                    {% if speaker.description %}
+                    <div class="bio">{{ speaker.description | markdownify }}</div>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endif %}
