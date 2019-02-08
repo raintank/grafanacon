@@ -297,7 +297,7 @@ workshops:
       company:
       logo: grafana_logo.png
       headshot: team_grafana.jpg
-      talk: Plugins demos and showcases
+      talk: Plugin demos and showcases
       description: |
         Learn more about some of the most popular plugins and how you can start using them today.
 
