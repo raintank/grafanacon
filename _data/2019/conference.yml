@@ -168,7 +168,7 @@ schedule:
         speakers:
           - name: Stig Sorensen & Sean Hanson
             title: How Bloomberg's Central Telemetry Team Drives Value
-          - name: Tom Wilkie, David Kaltschmidt, Dieter Plaetinck
+          - name: Tom Wilkie, David Kaltschmidt
             title: The Future of Grafana
           - name: Melanie Postma
             title: VictorOps
@@ -557,16 +557,16 @@ speakers:
       description: |
         In this session, we will inject some chaos into a Spring Boot application. We will collect all the metrics from the application and the experiments in Prometheus. We will create Grafana dashboards to visualize the results and see how the application is performing in the real world.
 
-    - name: Dieter Plaetinck
-      role: Principal Engineer
-      company: Grafana Labs
-      logo: grafana_labs_logo.jpg
-      headshot: dieter_plaetinck.jpg
-      twitter: https://twitter.com/Dieter_be
-      github: https://github.com/Dieterbe
-      talk: MetricTank
-      description: |
-        Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
+    # - name: Dieter Plaetinck
+    #   role: Principal Engineer
+    #   company: Grafana Labs
+    #   logo: grafana_labs_logo.jpg
+    #   headshot: dieter_plaetinck.jpg
+    #   twitter: https://twitter.com/Dieter_be
+    #   github: https://github.com/Dieterbe
+    #   talk: MetricTank
+    #   description: |
+    #     Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
 
     - name: Joy Wang
       role: Product Manager
@@ -623,21 +623,7 @@ speakers:
       talk:  Treating Dashboards like Code
       description: |
         Learn about managing Grafana dashboards like code: checking them into source-code repository and deploying them to every Kubernetes cluster via an automated build system. This ensures the Grafana dashboards are consistent across all Kubernetes clusters, making for a more productive and reliable experience.
-
-    # - name: Pooja Shelar
-    #   role: Lead Performance Engineer
-    #   company: Sony Pictures Entertainment
-    #   logo: spe_logo.jpg
-    #   headshot: pooja_shelar.jpg
-    #   # twitter:
-    #   # github:
-    #   linkedin: linkedin.com/in/pooja-shelar-1593a662
-    #   talk: Monitoring as a medium for communication
-    #   description: |
-    #     With Grafana’s powerful visualization, integration with multiple plugins, built-in alerting and many more features, Sony Pictures Entertainment has found a good means to capture performance metrics for evaluation by higher management. This helps in decision making on how to improve our current systems and design improved applications to deliver various business solutions.
-
-    #     Learn about Grafana's impact at SPE which has resulted in high performance solutions.
-
+ 
     - name: Daniel Lee
       role: Senior Software Engineer
       company: Grafana Labs
@@ -648,6 +634,43 @@ speakers:
       talk: New Cloud Data Sources & Highlights from the Community Plugin Repository
       description: |
         Learn about the new Azure & Stackdriver data sources and get to know some of the popular community Grafana plugins.   
+
+    - name: Peter Zaitsev
+      role: CEO
+      company: Percona
+      logo: percona.png
+      headshot: peter_zaitzev.png
+      twitter: https://twitter.com/PeterZaitsev
+      github: https://github.com/PeterZaitsev
+      talk: Business Dashboards with Grafana and MySQL 
+      description: |
+        While Grafana is super popular tool for visualizing monitoring data, it can go well beyond that. 
+        
+        In this presentation we will show how you can visualize virtually any business data in beautiful Grafana dashboard as well as offer some tips how you can go beyond MySQL if you're looking for high performance interactive dashboards    
+    
+    - name: Bob Cotton
+      role: Senior Principal Engineer
+      company: Splunk
+      logo: splunk_logo.jpg
+      headshot: bob_cotton.jpg
+      # twitter:
+      # github:
+      # linkedin:
+      talk: Reveal Your Deepest Kubernetes Metrics
+      description: |
+        Kubernetes generates a wealth of metrics from several places. Some explicitly within the Kubernetes API server, the Kublet, and cAdvisor or implicitly by observing events such as the kube-state-metrics project. A subset of these metrics are used within Kubernetes itself to make scheduling decisions, however, other metrics can be used to determine the overall health of the system or for capacity planning purposes.
+
+        In this session you will learn about:
+
+        * Node level metrics, as exposed from the node_exporter
+        * Kublet metrics
+        * API server metrics
+        * etcd metrics
+        * cAdvisor metrics
+        * Metrics exposed from kube-state-metrics
+
+        Learn about how these metrics are calculated, their use within Kubernetes scheduling decisions and application in monitoring, alerting and capacity planning. 
+   
 
 # ------------------------------------------------------------
 # !EVENTS
@@ -752,6 +775,9 @@ sponsors:
     - name: Timescale
       url: https://www.timescale.com/
       logo: timescale_sponsor_logo.png
+    - name: Percona
+      url: https://www.percona.com/
+      logo: percona_logo.png
     - name: Packet
       url: https://www.packet.com/
       logo: packet_sponsor_logo.png
