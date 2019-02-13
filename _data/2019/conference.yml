@@ -676,21 +676,21 @@ speakers:
 # !EVENTS
 # ------------------------------------------------------------
 
-# events:
-#   title: Our After Conference Events
-#   intro: After a long day of talks, demos and networking, we thought it would be important to unwind a little. We have two after conference events on the first evening that you won't want to miss.
-#   event:
-#     - name: Conference Afterparty
-#       description: Directly following the last talk on March 1, in the **Compagnietheater's Cafe, Zuilenzaal and Foyer**, we will have the official after conference reception! We will provide a walking dinner, drinks, and plenty of time to chat with attendees and sponsors.
-#     - name: Official Grafana 5 Launch Party
-#       description: Following the conference afterparty, we are hosting an official Grafana 5 launch party. A short walk through the Red Light District will take you to the Ton Ton Club arcade and bar, where you'll enjoy free games, drinks and snacks at 8pm.
-#   sponsors:
-#     - name: TBD
-#       address1: 1933 S. Broadway
-#       address2: Lower Level
-#       address3: Los Angeles, CA, 90007
-#       url: https://tontonclub.nl/centrum/
-#       logo: tonton_logo_outline_white.png
+events:
+  title: Our After Conference Events
+  intro: After a long day of talks, demos and networking, we think it's important to unwind a little. We have two after conference events on the first evening that you won't want to miss.
+  event:
+    - name: After Conference Reception - Sponsored by Oracle
+      description: Directly following the last talk on day 1, we'll head upstairs to the **Magic Box Main Lobby** for the after conference reception. There you'll enjoy food, drinks, and plenty of time to chat with fellow attendees.
+    - name: Grafana 6 Launch Party - Sponsored by Timescale
+      description: Beginning at 8pm, following the after conference reception, we'll have a Grafana 6 launch party at the Tom's Urban UPour Floor. The private events space located upstairs at Tom's Urban gives you access to 50 beer taps to choose from, along with food and time to unwind after a great first day of talks.
+  sponsors:
+    - name: Tom's Urban
+      address1: 1011 S. Figueroa St.
+      address2: UPour Floor (upstairs)
+      address3: Los Angeles, CA, 90015
+      url: https://tomsurban.com/los-angeles/
+      logo: uPOUR-Floor-Signage.jpg
 
 
 # ------------------------------------------------------------
