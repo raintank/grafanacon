@@ -1,0 +1,29 @@
+{% if conference.info.angel-ticket %}
+<div class="page-section page-section--dark">
+    <div class="row">
+        <div class="small-10 small-centered medium-8 columns">
+            {% if conference.info.angel-ticket.title %}
+                <h2 class="page-section__title page-section__title--no-bottom">{{ conference.info.angel-ticket.title }}</h2>
+                <h4 class="page-section__subtitle">{{ conference.info.angel-ticket.subtitle | markdownify }}</h4>
+            {% endif %}
+            {% if conference.info.angel-ticket.content %}
+                <div class="page-section__body">
+                    {{ conference.info.angel-ticket.content | markdownify }}    
+                </div>
+            {% endif %}
+
+            {% if conference.info.ticket-url %}
+                    <div class="page-hero__cta text-center">
+                        {% if conference.info.tickets-on-sale %}
+                            <a class="btn btn--primary" href="{{ conference.info.ticket-url }}">Get Your Angel Ticket</a>
+                        {% else %}
+                            <span class="btn btn--primary">Sold Out</span>
+                        {% endif %}
+                    </div>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
