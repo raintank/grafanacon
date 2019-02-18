@@ -42,6 +42,11 @@
   @include breakpoint(medium up) {
     font-size: $page-section-title-font-size * 2;
   }
+
+  &--no-bottom {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 .page-section__subtitle {

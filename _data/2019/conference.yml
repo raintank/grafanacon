@@ -67,6 +67,15 @@ info:
   ticket-url: https://ti.to/grafanacon/grafanacon-la-2019
   tickets-on-sale: true
   meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem.
+  
+  angel-ticket:
+    title: $799 Angel tickets are available
+    subtitle : |
+      100% of proceeds donated to the **[EFF](https://www.eff.org/)**, 100% match from Grafana Labs.
+    
+    content: |
+      We have sold out of general admission tickets, but are offering a limited number of angel tickets. 100% of angel ticket proceeds will be donated to the [Electronic Frontier Foundation](https://www.eff.org/)(EFF), the leading nonprofit defending digital privacy, free speech, and innovation. Grafana Labs also commits to a 100% donation match for all angel tickets sold.
+
   about: 
     # title: |
     #   Join us for GrafanaCon LA & the Launch of Grafana 6, 
@@ -201,7 +210,7 @@ schedule:
           - name: Sean Lafferty
             title: Live Streaming Datasources, Sevone
           - name: Brendan Burns
-            title: Kubernetes and Democratizing Distributed Systems
+            title: Observing Kubernetes - Lessons learned in the building, managing and monitoring of cloud-native systems
       - time: 5:30PM
         description: "**After Conference Reception**"
       - time: 8:00PM
@@ -325,8 +334,8 @@ speakers:
       headshot: brendan_burns.jpg
       twitter: https://twitter.com/brendandburns
       github: https://github.com/brendandburns
-      talk: Kubernetes and Democratizing Distributed Systems
-      description: We're excited to have Kubernetes co-founder, Brendan Burns as a keynote speaker at GrafanaCon. Learn about Kubernetes and democratizing distributed systems.
+      talk: Observing Kubernetes - Lessons learned in the building, managing and monitoring of cloud-native systems
+      description: This talk will cover experience and thoughts about how to approach the monitoring and management of cloud-native systems. It will draw both from observations of the opportunities provided by systems like Kubernetes as well as from practical hands-on experience from building real monitoring systems. With luck it will provide both experiences from the past, and inspirations for the future.
 
     - name: Stig Sorensen
       role: Head Of Telemetry
@@ -557,16 +566,16 @@ speakers:
       description: |
         In this session, we will inject some chaos into a Spring Boot application. We will collect all the metrics from the application and the experiments in Prometheus. We will create Grafana dashboards to visualize the results and see how the application is performing in the real world.
 
-    # - name: Dieter Plaetinck
-    #   role: Principal Engineer
-    #   company: Grafana Labs
-    #   logo: grafana_labs_logo.jpg
-    #   headshot: dieter_plaetinck.jpg
-    #   twitter: https://twitter.com/Dieter_be
-    #   github: https://github.com/Dieterbe
-    #   talk: MetricTank
-    #   description: |
-    #     Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
+    - name: Dieter Plaetinck
+      role: Principal Engineer
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: dieter_plaetinck.jpg
+      twitter: https://twitter.com/Dieter_be
+      github: https://github.com/Dieterbe
+      talk: MetricTank
+      description: |
+        Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
 
     - name: Joy Wang
       role: Product Manager
@@ -646,7 +655,20 @@ speakers:
       description: |
         While Grafana is super popular tool for visualizing monitoring data, it can go well beyond that. 
         
-        In this presentation we will show how you can visualize virtually any business data in beautiful Grafana dashboard as well as offer some tips how you can go beyond MySQL if you're looking for high performance interactive dashboards    
+        In this presentation we will show how you can visualize virtually any business data in beautiful Grafana dashboard as well as offer some tips how you can go beyond MySQL if you're looking for high performance interactive dashboards.   
+    
+    - name: Michael Coburn
+      role: Product Manager
+      company: Percona
+      logo: percona.png
+      headshot: michael_coburn.jpg
+      # twitter:
+      github: github.com/michaelcoburn
+      talk: Business Dashboards with Grafana and MySQL 
+      description: |
+        While Grafana is super popular tool for visualizing monitoring data, it can go well beyond that. 
+        
+        In this presentation we will show how you can visualize virtually any business data in beautiful Grafana dashboard as well as offer some tips how you can go beyond MySQL if you're looking for high performance interactive dashboards.
     
     - name: Bob Cotton
       role: Senior Principal Engineer
@@ -744,6 +766,9 @@ location:
   coordinates: '-118.2687699, 34.031094'
   description: |
     Magic Box @ The REEF is Los Angeles' newest downtown meeting space. Housed in the iconic LA Mart building, this collection of gorgeous, modern, renovated spaces will play host to GrafanaCon LA.
+  
+    **ADDRESS:** 1933 S. Broadway, Lower Level, Los Angeles, California 90007
+
   image: magicbox.jpg
 
 # ------------------------------------------------------------
