@@ -55,7 +55,12 @@
   max-height: rem-calc(190);
   margin: 0 auto;
   border-radius: 50%;
+
+  &.multi-speaker {
+    border-radius: 0;
+  }
 }
+
 
 .speaker-meta {
   min-height: rem-calc(75);
@@ -63,6 +68,10 @@
 
 .speaker .name {
   font-size: rem-calc(24);
+}
+
+.speaker .bio {
+  font-size: rem-calc(14);
 }
 
 .speaker .role {

@@ -197,6 +197,8 @@ schedule:
             title: Today's Challenges of Big Infra Monitoring
           - name: Nikki Attea
             title: Sensu Check Metric Extraction with InfluxDB and Grafana
+          - name: Paul Dix
+            title: InfluxDB and Grafana
       - time: 3:30PM
         description: "**BREAK**"
       - time: 4:00PM
@@ -263,17 +265,17 @@ schedule:
 
 workshops:
   title: Workshops
-  subhead: Learn about developing for Grafana, extending Grafana, and deep dives on the newest features.
+  subhead: Learn about developing for Grafana, extending Grafana, and deep dives on the newest features from the team who builds it.
   speakers:
-    - name: Team Grafana
-      company:
+    - name: David Kaltschmidt
+      company: Grafana Labs
       logo: grafana_logo.png
       headshot: team_grafana.jpg
       talk: Become a contributor - Get started developing Grafana
       description: |
         Learn how to start developing new features for Grafana and contribute to making the project better. 
 
-    - name: Team Grafana
+    - name: Torkel Odegaard & Peter Holmberg
       company:
       logo: grafana_logo.png
       headshot: team_grafana.jpg
@@ -287,7 +289,7 @@ workshops:
         * Tips & best practices from the core Grafana team on plugin development. 
 
 
-    - name: Team Grafana
+    - name: Core Grafana Team
       company:
       logo: grafana_logo.png
       headshot: team_grafana.jpg
@@ -302,7 +304,7 @@ workshops:
         * Provisioning. 
         * Folders, teams and permissions
 
-    - name: Team Grafana
+    - name: Ryan McKinley & Brian Gann
       company:
       logo: grafana_logo.png
       headshot: team_grafana.jpg
@@ -369,7 +371,7 @@ speakers:
       headshot: dave_cadwallader.jpg
       twitter: https://github.com/geekdave
       github: https://twitter.com/geek_dave
-      talk: ELI5 - What I Learned Teaching Grafana to My Son
+      talk: ELI5 - What I Learned Teaching Grafana to My Kids
       description: |
         Take away some plans and starter code for how to use Grafana at home for whimsical and educational purposes. Inviting family to do these projects with us is a great way to help them understand what we do at work all day! But the benefits extend far beyond keeping a child entertained. 
 
