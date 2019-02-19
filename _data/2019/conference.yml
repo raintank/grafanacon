@@ -177,8 +177,8 @@ schedule:
         speakers:
           - name: Stig Sorensen & Sean Hanson
             title: How Bloomberg's Central Telemetry Team Drives Value
-          - name: Tom Wilkie, David Kaltschmidt
-            title: The Future of Grafana
+          - name: David Kaltschmidt & Tom Wilkie
+            title: The Exlpore Workfow and Troubleshooting with Loki
           - name: Melanie Postma
             title: VictorOps
           - name: Mies Hernandez van Leuffen
@@ -187,7 +187,7 @@ schedule:
         description: "**LUNCH**"
       - time: 2:00PM
         speakers:
-          - name: To Be Announced
+          - name: Licensing in OSS
             title: Panel Discussion
           - name: Blerim Sheqa
             title: How not to Fail at Data Visualization
@@ -205,10 +205,8 @@ schedule:
             title: New Cloud Data Sources & Highlights from the Community Plugin Repository
           - name: Joy Wang
             title: Stackdriver and Grafana
-          - name: Hendrik Broering
-            title: How IoT is Enabling Electrification Across Rural Africa with Smart, Renewable Energy
-          - name: Sean Lafferty
-            title: Live Streaming Datasources, Sevone
+          - name: Raj Dutt
+            title: The Business of Grafana
           - name: Brendan Burns
             title: Observing Kubernetes - Lessons learned in the building, managing and monitoring of cloud-native systems
       - time: 5:30PM
@@ -251,8 +249,12 @@ schedule:
             title: ELI5 - What I Learned Teaching Grafana to My Son
           - name: Vijay Samuel
             title: Grafana @ eBay - Moving Monitoring Visualizations from custom UIs to Grafana Plugins
-          - name: Raj Dutt
-            title: The Business of Grafana
+          - name: Hendrik Broering
+            title: How IoT is Enabling Electrification Across Rural Africa with Smart, Renewable Energy
+          - name: Sean Lafferty
+            title: Live Streaming Datasources, Sevone
+          - name: Torkel Odegaard
+            title: Closing
 
 
 # ------------------------------------------------------------
@@ -406,7 +408,7 @@ speakers:
       headshot: tom_wilkie.jpg
       twitter: https://twitter.com/tom_wilkie
       github: https://github.com/tomwilkie
-      talk: Grafana Loki – like Prometheus, but for logs
+      talk: Grafana Loki
       description: In this talk we will discuss the motivation behind Loki, its design and architecture, and what the future holds. Its early days, but so far the response to the project has been overwhelming, with more the 4.5k GitHub stars and over 12hrs at the top spot on Hacker News.
 
     - name: Dan Cech
