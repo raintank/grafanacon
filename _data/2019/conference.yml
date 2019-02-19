@@ -198,7 +198,7 @@ schedule:
           - name: Nikki Attea
             title: Sensu Check Metric Extraction with InfluxDB and Grafana
           - name: Paul Dix
-            title: InfluxDB and Grafana
+            title: Grafana and Flux
       - time: 3:30PM
         description: "**BREAK**"
       - time: 4:00PM
