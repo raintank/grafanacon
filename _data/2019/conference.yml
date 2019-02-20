@@ -227,7 +227,7 @@ schedule:
         description: |
           **DAY 2 TRACKS**
           * **Real Time Analytics in IoT**
-          * **Cloudnative Observability**
+          * **Cloud Native Observability**
           * **SQL and Business Analytics**
 
       - time: 11:10AM
@@ -236,7 +236,7 @@ schedule:
         description: |
           **DAY 2 TRACKS CONTINUED**
           * **Real Time Analytics in IoT**
-          * **Cloudnative Observability**
+          * **Cloud Native Observability**
           * **SQL and Business Analytics**
       - time: 12:50PM
         description: "**LUNCH**"
