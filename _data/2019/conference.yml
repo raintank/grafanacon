@@ -220,10 +220,6 @@ schedule:
       - time: 8:00AM
         description: Registration and Breakfast
       - time: 9:30AM
-        speakers:
-          - name: Raj Dutt
-            title: Welcome and Kickoff
-      - time: 9:40AM
         description: |
           **DAY 2 TRACKS**
           * **Real Time Analytics in IoT**
