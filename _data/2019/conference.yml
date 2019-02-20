@@ -178,7 +178,7 @@ schedule:
           - name: Stig Sorensen & Sean Hanson
             title: How Bloomberg's Central Telemetry Team Drives Value
           - name: David Kaltschmidt & Tom Wilkie
-            title: The Explore Workfow and Troubleshooting with Loki
+            title: The Explore Workflow and Troubleshooting with Loki
           - name: Melanie Postma
             title: VictorOps
           - name: Mies Hernandez van Leuffen
