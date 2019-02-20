@@ -181,13 +181,11 @@ schedule:
             title: The Explore Workflow and Troubleshooting with Loki
           - name: Melanie Postma
             title: VictorOps
-          - name: Mies Hernandez van Leuffen
-            title: Oracle Cloud Infrastructure, Cloud Native Labs
       - time: 12:50PM
         description: "**LUNCH**"
       - time: 2:00PM
         speakers:
-          - name: Licensing in OSS
+          - name: Open Source Licensing Wars
             title: Panel Discussion
           - name: Blerim Sheqa
             title: How not to Fail at Data Visualization
@@ -207,6 +205,8 @@ schedule:
             title: New Cloud Data Sources & Highlights from the Community Plugin Repository
           - name: Joy Wang
             title: Stackdriver and Grafana
+          - name: Mies Hernandez van Leuffen
+            title: Oracle Cloud Infrastructure, Cloud Native Labs
           - name: Raj Dutt
             title: The Business of Grafana
           - name: Brendan Burns
