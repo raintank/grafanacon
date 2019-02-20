@@ -223,8 +223,18 @@ schedule:
         description: |
           **DAY 2 TRACKS**
           * **Real Time Analytics in IoT**
+
           * **Cloud Native Observability**
+            * **Goutham Veeramachaneni**: Prometheus
+            * **Ben Kochie**: Shut up and take my metrics
+            * **Christophe Fargette**: Visualize your Chaos Engineering experiments with Grafana
+
+
           * **SQL and Business Analytics**
+            * **Carl Bergquist and Marcus Efraimsson**: SQL and PostgreSQL with Grafana
+            * **Diana Hsieh**: How to Expand Grafana’s Footprint within your Organization Using the PostgreSQL Datasource and Query Builder
+            * **Peter Zaitsev and Michael Coburn**: Business Dashboards with Grafana and MySQL
+
 
       - time: 11:10AM
         description: "**BREAK**"
@@ -232,16 +242,32 @@ schedule:
         description: |
           **DAY 2 TRACKS CONTINUED**
           * **Real Time Analytics in IoT**
+
           * **Cloud Native Observability**
+            * **Scott Kidder** Treating Dashboards like Code
+            * **Bob Cotton**: Reveal Your Deepest Kubernetes Metrics
+            * **Bartlomiej Plotka**: Thanos - Transforming Prometheus to a Global Scale in a Seven Simple Steps
+
+
           * **SQL and Business Analytics**
+             * **Verizon**: Monitoring at Verizon Scale
+
+
       - time: 12:50PM
         description: "**LUNCH**"
       - time: 2:00PM
         description: |
           **Day 2 WORKSHOPS**
           * **Extending Grafana**
+            * **David Kaltschmidt:** Become a contributor - Get started developing Grafana
+            * **Torkel Odegaard & Peter Holmberg**: Writing React Plugins
+
           * **Getting the most out of Grafana**
+            * **Daniel Lee**: Templating & Annotations
+            * **Carl Bergquist**: Provisioning, teams & permissions, running in HA
+
           * **IoT Workshop**
+            * **Dan Cech**: Hands on - Visualizing data from IoT Sensors
 
       - time: 3:30PM
         description: "**BREAK**"
