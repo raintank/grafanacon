@@ -248,7 +248,7 @@ schedule:
       - time: 4:00PM
         speakers:
           - name: Dave Cadwallader
-            title: ELI5 - What I Learned Teaching Grafana to My Son
+            title: ELI5 - What I Learned Teaching Grafana to My Kids
           - name: Vijay Samuel
             title: Grafana @ eBay - Moving Monitoring Visualizations from custom UIs to Grafana Plugins
           - name: Hendrik Broering
