@@ -233,7 +233,11 @@ schedule:
       - time: 11:10AM
         description: "**BREAK**"
       - time: 11:30AM
-        description: "**DAY 2 TRACKS CONTINUED**"
+        description: |
+          **DAY 2 TRACKS CONTINUED**
+          * **Real Time Analytics in IoT**
+          * **Cloudnative Observability**
+          * **SQL and Business Analytics**
       - time: 12:50PM
         description: "**LUNCH**"
       - time: 2:00PM
@@ -241,7 +245,7 @@ schedule:
           **Day 2 WORKSHOPS**
           * **Extending Grafana**
           * **Getting the most out of Grafana**
-          * **IoT**
+          * **IoT Workshop**
 
       - time: 3:30PM
         description: "**BREAK**"
