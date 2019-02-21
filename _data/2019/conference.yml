@@ -196,7 +196,7 @@ schedule:
           - name: Nikki Attea
             title: Sensu Check Metric Extraction with InfluxDB and Grafana
           - name: Paul Dix
-            title: Grafana and Flux
+            title: Why InfluxDB is Building Flux, a new scripting and query language
       - time: 3:30PM
         description: "**BREAK**"
       - time: 4:00PM
@@ -223,6 +223,9 @@ schedule:
         description: |
           **DAY 2 TRACKS**
           * **Real Time Analytics in IoT**
+            * **Paul Dix**: Introducing InfluxDB 2.0
+            * **Noah Crowley**: A Deeper Dive into Flux 
+            * **David Simmons**: Flux for IoT and digital twins
 
           * **Cloud Native Observability**
             * **Goutham Veeramachaneni**: Prometheus
@@ -242,6 +245,8 @@ schedule:
         description: |
           **DAY 2 TRACKS CONTINUED**
           * **Real Time Analytics in IoT**
+            * **Jacob Lisi**: Building Flux queries in Grafana
+            * **Svet Bajlekov**: An open technology stack for smart energy and industrial IoT with Grafana
 
           * **Cloud Native Observability**
             * **Scott Kidder** Treating Dashboards like Code
@@ -257,7 +262,7 @@ schedule:
         description: "**LUNCH**"
       - time: 2:00PM
         description: |
-          **Day 2 WORKSHOPS**
+          **DAY 2 WORKSHOPS**
           * **Extending Grafana**
             * **David Kaltschmidt:** Become a contributor - Get started developing Grafana
             * **Torkel Odegaard & Peter Holmberg**: Writing React Plugins
@@ -425,7 +430,7 @@ speakers:
       headshot: paul_dix.jpg
       twitter: https://twitter.com/pauldix
       github: https://github.com/pauldix
-      talk: Grafana and Flux
+      talk: Why InfluxDB is Building Flux, a new scripting and query language
       description: |
         The new Flux (formerly IFQL) super-charges queries both for analytics and data science. Get an overview of the language features as well as the moving parts for a working deployment. Grafana shares Flux’s passion for analytics and data science. For that reason, they are very excited to showcase the new Flux support within Grafana, and a couple of common analytics use cases to get the most out of your data.
 
@@ -722,7 +727,38 @@ speakers:
         * Metrics exposed from kube-state-metrics
 
         Learn about how these metrics are calculated, their use within Kubernetes scheduling decisions and application in monitoring, alerting and capacity planning. 
-   
+    
+    # - name: Noah Crowley
+    #   role: DevRel
+    #   company: InfluxData
+    #   logo: influxdata_logo.png
+    #   headshot: noah_crowley.jpg
+    #   twitter: http://twitter.com/noahcrowley
+    #   # github:
+    #   # linkedin:
+    #   talk: A Deeper Dive into Flux
+    #   description: Flux is InfluxData’s new functional data scripting language designed for querying, analyzing, and interacting with data.
+
+    # - name: David Simmons
+    #   role: IoT Developer Evangelist 
+    #   company: InfluxData
+    #   logo: influxdata_logo.png
+    #   headshot: david_simmons.jpg
+    #   twitter: http://twitter.com/davidgsIoT
+    #   # github:
+    #   # linkedin:
+    #   talk: Flux for IoT and digital twins
+    #   description:
+
+    - name: Jacob Lisi
+      role: Software Developer
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: jacob_lisi.jpg
+      twitter: https://twitter.com/jacoblisi
+      github: https://github.com/jtlisi
+      talk: Building Flux queries in Grafana
+      description: In this session, learn how to set up Grafana with Flux and start writing queries in Grafana's new Flux query builder.
 
 # ------------------------------------------------------------
 # !EVENTS
