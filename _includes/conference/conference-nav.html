@@ -19,7 +19,7 @@
                         <a class="site-nav__link" href="{{ site.baseurl }}/{{ conference.name }}{{ item.url }}">{{ item.name }}</a>
                     </li>
                 {% endfor %}
-                {% if conference.info.ticket-url %}
+                {% if conference.info.tickets-on-sale %}
                     <li class="site-nav__list-item">
                         <a class="btn btn--primary btn--small" href="{{ conference.info.ticket-url }}">Tickets</a>
                     </li>

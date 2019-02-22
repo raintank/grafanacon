@@ -66,6 +66,8 @@ info:
   current: true
   ticket-url: https://ti.to/grafanacon/grafanacon-la-2019
   tickets-on-sale: true
+  livestream: false
+  livestream-id: iLeyiauhkiY
   meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem.
   
   angel-ticket:
@@ -853,6 +855,12 @@ speakers:
       talk: Automation and self-service utilizing Grafana and MySQL
       description: Join the automation and tools team within Verizon's Global Technology Solutions organization for highlights on Grafana implementation in an enterprise environment.  In this presentation we will quickly explain how the combination of Grafana, MySQL, and new technical innovations simplified analytics and automated development efforts.
 
+    - name: Ryan McKinley
+      role: Developer
+      headshot: ryan_mckinley.jpg
+      github: https://github.com/ryantxu
+      talk: Grafana Plugin Demo
+      description: Ryan has developed a number of plugins for Grafana and will showing off some of the features and conducting demos.
 
 # ------------------------------------------------------------
 # !EVENTS
