@@ -228,7 +228,7 @@ schedule:
             * **David Simmons**: Flux for IoT and digital twins
 
           * **Cloud Native Observability**
-            * **Goutham Veeramachaneni**: Prometheus
+            * **Goutham Veeramachaneni**: The Future of Prometheus
             * **Ben Kochie**: Shut up and take my metrics
             * **Christophe Fargette**: Visualize your Chaos Engineering experiments with Grafana
 
@@ -269,6 +269,7 @@ schedule:
 
           * **Getting the most out of Grafana**
             * **Daniel Lee**: Templating & Annotations
+            * **David Kaltschmidt**: Dashboard debugging and performance
             * **Carl Bergquist**: Provisioning, teams & permissions, running in HA
 
           * **IoT Workshop**
@@ -288,6 +289,49 @@ schedule:
             title: Live Streaming Datasources, Sevone
           - name: Torkel Odegaard
             title: Closing
+
+# ------------------------------------------------------------
+# !Tracks
+# ------------------------------------------------------------
+
+tracks:
+  title: Tracks
+  subhead: Experts in monitoring and observability will be hosting 3 focused tracks for the morning sessions of day 2. 
+  speakers:
+    - name: Track 1. Cloud Native Observability - Hosted by Prometheus
+      company: Prometheus
+      logo: prometheus_logo.jpg
+      headshot: prometheus_headshot.jpg
+      talk: |
+        * **Goutham Veeramachaneni**: The Future of Prometheus
+        * **Ben Kochie**: Shut up and take my metrics
+        * **Christophe Fargette**: Visualize your Chaos Engineering experiments with Grafana
+        * **Scott Kidder**: Treating Dashboards like Code
+        * **Bob Cotton**: Reveal Your Deepest Kubernetes Metrics
+        * **Bartlomiej Plotka**: Thanos - Transforming Prometheus to a Global Scale in a Seven Simple Steps
+
+    - name: Track 2. Real Time Analytics in IoT - Hosted by InfluxData
+      company: InfluxData
+      logo: influxdata_logo.png
+      headshot: influx_headshot.jpg
+      talk: |
+        * **Paul Dix**: Introducing InfluxDB 2.0
+        * **Noah Crowley**: A Deeper Dive into Flux
+        * **David Simmons**: Flux for IoT and digital twins
+        * **Jacob Lisi**: Building Flux queries in Grafana
+        * **Svet Bajlekov**: An open technology stack for smart energy and industrial IoT with Grafana
+
+    - name: Track 3. SQL & Business Analytics - Hosted by Grafana Labs
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: grafana_headshot.jpg
+      talk: |
+        * **Carl Bergquist & Marcus Efraimsson**: SQL and PostgreSQL with Grafana
+        * **Diana Hsieh**: How to Expand Grafana’s Footprint within your Organization Using the PostgreSQL Datasource and Query Builder
+        * **Peter Zaitsev and Michael Coburn**: Business Dashboards with Grafana and MySQL
+        * **Sean Thomas & Derek Meyer**: Automation and self-service utilizing Grafana and MySQL
+       
+
 
 
 # ------------------------------------------------------------
@@ -343,6 +387,21 @@ workshops:
       description: |
         Learn more about some of the most popular plugins and how you can start using them today.
 
+    - name: David Kaltschmidt
+      company: Grafana Labs
+      logo: grafana_logo.png
+      headshot: team_grafana.jpg
+      talk: Dashboard Debugging and Performance
+      description: |
+        Troubleshoot slow graphs, and find out what to do if your metrics aren't loading. Learn how to optimize your queries, pitfalls to avoid, and get the most out of your dashbords.
+
+    - name: Carl Bergquist
+      company: Grafana Labs
+      logo: grafana_logo.png
+      headshot: team_grafana.jpg
+      talk: Provisioning, teams & permissions, running in HA
+      description: |
+        Carl will walk you through the dashboard provisioning functionality, as well as how to set up folders, teams and permissions. He'll also discuss how to run Grafana in a HA environment. 
 # ------------------------------------------------------------
 # !ALL SPEAKERS
 # ------------------------------------------------------------
@@ -646,6 +705,18 @@ speakers:
       description: |
         Explore how Trapeze is leveraging Grafana as a key platform for visualising and communicating a real-time picture and how this is being utilised within Emergency Service organisations. We will discuss how we are supporting critical decision making through bringing together a broad range of information streams and technology. This talk will discuss some of our current stack and areas were currently exploring including Grafana, Postgres, SQL Server, Kafka, MQTT and Prometheus.
 
+    - name: Goutham Veeramachaneni
+      role: Software Developer
+      company: Trapeze Group Asia Pacific
+      logo: grafana_labs_logo.jpg
+      headshot: goutham_veeramachaneni.jpg
+      # linkedin:
+      twitter: https://twitter.com/putadent
+      github: https://github.com/Gouthamve
+      talk: The Future of Prometheus
+      description: |
+        Goutham Veeramachaneni, a Prometheus project contributor, will give you an inside look at the latest developments of Prometheus and what's on the horizon.
+
     - name: Alexey Velikiy
       company: Founder, CorpGlory Inc.
       logo: corpglory_logo.jpg
@@ -727,28 +798,6 @@ speakers:
         * Metrics exposed from kube-state-metrics
 
         Learn about how these metrics are calculated, their use within Kubernetes scheduling decisions and application in monitoring, alerting and capacity planning. 
-    
-    # - name: Noah Crowley
-    #   role: DevRel
-    #   company: InfluxData
-    #   logo: influxdata_logo.png
-    #   headshot: noah_crowley.jpg
-    #   twitter: http://twitter.com/noahcrowley
-    #   # github:
-    #   # linkedin:
-    #   talk: A Deeper Dive into Flux
-    #   description: Flux is InfluxData’s new functional data scripting language designed for querying, analyzing, and interacting with data.
-
-    # - name: David Simmons
-    #   role: IoT Developer Evangelist 
-    #   company: InfluxData
-    #   logo: influxdata_logo.png
-    #   headshot: david_simmons.jpg
-    #   twitter: http://twitter.com/davidgsIoT
-    #   # github:
-    #   # linkedin:
-    #   talk: Flux for IoT and digital twins
-    #   description:
 
     - name: Jacob Lisi
       role: Software Developer
@@ -759,6 +808,51 @@ speakers:
       github: https://github.com/jtlisi
       talk: Building Flux queries in Grafana
       description: In this session, learn how to set up Grafana with Flux and start writing queries in Grafana's new Flux query builder.
+
+    - name: Noah Crowley
+      role: DevRel
+      company: InfluxData
+      logo: influxdata_logo.png
+      headshot: noah_crowley.jpg
+      twitter: http://twitter.com/noahcrowley
+      # github:
+      # linkedin:
+      talk: A Deeper Dive into Flux
+      description: Flux is InfluxData’s new functional data scripting language designed for querying, analyzing, and interacting with data.
+
+    - name: David Simmons
+      role: IoT Developer Evangelist 
+      company: InfluxData
+      logo: influxdata_logo.png
+      headshot: david_simmons.jpg
+      twitter: http://twitter.com/davidgsIoT
+      # github:
+      # linkedin:
+      talk: Flux for IoT and digital twins
+      description: Find out how to use InfluxData's new functional data scripting language Flux to track data for your IoT sensors and smart devices.
+
+    - name: Sean Thomas
+      role: Systems Engineering Manager
+      company: Verizon
+      logo: verizon_logo.jpg
+      headshot: sean_thomas.jpg
+      # twitter: http://twitter.com/davidgsIoT
+      # github:
+      # linkedin:
+      talk: Automation and self-service utilizing Grafana and MySQL
+      description: Join the automation and tools team within Verizon's Global Technology Solutions organization for highlights on Grafana implementation in an enterprise environment.  In this presentation we will quickly explain how the combination of Grafana, MySQL, and new technical innovations simplified analytics and automated development efforts.
+
+    - name: Derek Meyer
+      role: Distinguished Systems Engineer
+      company: Verizon
+      logo: verizon_logo.jpg
+      headshot: derek_meyer.jpg
+      # twitter: http://twitter.com/davidgsIoT
+      # github:
+      # linkedin:
+      talk: Automation and self-service utilizing Grafana and MySQL
+      description: Join the automation and tools team within Verizon's Global Technology Solutions organization for highlights on Grafana implementation in an enterprise environment.  In this presentation we will quickly explain how the combination of Grafana, MySQL, and new technical innovations simplified analytics and automated development efforts.
+
 
 # ------------------------------------------------------------
 # !EVENTS

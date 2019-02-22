@@ -1,0 +1,31 @@
+{% if conference.tracks %}
+    <div class="page-section page-section--bordered">
+        <div class="row columns">
+            <h2 class="page-section__title">{{ conference.tracks.title }}</h2>
+            <h4 class="page-section__subhead">{{ conference.tracks.subhead }}</h4>
+            <ul class="speakers-list">
+                {% for speaker in conference.tracks.speakers %}
+                {% if speaker.headshot %}
+                <li class="speakers-list__item speaker">
+                    <div class="headshot{% unless speaker.twitter or speaker.github %} padded{% endunless %}">
+                        <img src="{{ images }}headshots/{{ speaker.headshot }}" alt="{{ speaker.name }}">
+                    </div>
+                    <div class="speaker-meta">
+                        <div class="track-name text-center">{{ speaker.name }}</div>
+                    </div>
+                    <div class="logo" style="background-image: url('{{ images }}logos/{{ speaker.logo }}');">
+                        <div class="company text-center">{{ speaker.company }}</div>
+                    </div>
+                    {% if speaker.talk %}
+                    <div class="bio">{{ speaker.talk | markdownify }}</div>
+                    {% endif %}
+                    {% if speaker.description %}
+                    <div class="bio">{{ speaker.description | markdownify }}</div>
+                    {% endif %}
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endif %}

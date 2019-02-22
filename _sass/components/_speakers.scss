@@ -67,7 +67,11 @@
 }
 
 .speaker .name {
-  font-size: rem-calc(24);
+  font-size: rem-calc(20);
+}
+
+.speaker .track-name {
+  font-size: rem-calc(20);
 }
 
 .speaker .bio {
