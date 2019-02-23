@@ -222,18 +222,18 @@ schedule:
       - time: 9:30AM
         description: |
           **DAY 2 TRACKS**
-          * **Real Time Analytics in IoT**
+          * **Real Time Analytics in IoT Track**
             * **Paul Dix**: Introducing InfluxDB 2.0
             * **Noah Crowley**: A Deeper Dive into Flux 
             * **David Simmons**: Flux for IoT and digital twins
 
-          * **Cloud Native Observability**
+          * **Cloud Native Observability Track**
             * **Goutham Veeramachaneni**: The Future of Prometheus
             * **Ben Kochie**: Shut up and take my metrics
             * **Christophe Fargette**: Visualize your Chaos Engineering experiments with Grafana
 
 
-          * **SQL and Business Analytics**
+          * **SQL and Business Analytics Track**
             * **Carl Bergquist and Marcus Efraimsson**: SQL and PostgreSQL with Grafana
             * **Diana Hsieh**: How to Expand Grafana’s Footprint within your Organization Using the PostgreSQL Datasource and Query Builder
             * **Peter Zaitsev and Michael Coburn**: Business Dashboards with Grafana and MySQL
@@ -244,18 +244,20 @@ schedule:
       - time: 11:30AM
         description: |
           **DAY 2 TRACKS CONTINUED**
-          * **Real Time Analytics in IoT**
+          * **Real Time Analytics in IoT Track**
             * **Jacob Lisi**: Building Flux queries in Grafana
             * **Svet Bajlekov**: An open technology stack for smart energy and industrial IoT with Grafana
 
-          * **Cloud Native Observability**
+          * **Cloud Native Observability Track**
             * **Scott Kidder** Treating Dashboards like Code
             * **Bob Cotton**: Reveal Your Deepest Kubernetes Metrics
             * **Bartlomiej Plotka**: Thanos - Transforming Prometheus to a Global Scale in a Seven Simple Steps
 
 
-          * **SQL and Business Analytics**
+          * **SQL and Business Analytics Track**
              * **Verizon**: Monitoring at Verizon Scale
+
+             * **Begin Grafana Labs Open Office Hour**
 
 
       - time: 12:50PM
@@ -336,7 +338,27 @@ tracks:
         * **Sean Thomas & Derek Meyer**: Automation and self-service utilizing Grafana and MySQL
        
 
+# ------------------------------------------------------------
+# !Office Hours
+# ------------------------------------------------------------
 
+office-hours:
+  title: Office Hours
+  subhead: One-on-one chats with the core team 
+  speakers:
+    - name: | 
+        Open Office Hours
+        
+        Noon - 1pm
+
+      company: Grafana Labs
+      logo: grafana_labs_logo.jpg
+      headshot: grafana_headshot.jpg
+      talk: |
+        We'll host open office hours from noon to 1pm in the **Track 3 room**, after the last SQL/BA talk.
+
+        Have a few burning questions for the core team? Want to chat with the co-founders? Now's your chance!
+        
 
 # ------------------------------------------------------------
 # !WORKSHOPS
