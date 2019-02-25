@@ -686,16 +686,16 @@ speakers:
       description: |
         In this session, we will inject some chaos into a Spring Boot application. We will collect all the metrics from the application and the experiments in Prometheus. We will create Grafana dashboards to visualize the results and see how the application is performing in the real world.
 
-    - name: Dieter Plaetinck
-      role: Principal Engineer
-      company: Grafana Labs
-      logo: grafana_labs_logo.jpg
-      headshot: dieter_plaetinck.jpg
-      twitter: https://twitter.com/Dieter_be
-      github: https://github.com/Dieterbe
-      talk: MetricTank
-      description: |
-        Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
+    # - name: Dieter Plaetinck
+    #   role: Principal Engineer
+    #   company: Grafana Labs
+    #   logo: grafana_labs_logo.jpg
+    #   headshot: dieter_plaetinck.jpg
+    #   twitter: https://twitter.com/Dieter_be
+    #   github: https://github.com/Dieterbe
+    #   talk: MetricTank
+    #   description: |
+    #     Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
 
     - name: Joy Wang
       role: Product Manager
