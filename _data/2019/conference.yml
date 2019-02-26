@@ -64,19 +64,19 @@ info:
   year: 2019
   date: February 25-26
   current: true
-  ticket-url: https://ti.to/grafanacon/grafanacon-la-2019
-  tickets-on-sale: true
-  livestream: true
+  ticket-url:
+  tickets-on-sale: false
+  livestream: false
   livestream-id: ji_jplAqwVM
   meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem.
   
-  angel-ticket:
-    title: $799 Angel tickets are available
-    subtitle : |
-      100% of proceeds donated to the **[EFF](https://www.eff.org/)**, 100% match from Grafana Labs.
+  # angel-ticket:
+  #   title: $799 Angel tickets are available
+  #   subtitle : |
+  #     100% of proceeds donated to the **[EFF](https://www.eff.org/)**, 100% match from Grafana Labs.
     
-    content: |
-      We have sold out of general admission tickets, but are offering a limited number of angel tickets. 100% of angel ticket proceeds will be donated to the [Electronic Frontier Foundation](https://www.eff.org/)(EFF), the leading nonprofit defending digital privacy, free speech, and innovation. Grafana Labs also commits to a 100% donation match for all angel tickets sold.
+  #   content: |
+  #     We have sold out of general admission tickets, but are offering a limited number of angel tickets. 100% of angel ticket proceeds will be donated to the [Electronic Frontier Foundation](https://www.eff.org/)(EFF), the leading nonprofit defending digital privacy, free speech, and innovation. Grafana Labs also commits to a 100% donation match for all angel tickets sold.
 
   about: 
     # title: |
