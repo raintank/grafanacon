@@ -66,8 +66,8 @@ info:
   current: true
   ticket-url:
   tickets-on-sale: false
-  livestream: true
-  livestream-id: bPrDTvlNIj8
+  livestream: false
+  livestream-id:
   meta-description: GrafanaCon is a two-day event with talks focused on Grafana and the surrounding open source monitoring ecosystem.
   
   # angel-ticket:
