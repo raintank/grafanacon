@@ -592,10 +592,6 @@ videos:
       title: Monitoring What Matters
       presentation: brian-brazil-anintroductiontoprometheus.pdf
       thumbnail: brian_brazil.jpg
-    - url: https://www.youtube.com/watch?v=0Y_VdZphW1U
-      title: Using Grafana and CrateDB for Processing Your Machine Data
-      presentation: paul_adams_Crate_io_Grafana.pdf
-      thumbnail: paul_adams.jpg
     - url: https://www.youtube.com/watch?v=EbaO4qztLdo
       title: The Hawkular Monitoring Ecosystem
       presentation: heiko_rupp_hawkular.pdf
