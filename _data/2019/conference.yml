@@ -1094,13 +1094,13 @@ videos:
 # !GALLERY
 # ------------------------------------------------------------
 
-gallery:
-  title: Gallery
-  subhead: As you can see, we have a great time!
-  images:
-    - caption: GrafanaCon EU 2018
-      original: 001.jpg
-      thumbnail: thumb-001.jpg
+# gallery:
+#   title: Gallery
+#   subhead: As you can see, we have a great time!
+#   images:
+#     - caption: GrafanaCon EU 2018
+#       original: 001.jpg
+#       thumbnail: thumb-001.jpg
 
 # ------------------------------------------------------------
 # !CONDUCT
