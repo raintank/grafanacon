@@ -1089,6 +1089,91 @@ videos:
       title: 'Observing Kubernetes: Lessons Learned Building, Managing & Monitoring Cloud Native Systems'
       presentation: 
       thumbnail: brendan_burns.jpg
+    
+    - url: https://youtu.be/KqIYM3lPtiU
+      title: The Future of Prometheus
+      presentation: Prometheus_the_future_Goutham.pdf
+      thumbnail: goutham.jpg
+
+    - url: https://youtu.be/3ZbSw1oeUhI
+      title: Shut Up and Take my Metrics
+      presentation: Shut-up-and-take-my-metrics-grafanacon-2019.pdf
+      thumbnail: ben_kochie.jpg
+
+    - url: https://youtu.be/uAIZ6AsqWL8
+      title: 'Prometheus: Lessons Learned'
+      presentation: 
+      thumbnail: patrick_obrien.jpg
+
+    - url: https://youtu.be/Gua-QcdoivU
+      title: Visualize your Chaos Engineering Experiments with Grafana
+      presentation: Chaos_Monkey_GrafanaCon.pdf
+      thumbnail: christophe_fargette.jpg
+
+    - url: https://youtu.be/eXmjhK9phM0
+      title: Treating Dashboards Like Code
+      presentation: Treating_Dashboards_like_Code_Scott_Kidder.pdf
+      thumbnail: scott_kidder.jpg
+
+    - url: https://youtu.be/QDwIRf9ww30
+      title: Reveal Your Deepest Kubernetes Metrics
+      presentation: Bob_Cotton_GrafanaCon_2019.pdf
+      thumbnail: bob_cotton.jpg
+
+    - url: https://youtu.be/Iuo1EjCN5i4
+      title: Thanos - Transforming Prometheus to a Global Scale in a Seven Simple Steps
+      presentation: 
+      thumbnail: thanos.jpg
+
+    - url: https://youtu.be/9ukEOHdt7so
+      title: Templating & Annotations
+      presentation: 
+      thumbnail: daniel_lee2.jpg
+
+    - url: https://youtu.be/rY2iLs1Modo
+      title: Grafana Dashboard Debugging and Performance
+      presentation: Dashboard_Debugging_Performance.pdf
+      thumbnail: david_kaltschmidt1.jpg
+
+    - url: https://youtu.be/ezpc4oUZyaA
+      title: Grafana Dashboard Provisioning, Teams & Permissions, and Running Grafana in a HA Environment
+      presentation: 
+      thumbnail: carl_bergquist1.jpg
+
+    - url: https://youtu.be/Xj-TwAZtWHQ
+      title: ELI5 - What I Learned Teaching Grafana to My Kids
+      presentation: ELI5.pdf
+      thumbnail: dave_cadwallader.jpg
+
+    - url: https://youtu.be/VsvOrVFDPnQ
+      title: Grafana @ eBay - Moving Monitoring Visualizations from Custom UIs to Grafana Plugins
+      presentation: Vijay_Samuel_eBay.pdf
+      thumbnail: vijay_samuel.jpg
+    
+    - url: https://youtu.be/p-_Av7fJFes
+      title: Extending Grafana to a New Timeseries Analysis Platform with Hastic
+      presentation: Grafanacon2019-Hastic.pdf
+      thumbnail: alexey.jpg
+
+    - url: https://youtu.be/WQsyMguI8xQ
+      title: Who's On-Call 
+      presentation: 
+      thumbnail: jordan_j_hamel.jpg
+
+    - url: https://youtu.be/4iPG7iJHGKU
+      title: How IoT is Enabling Electrification Across Rural Africa with Smart, Renewable Energy
+      presentation: Hamel-GrafanaCon2019.pdf
+      thumbnail: hendrik_broering.jpg
+
+    - url: https://youtu.be/PfGprOffOxk
+      title: Live Streaming Data Sources
+      presentation: Grafana_Stream_Sevone.pdf
+      thumbnail: sean_lafferty.jpg
+
+    - url: https://youtu.be/nA_E0Chk4GU
+      title: Tack
+      presentation: 
+      thumbnail: torkel_tack.jpg
 
 # ------------------------------------------------------------
 # !GALLERY
