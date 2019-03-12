@@ -740,7 +740,7 @@ speakers:
       # github:
       talk: Extending Grafana to a new timeseries analysis platform with Hastic
       description: |
-        Learn about Hastic - a hackable tool for making pattern detection and predictions for your timeseries data, and explore Grafana plugins to create visualiatinos and custom analytics from new data sources.
+        Learn about Hastic - a hackable tool for making pattern detection and predictions for your timeseries data, and explore Grafana plugins to create visualizations and custom analytics from new data sources.
 
     - name: Scott Kidder
       company: Staff Software Engineer
