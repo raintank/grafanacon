@@ -38,8 +38,8 @@ navigation:
     url: /
   - name: Why Attend?
     url: /why
-  # - name: Watch
-  #   url: /videos
+  - name: Videos
+    url: /videos
   - name: Schedule
     url: /schedule
   - name: Speakers
@@ -685,17 +685,6 @@ speakers:
       description: |
         In this session, we will inject some chaos into a Spring Boot application. We will collect all the metrics from the application and the experiments in Prometheus. We will create Grafana dashboards to visualize the results and see how the application is performing in the real world.
 
-    # - name: Dieter Plaetinck
-    #   role: Principal Engineer
-    #   company: Grafana Labs
-    #   logo: grafana_labs_logo.jpg
-    #   headshot: dieter_plaetinck.jpg
-    #   twitter: https://twitter.com/Dieter_be
-    #   github: https://github.com/Dieterbe
-    #   talk: MetricTank
-    #   description: |
-    #     Dieter will provide an update on Metrictank. A multi-tenant open source timeseries engine for Graphite and friends. It provides long term storage, high availability, efficient storage, retrieval and processing for large scale environments. 
-
     - name: Joy Wang
       role: Product Manager
       company: Google
@@ -1024,18 +1013,72 @@ lodging:
 # !VIDEOS
 # ------------------------------------------------------------
 videos:
-  featured-video:
-    title: This is GrafanaCon EU 2018
-    id: o2-S4jVF0Bk
-    headline: |
-      Get a taste of the GrafanaCon experience
+  title: Videos from GrafanaCon LA 2019
+  video:
+    - url: https://www.youtube.com/watch?v=juiV93f8VVU
+      title: GrafanaCon LA 2019 Welcome
+      presentation: GrafanaCon_Welcome_Matt_Toback.pdf
+      thumbnail: torkel-screenshot.jpg
 
-  # title: Check out all the talks from GrafanaCon EU 2018
-  # video:
-  #   - url: https://www.youtube.com/watch?v=JtjxeZxdKWA
-  #     title: GrafanaCon EU 2018 Kickoff
-  #     presentation: Torkel_Odegaard_Welcome_GrafanaCon_EU_2018.pdf
-  #     thumbnail: video_kickoff.jpg
+    - url: https://www.youtube.com/watch?v=QIi0m2BGFiU
+      title: Grafana Project Update & What’s New in v6
+      presentation:
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=BdgT4cTjpjQ
+      title: Tinder Swipes Right on Grafana
+      presentation: Wenting_Gong_Tinder.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=6oiQBHTvm6U
+      title: Monitoring EMS Ambulance Service Operations
+      presentation: James_Wetherall_Trapeze.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=ENM2f1QZam8
+      title: The Explore Workflow and Troubleshooting with Loki
+      presentation: Grafana_Loki.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=JOu4bec0big
+      title: 'VictorOps: Take Action with Observability and Context'
+      presentation: Melanie_Postma_Observability.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=hvX3Q8kGz_0
+      title: 'Panel Discussion: Open Source Licensing Wars'
+      presentation:
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=7VTGdrKsXP4
+      title: Today's Challenges of Big Infra Monitoring
+      presentation: Big_Infra_Monitoring.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=sT-gRT1X47M
+      title: Sensu Check Metric Extraction with InfluxDB and Grafana
+      presentation: Sensu_Check_Output_Metric_Extraction.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=ZjnPNPXExSo
+      title: Why InfluxDB is Building Flux, a New Scripting and Query Language
+      presentation: Why_InfluxDB_is_building_Flux.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=CoMX5Ky7uwQ
+      title: New Cloud Data Sources & Highlights from the Community Plugin Repository
+      presentation: GrafanaCon_Cloud_Data_Sources.pdf
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=ARWT9hxzDWc
+      title: The Business of Grafana
+      presentation:
+      thumbnail: torkel-screenshot.jpg
+
+    - url: https://www.youtube.com/watch?v=-FCNjdZvQBA
+      title: 'Observing Kubernetes: Lessons Learned Building, Managing & Monitoring Cloud Native Systems'
+      presentation: 
+      thumbnail: torkel-screenshot.jpg
 
 # ------------------------------------------------------------
 # !GALLERY
