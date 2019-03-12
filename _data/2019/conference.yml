@@ -418,7 +418,7 @@ workshops:
       headshot: team_grafana.jpg
       talk: Dashboard Debugging and Performance
       description: |
-        Troubleshoot slow graphs, and find out what to do if your metrics aren't loading. Learn how to optimize your queries, pitfalls to avoid, and get the most out of your dashbords.
+        Troubleshoot slow graphs, and find out what to do if your metrics aren't loading. Learn how to optimize your queries, pitfalls to avoid, and get the most out of your dashboards.
 
     - name: Carl Bergquist
       company: Grafana Labs
