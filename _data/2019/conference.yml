@@ -1018,7 +1018,7 @@ videos:
     - url: https://www.youtube.com/watch?v=juiV93f8VVU
       title: GrafanaCon LA 2019 Welcome
       presentation: GrafanaCon_Welcome_Matt_Toback.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: matt_welcome.jpg
 
     - url: https://www.youtube.com/watch?v=QIi0m2BGFiU
       title: Grafana Project Update & What’s New in v6
@@ -1028,57 +1028,67 @@ videos:
     - url: https://www.youtube.com/watch?v=BdgT4cTjpjQ
       title: Tinder Swipes Right on Grafana
       presentation: Wenting_Gong_Tinder.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: wenting_gong.jpg
 
     - url: https://www.youtube.com/watch?v=6oiQBHTvm6U
       title: Monitoring EMS Ambulance Service Operations
       presentation: James_Wetherall_Trapeze.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: james_wetherall.jpg
+
+    - url: https://www.youtube.com/watch?v=9wrI2iwbP94
+      title: How Bloomberg's Central Telemetry Team Drives Value
+      presentation: Bloomberg_GrafanaCon_2019.pdf
+      thumbnail: bloomberg.jpg
 
     - url: https://www.youtube.com/watch?v=ENM2f1QZam8
       title: The Explore Workflow and Troubleshooting with Loki
       presentation: Grafana_Loki.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: tom_david.jpg
 
     - url: https://www.youtube.com/watch?v=JOu4bec0big
       title: 'VictorOps: Take Action with Observability and Context'
       presentation: Melanie_Postma_Observability.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: melanie_postma.jpg
 
     - url: https://www.youtube.com/watch?v=hvX3Q8kGz_0
       title: 'Panel Discussion: Open Source Licensing Wars'
       presentation:
       thumbnail: torkel-screenshot.jpg
 
+    - url: https://www.youtube.com/watch?v=KDvnVd0G53E
+      title: How Not to Fail at Data Visualization
+      presentation: How_not_to_Fail_at_Data_Visualization.pdf
+      thumbnail: blerim_sheqa.jpg
+
     - url: https://www.youtube.com/watch?v=7VTGdrKsXP4
       title: Today's Challenges of Big Infra Monitoring
       presentation: Big_Infra_Monitoring.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: sean_porter.jpg
 
     - url: https://www.youtube.com/watch?v=sT-gRT1X47M
       title: Sensu Check Metric Extraction with InfluxDB and Grafana
       presentation: Sensu_Check_Output_Metric_Extraction.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: nikki_attea.jpg
 
     - url: https://www.youtube.com/watch?v=ZjnPNPXExSo
       title: Why InfluxDB is Building Flux, a New Scripting and Query Language
       presentation: Why_InfluxDB_is_building_Flux.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: paul_dix1.jpg
 
     - url: https://www.youtube.com/watch?v=CoMX5Ky7uwQ
       title: New Cloud Data Sources & Highlights from the Community Plugin Repository
       presentation: GrafanaCon_Cloud_Data_Sources.pdf
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: daniel_lee.jpg
 
     - url: https://www.youtube.com/watch?v=ARWT9hxzDWc
       title: The Business of Grafana
       presentation:
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: raj_dutt.jpg
 
     - url: https://www.youtube.com/watch?v=-FCNjdZvQBA
       title: 'Observing Kubernetes: Lessons Learned Building, Managing & Monitoring Cloud Native Systems'
       presentation: 
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: brendan_burns.jpg
 
 # ------------------------------------------------------------
 # !GALLERY
