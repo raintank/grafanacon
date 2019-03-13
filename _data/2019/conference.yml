@@ -34,11 +34,11 @@ date: Feb 25-26, 2019
 # ------------------------------------------------------------
 
 navigation:
-  - name: Welcome
-    url: /
+  # - name: Welcome
+  #   url: /
   - name: Why Attend?
     url: /why
-  - name: Videos
+  - name: Watch
     url: /videos
   - name: Schedule
     url: /schedule
@@ -1053,7 +1053,7 @@ videos:
     - url: https://www.youtube.com/watch?v=hvX3Q8kGz_0
       title: 'Panel Discussion: Open Source Licensing Wars'
       presentation:
-      thumbnail: torkel-screenshot.jpg
+      thumbnail: panel.jpg
 
     - url: https://www.youtube.com/watch?v=KDvnVd0G53E
       title: How Not to Fail at Data Visualization
@@ -1181,9 +1181,9 @@ videos:
 
 # gallery:
 #   title: Gallery
-#   subhead: As you can see, we have a great time!
+#   subhead: Get a feel for what it's like at GrafanaCon
 #   images:
-#     - caption: GrafanaCon EU 2018
+#     - caption: GrafanaCon LA 2019
 #       original: 001.jpg
 #       thumbnail: thumb-001.jpg
 
