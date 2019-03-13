@@ -1179,13 +1179,344 @@ videos:
 # !GALLERY
 # ------------------------------------------------------------
 
-# gallery:
-#   title: Gallery
-#   subhead: Get a feel for what it's like at GrafanaCon
-#   images:
-#     - caption: GrafanaCon LA 2019
-#       original: 001.jpg
-#       thumbnail: thumb-001.jpg
+gallery:
+  title: Gallery
+  subhead: Get a feel for what it's like at GrafanaCon
+  images:
+    - caption: GrafanaCon LA 2019
+      original: 1.jpg
+      thumbnail: thumb-1.jpg
+    - caption: GrafanaCon LA 2019
+      original: 2.jpg
+      thumbnail: thumb-2.jpg
+    - caption: GrafanaCon LA 2019
+      original: 3.jpg
+      thumbnail: thumb-3.jpg
+    - caption: GrafanaCon LA 2019
+      original: 4.jpg
+      thumbnail: thumb-4.jpg
+    - caption: GrafanaCon LA 2019
+      original: 5.jpg
+      thumbnail: thumb-5.jpg
+    - caption: GrafanaCon LA 2019
+      original: 6.jpg
+      thumbnail: thumb-6.jpg
+    - caption: GrafanaCon LA 2019
+      original: 7.jpg
+      thumbnail: thumb-7.jpg
+    - caption: GrafanaCon LA 2019
+      original: 8.jpg
+      thumbnail: thumb-8.jpg
+    - caption: GrafanaCon LA 2019
+      original: 9.jpg
+      thumbnail: thumb-9.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 10.jpg
+      thumbnail: thumb-10.jpg
+    - caption: GrafanaCon LA 2019
+      original: 11.jpg
+      thumbnail: thumb-11.jpg
+    - caption: GrafanaCon LA 2019
+      original: 12.jpg
+      thumbnail: thumb-12.jpg
+    - caption: GrafanaCon LA 2019
+      original: 13.jpg
+      thumbnail: thumb-13.jpg
+    - caption: GrafanaCon LA 2019
+      original: 14.jpg
+      thumbnail: thumb-14.jpg
+    - caption: GrafanaCon LA 2019
+      original: 15.jpg
+      thumbnail: thumb-15.jpg
+    - caption: GrafanaCon LA 2019
+      original: 16.jpg
+      thumbnail: thumb-16.jpg
+    - caption: GrafanaCon LA 2019
+      original: 17.jpg
+      thumbnail: thumb-17.jpg
+    - caption: GrafanaCon LA 2019
+      original: 18.jpg
+      thumbnail: thumb-18.jpg
+    - caption: GrafanaCon LA 2019
+      original: 19.jpg
+      thumbnail: thumb-19.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 20.jpg
+      thumbnail: thumb-20.jpg
+    - caption: GrafanaCon LA 2019
+      original: 21.jpg
+      thumbnail: thumb-21.jpg
+    - caption: GrafanaCon LA 2019
+      original: 22.jpg
+      thumbnail: thumb-22.jpg
+    - caption: GrafanaCon LA 2019
+      original: 23.jpg
+      thumbnail: thumb-23.jpg
+    - caption: GrafanaCon LA 2019
+      original: 24.jpg
+      thumbnail: thumb-24.jpg
+    - caption: GrafanaCon LA 2019
+      original: 25.jpg
+      thumbnail: thumb-25.jpg
+    - caption: GrafanaCon LA 2019
+      original: 26.jpg
+      thumbnail: thumb-26.jpg
+    - caption: GrafanaCon LA 2019
+      original: 27.jpg
+      thumbnail: thumb-27.jpg
+    - caption: GrafanaCon LA 2019
+      original: 28.jpg
+      thumbnail: thumb-28.jpg
+    - caption: GrafanaCon LA 2019
+      original: 29.jpg
+      thumbnail: thumb-29.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 30.jpg
+      thumbnail: thumb-30.jpg
+    - caption: GrafanaCon LA 2019
+      original: 31.jpg
+      thumbnail: thumb-31.jpg
+    - caption: GrafanaCon LA 2019
+      original: 32.jpg
+      thumbnail: thumb-32.jpg
+    - caption: GrafanaCon LA 2019
+      original: 33.jpg
+      thumbnail: thumb-33.jpg
+    - caption: GrafanaCon LA 2019
+      original: 34.jpg
+      thumbnail: thumb-34.jpg
+    - caption: GrafanaCon LA 2019
+      original: 35.jpg
+      thumbnail: thumb-35.jpg
+    - caption: GrafanaCon LA 2019
+      original: 36.jpg
+      thumbnail: thumb-36.jpg
+    - caption: GrafanaCon LA 2019
+      original: 37.jpg
+      thumbnail: thumb-37.jpg
+    - caption: GrafanaCon LA 2019
+      original: 38.jpg
+      thumbnail: thumb-38.jpg
+    - caption: GrafanaCon LA 2019
+      original: 39.jpg
+      thumbnail: thumb-39.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 40.jpg
+      thumbnail: thumb-40.jpg
+    - caption: GrafanaCon LA 2019
+      original: 41.jpg
+      thumbnail: thumb-41.jpg
+    - caption: GrafanaCon LA 2019
+      original: 42.jpg
+      thumbnail: thumb-42.jpg
+    - caption: GrafanaCon LA 2019
+      original: 43.jpg
+      thumbnail: thumb-43.jpg
+    - caption: GrafanaCon LA 2019
+      original: 44.jpg
+      thumbnail: thumb-44.jpg
+    - caption: GrafanaCon LA 2019
+      original: 45.jpg
+      thumbnail: thumb-45.jpg
+    - caption: GrafanaCon LA 2019
+      original: 46.jpg
+      thumbnail: thumb-46.jpg
+    - caption: GrafanaCon LA 2019
+      original: 47.jpg
+      thumbnail: thumb-47.jpg
+    - caption: GrafanaCon LA 2019
+      original: 48.jpg
+      thumbnail: thumb-48.jpg
+    - caption: GrafanaCon LA 2019
+      original: 49.jpg
+      thumbnail: thumb-49.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 50.jpg
+      thumbnail: thumb-50.jpg
+    - caption: GrafanaCon LA 2019
+      original: 51.jpg
+      thumbnail: thumb-51.jpg
+    - caption: GrafanaCon LA 2019
+      original: 52.jpg
+      thumbnail: thumb-52.jpg
+    - caption: GrafanaCon LA 2019
+      original: 53.jpg
+      thumbnail: thumb-53.jpg
+    - caption: GrafanaCon LA 2019
+      original: 54.jpg
+      thumbnail: thumb-54.jpg
+    - caption: GrafanaCon LA 2019
+      original: 55.jpg
+      thumbnail: thumb-55.jpg
+    - caption: GrafanaCon LA 2019
+      original: 56.jpg
+      thumbnail: thumb-56.jpg
+    - caption: GrafanaCon LA 2019
+      original: 57.jpg
+      thumbnail: thumb-57.jpg
+    - caption: GrafanaCon LA 2019
+      original: 58.jpg
+      thumbnail: thumb-58.jpg
+    - caption: GrafanaCon LA 2019
+      original: 59.jpg
+      thumbnail: thumb-59.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 60.jpg
+      thumbnail: thumb-60.jpg
+    - caption: GrafanaCon LA 2019
+      original: 61.jpg
+      thumbnail: thumb-61.jpg
+    - caption: GrafanaCon LA 2019
+      original: 62.jpg
+      thumbnail: thumb-62.jpg
+    - caption: GrafanaCon LA 2019
+      original: 63.jpg
+      thumbnail: thumb-63.jpg
+    - caption: GrafanaCon LA 2019
+      original: 64.jpg
+      thumbnail: thumb-64.jpg
+    - caption: GrafanaCon LA 2019
+      original: 65.jpg
+      thumbnail: thumb-65.jpg
+    - caption: GrafanaCon LA 2019
+      original: 66.jpg
+      thumbnail: thumb-66.jpg
+    - caption: GrafanaCon LA 2019
+      original: 67.jpg
+      thumbnail: thumb-67.jpg
+    - caption: GrafanaCon LA 2019
+      original: 68.jpg
+      thumbnail: thumb-68.jpg
+    - caption: GrafanaCon LA 2019
+      original: 69.jpg
+      thumbnail: thumb-69.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 70.jpg
+      thumbnail: thumb-70.jpg
+    - caption: GrafanaCon LA 2019
+      original: 71.jpg
+      thumbnail: thumb-71.jpg
+    - caption: GrafanaCon LA 2019
+      original: 72.jpg
+      thumbnail: thumb-72.jpg
+    - caption: GrafanaCon LA 2019
+      original: 73.jpg
+      thumbnail: thumb-73.jpg
+    - caption: GrafanaCon LA 2019
+      original: 74.jpg
+      thumbnail: thumb-74.jpg
+    - caption: GrafanaCon LA 2019
+      original: 75.jpg
+      thumbnail: thumb-75.jpg
+    - caption: GrafanaCon LA 2019
+      original: 76.jpg
+      thumbnail: thumb-76.jpg
+    - caption: GrafanaCon LA 2019
+      original: 77.jpg
+      thumbnail: thumb-77.jpg
+    - caption: GrafanaCon LA 2019
+      original: 78.jpg
+      thumbnail: thumb-78.jpg
+    - caption: GrafanaCon LA 2019
+      original: 79.jpg
+      thumbnail: thumb-79.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 80.jpg
+      thumbnail: thumb-80.jpg
+    - caption: GrafanaCon LA 2019
+      original: 81.jpg
+      thumbnail: thumb-81.jpg
+    - caption: GrafanaCon LA 2019
+      original: 82.jpg
+      thumbnail: thumb-82.jpg
+    - caption: GrafanaCon LA 2019
+      original: 83.jpg
+      thumbnail: thumb-83.jpg
+    - caption: GrafanaCon LA 2019
+      original: 84.jpg
+      thumbnail: thumb-84.jpg
+    - caption: GrafanaCon LA 2019
+      original: 85.jpg
+      thumbnail: thumb-85.jpg
+    - caption: GrafanaCon LA 2019
+      original: 86.jpg
+      thumbnail: thumb-86.jpg
+    - caption: GrafanaCon LA 2019
+      original: 87.jpg
+      thumbnail: thumb-87.jpg
+    - caption: GrafanaCon LA 2019
+      original: 88.jpg
+      thumbnail: thumb-88.jpg
+    - caption: GrafanaCon LA 2019
+      original: 89.jpg
+      thumbnail: thumb-89.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 90.jpg
+      thumbnail: thumb-90.jpg
+    - caption: GrafanaCon LA 2019
+      original: 91.jpg
+      thumbnail: thumb-91.jpg
+    - caption: GrafanaCon LA 2019
+      original: 92.jpg
+      thumbnail: thumb-92.jpg
+    - caption: GrafanaCon LA 2019
+      original: 93.jpg
+      thumbnail: thumb-93.jpg
+    - caption: GrafanaCon LA 2019
+      original: 94.jpg
+      thumbnail: thumb-94.jpg
+    - caption: GrafanaCon LA 2019
+      original: 95.jpg
+      thumbnail: thumb-95.jpg
+    - caption: GrafanaCon LA 2019
+      original: 96.jpg
+      thumbnail: thumb-96.jpg
+    - caption: GrafanaCon LA 2019
+      original: 97.jpg
+      thumbnail: thumb-97.jpg
+    - caption: GrafanaCon LA 2019
+      original: 98.jpg
+      thumbnail: thumb-98.jpg
+    - caption: GrafanaCon LA 2019
+      original: 99.jpg
+      thumbnail: thumb-99.jpg
+
+    - caption: GrafanaCon LA 2019
+      original: 100.jpg
+      thumbnail: thumb-100.jpg
+    - caption: GrafanaCon LA 2019
+      original: 101.jpg
+      thumbnail: thumb-101.jpg
+    - caption: GrafanaCon LA 2019
+      original: 102.jpg
+      thumbnail: thumb-102.jpg
+    - caption: GrafanaCon LA 2019
+      original: 103.jpg
+      thumbnail: thumb-103.jpg
+    - caption: GrafanaCon LA 2019
+      original: 104.jpg
+      thumbnail: thumb-104.jpg
+    - caption: GrafanaCon LA 2019
+      original: 105.jpg
+      thumbnail: thumb-105.jpg
+    - caption: GrafanaCon LA 2019
+      original: 106.jpg
+      thumbnail: thumb-106.jpg
+    - caption: GrafanaCon LA 2019
+      original: 107.jpg
+      thumbnail: thumb-107.jpg
+    - caption: GrafanaCon LA 2019
+      original: 108.jpg
+      thumbnail: thumb-108.jpg
 
 # ------------------------------------------------------------
 # !CONDUCT
