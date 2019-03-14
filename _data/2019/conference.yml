@@ -1125,18 +1125,58 @@ videos:
       presentation: 
       thumbnail: thanos.jpg
 
+    - url: https://www.youtube.com/watch?v=9OkUr-HCHC4
+      title: SQL and Business Analytics
+      presentation: GrafanaCon2019_ SQL_datasources.pdf
+      thumbnail: marcus.jpg
+
+    - url: https://www.youtube.com/watch?v=14njJrtsB_M
+      title: How to Expand Grafana’s Footprint within your Organization Using the PostgreSQL Datasource and Query
+      presentation: 
+      thumbnail: timescale.jpg
+
+    - url: https://www.youtube.com/watch?v=-xlchgoqkqY
+      title: Business Dashboards with Grafana and MySQL
+      presentation: GrafanaCon2019-Business-Dashboards.pdf
+      thumbnail: peter_percona.jpg
+
+    - url: https://youtu.be/9vmLxUWmo0Q
+      title: Automation and self-service utilizing Grafana and MySQL
+      presentation: 
+      thumbnail: verizon.jpg
+
+    - url: https://youtu.be/qPVrkv_s_Bc
+      title: 'Workshop: Become a contributor - Get started developing Grafana'
+      presentation: Becoming_a_Grafana_Contributor.pdf
+      thumbnail: david_contribute.jpg
+
+    - url: https://youtu.be/Y31wnP_jDBY
+      title: 'Workshop: Writing React Plugins'
+      presentation: 
+      thumbnail: torkel_react.jpg
+
+    - url: https://youtu.be/jQk_rR2B9ng
+      title: 'Workshop: Grafana Plugin Showcase, Part 1'
+      presentation: 
+      thumbnail: ryan_plugins.jpg
+
+    - url: https://youtu.be/jZUjhCF7zJo
+      title: 'Workshop: Grafana Plugin Showcase, Part 2'
+      presentation: 
+      thumbnail: brian_plugins.jpg
+
     - url: https://youtu.be/9ukEOHdt7so
-      title: Templating & Annotations
+      title: 'Workshop: Templating & Annotations'
       presentation: 
       thumbnail: daniel_lee2.jpg
 
     - url: https://youtu.be/rY2iLs1Modo
-      title: Grafana Dashboard Debugging and Performance
+      title: 'Workshop: Grafana Dashboard Debugging and Performance'
       presentation: Dashboard_Debugging_Performance.pdf
       thumbnail: david_kaltschmidt1.jpg
 
     - url: https://youtu.be/ezpc4oUZyaA
-      title: Grafana Dashboard Provisioning, Teams & Permissions, and Running Grafana in a HA Environment
+      title: 'Workshop: Grafana Dashboard Provisioning, Teams & Permissions, and Running Grafana in a HA Environment'
       presentation: 
       thumbnail: carl_bergquist1.jpg
 
