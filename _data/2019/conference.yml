@@ -1132,7 +1132,7 @@ videos:
 
     - url: https://www.youtube.com/watch?v=14njJrtsB_M
       title: How to Expand Grafana’s Footprint within your Organization Using the PostgreSQL Datasource and Query
-      presentation: 
+      presentation: Timescale.pdf
       thumbnail: timescale.jpg
 
     - url: https://www.youtube.com/watch?v=-xlchgoqkqY
