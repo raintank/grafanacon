@@ -1197,12 +1197,12 @@ videos:
 
     - url: https://youtu.be/WQsyMguI8xQ
       title: Who's On-Call 
-      presentation: 
+      presentation: Hamel-GrafanaCon2019
       thumbnail: jordan_j_hamel.jpg
 
     - url: https://youtu.be/4iPG7iJHGKU
       title: How IoT is Enabling Electrification Across Rural Africa with Smart, Renewable Energy
-      presentation: Hamel-GrafanaCon2019.pdf
+      presentation: AMMP_Grafana_Con_IoT_Rural_Electrification.pdf
       thumbnail: hendrik_broering.jpg
 
     - url: https://youtu.be/PfGprOffOxk
