@@ -1177,7 +1177,7 @@ videos:
 
     - url: https://youtu.be/ezpc4oUZyaA
       title: 'Workshop: Grafana Dashboard Provisioning, Teams & Permissions, and Running Grafana in a HA Environment'
-      presentation: 
+      presentation: Carl_Bergquist_Getting_the most_out_of_Grafana.pdf
       thumbnail: carl_bergquist1.jpg
 
     - url: https://youtu.be/Xj-TwAZtWHQ
