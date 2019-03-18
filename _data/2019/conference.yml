@@ -1144,6 +1144,21 @@ videos:
       title: Automation and self-service utilizing Grafana and MySQL
       presentation: 
       thumbnail: verizon.jpg
+    
+    - url: https://www.youtube.com/watch?v=U4W6nSoZglk
+      title: Flux for IoT and Digital Twins
+      presentation: 
+      thumbnail: digital_twins.jpg
+
+    - url: https://www.youtube.com/watch?v=4BIY1-kAy_Q
+      title: An open Technology Stack for Smart Energy and Industrial IoT with Grafana
+      presentation: 
+      thumbnail: iot_africa.jpg
+
+    - url: https://youtu.be/2zRcE9n2RpE
+      title: 'IoT Workshop: Visualizing Data from IoT Sensors'
+      presentation: 
+      thumbnail: dcech_iot.jpg
 
     - url: https://youtu.be/qPVrkv_s_Bc
       title: 'Workshop: Become a contributor - Get started developing Grafana'
