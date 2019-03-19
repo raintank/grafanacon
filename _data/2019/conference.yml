@@ -1147,17 +1147,17 @@ videos:
     
     - url: https://www.youtube.com/watch?v=U4W6nSoZglk
       title: Flux for IoT and Digital Twins
-      presentation: 
+      presentation: Digital_Twins.pdf
       thumbnail: digital_twins.jpg
 
     - url: https://www.youtube.com/watch?v=4BIY1-kAy_Q
       title: An open Technology Stack for Smart Energy and Industrial IoT with Grafana
-      presentation: 
+      presentation: Open_tech_stack_for_IIoT.pdf
       thumbnail: iot_africa.jpg
 
     - url: https://youtu.be/2zRcE9n2RpE
       title: 'IoT Workshop: Visualizing Data from IoT Sensors'
-      presentation: 
+      presentation: GrafanaCon_LA_IoT_Workshop.pdf
       thumbnail: dcech_iot.jpg
 
     - url: https://youtu.be/qPVrkv_s_Bc
