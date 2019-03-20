@@ -1145,6 +1145,11 @@ videos:
       presentation: 
       thumbnail: verizon.jpg
     
+    - url: https://youtu.be/nPZBPJqnGec
+      title: InfluxDB 2.0
+      presentation: InfluxDB_2.0.pdf
+      thumbnail: paul_influx2.jpg
+
     - url: https://www.youtube.com/watch?v=U4W6nSoZglk
       title: Flux for IoT and Digital Twins
       presentation: Digital_Twins.pdf
