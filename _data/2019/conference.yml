@@ -1155,6 +1155,11 @@ videos:
       presentation: Digital_Twins.pdf
       thumbnail: digital_twins.jpg
 
+    - url: https://youtu.be/STb5pffxjfg
+      title: Building Flux Queries in Grafana
+      presentation: Grafana_Flux_JTL.pdf
+      thumbnail: jacob_flux.jpg
+
     - url: https://www.youtube.com/watch?v=4BIY1-kAy_Q
       title: An open Technology Stack for Smart Energy and Industrial IoT with Grafana
       presentation: Open_tech_stack_for_IIoT.pdf
