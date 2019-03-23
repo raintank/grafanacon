@@ -1155,6 +1155,11 @@ videos:
       presentation: Digital_Twins.pdf
       thumbnail: digital_twins.jpg
 
+    - url: https://youtu.be/nQf-oB9EQYw
+      title: A Deeper Dive into Flux
+      presentation: noahcrowley-grafanaconla-2019.pdf
+      thumbnail: noah_crowley.jpg
+
     - url: https://youtu.be/STb5pffxjfg
       title: Building Flux Queries in Grafana
       presentation: Grafana_Flux_JTL.pdf
